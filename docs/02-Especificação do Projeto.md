@@ -142,7 +142,7 @@ Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema 
 
 Figura X - Diagrama de Casos de Uso
 
-![Imagem - To Do]()
+![Diagrama de Casos de Usos da Aplicação](img/diagrama-casos-de-uso.png)
 
 Fonte: Elaborado pelos autores
 
@@ -161,26 +161,14 @@ Quadro X - Casos de Uso
 | Excluir conta            | O usuário pode excluir sua conta quando assim o desejar.                            | RF-00X     |
 | Fazer _login_            | O usuário deve fazer _login_ para acessar sua conta.                                | RF-007     |
 | Redefinir senha          | O usuário pode redefinir sua senha se necessário.                                   | RF-00X     |
-| Cadastrar vacina         | O usuário pode cadastrar as vacinas já tomadas e/ou pendentes.                      | RF-00x     |
-| Consultar vacina         | O usuário pode consultar as vacinas já tomadas e/ou pendentes.                      | RF-00x     |
-| Editar vacina            | O usuário pode editar/alterar as vacinas já tomadas e/ou pendentes.                 | RF-00x     |
+| Cadastrar vacina         | O usuário pode cadastrar as vacinas já tomadas e/ou pendentes.                      | RF-009     |
+| Consultar vacina         | O usuário pode consultar as vacinas já tomadas e/ou pendentes.                      | RF-002/003 |
+| Editar vacina            | O usuário pode editar/alterar as vacinas já tomadas e/ou pendentes.                 | RF-010     |
 
 
 
 Fonte: Elaborado pelos autores
 
-
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
