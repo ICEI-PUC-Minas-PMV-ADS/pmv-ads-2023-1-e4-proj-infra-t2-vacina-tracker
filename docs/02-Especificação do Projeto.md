@@ -134,6 +134,43 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
+O diagrama de caso de uso, comumente oriundo da especificação dos requisitos funcionais do sistema, descreve as principais funcionalidades do sistema que será projetado pelo grupo e sua interação com os possíveis usuários (DevMedia, 2022). Segundo Ivar Jacobson, podemos dizer que um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Wikipédia, 2020).
+
+Graficamente é representado com elementos como os atores, os casos de uso e seus relacionamentos entre si. Seu objetivo principal é ilustrar de forma abstrata, a interação dos elementos externos com as funcionalidades do sistema, ou seja, “a finalidade de um diagrama de caso de uso é apresentar um tipo de diagrama de contexto que apresenta os elementos externos de um sistema e as maneiras segundo as quais eles as utilizam” (Wikipédia, 2020).
+
+Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
+
+Figura X - Diagrama de Casos de Uso
+
+![Imagem - To Do]()
+
+Fonte: Elaborado pelos autores
+
+
+Quadro X - Casos de Uso
+
+| ATOR         | DESCRIÇÃO                                                                      |
+|--------------|--------------------------------------------------------------------------------|
+| Usuário      | Integrante familiar que usará o aplicativo.                                    |
+
+
+| CASO DE USO              | DESCRIÇÃO                                                                           | REQUISITO FUNCIONAL |
+|--------------------------|-------------------------------------------------------------------------------------|---------------------|
+| Criar conta              | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-001/006 |
+| Alterar dados cadastrais | O usuário pode fazer alterações em seu cadastro.                                    | RF-008     |
+| Excluir conta            | O usuário pode excluir sua conta quando assim o desejar.                            | RF-00X     |
+| Fazer _login_            | O usuário deve fazer _login_ para acessar sua conta.                                | RF-007     |
+| Redefinir senha          | O usuário pode redefinir sua senha se necessário.                                   | RF-00X     |
+| Cadastrar vacina         | O usuário pode cadastrar as vacinas já tomadas e/ou pendentes.                      | RF-00x     |
+| Consultar vacina         | O usuário pode consultar as vacinas já tomadas e/ou pendentes.                      | RF-00x     |
+| Editar vacina            | O usuário pode editar/alterar as vacinas já tomadas e/ou pendentes.                 | RF-00x     |
+
+
+
+Fonte: Elaborado pelos autores
+
+
+
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
