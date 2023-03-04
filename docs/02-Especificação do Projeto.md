@@ -1,26 +1,40 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados no projeto foi estabelecido com a participação dos usuários por meio de entrevista online com tópicos previamente estipulados. A partir dessa interação consolidamos os dados coletados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Mateus Ribeiro    |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 25 anos - **Ocupação:** Atleta profissional de natação|**Aplicativos:** _WhatsApp, Instagram, Twitter_.|
+|**Motivações:** Tem o sonho de ser campeão olímpico.|**Frustrações:** Quando pega uma gripe por que esqueceu de tomar a vacina anual. E isso o impede de treinar.|**_Hobbies_, História:** Faz academia todos os dias pela manhã e se preocupa com a saúde.|
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| Julieta Ferreira   |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 34 anos - **Ocupação:** Professora de ensino fundamental |**Aplicativos:** _WhatsApp, Linkedin_.|
+|**Motivações:** O amor pelos filhos e o amor pelo ensino. |**Frustrações:** Quando precisa levar os filhos no médico e não consegue encontrar os cartões de vacina.|**_Hobbies_, História:** Possui um filho especial e constantemente precisa levar os filhos ao médico.|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| Miguel Carvalho    |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 57 anos - **Ocupação:** Diretor de uma ONG |**Aplicativos:** _WhatsApp, Instagram_.|
+|**Motivações:** Ajudar crianças carentes.|**Frustrações:** Não conseguir controlar surtos de doenças nas acomodações da ONG. |**_Hobbies_, História:** Diretor de uma ONG que resgata crianças abandonadas.|
+
+| Henrique Gomes     |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM   |**Idade:** 29 anos - **Ocupação:** Veterinário |**Aplicativos:** _WhatsApp, Instagram, Linkedin_.|
+|**Motivações:**  Ama os animais.|**Frustrações:**  Quando os cães não são vacinados e são contaminados pela doença da raiva.|**_Hobbies_, História:** Funcionário de um abrigo de cães. Possui o hábito de vacinar os cães para evitar contágio dos demais.|
+
+| Mariana Souza      |                                    |                                        |                    
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 20 anos - **Ocupação:** Estudante de medicina|**Aplicativos:** Twitter_, Tiktok, Instagram_.|
+|**Motivações:**  Se formar como cirurgiã geral.|**Frustrações:** Esquecer os prazos das injeções trimestrais e aumentar o risco de gravidez indesejada. |**_Hobbies_, História:** Uma estudante que se preocupa em não engravidar antes de se formar.|
+
+| Luana Fernandes  |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM  |**Idade:** 42 anos - **Ocupação:** Cozinheira e bartender nas horas vagas.  | **Aplicativos:** WhatsApp_.|
+|**Motivações:** Comprar sua casa própria. |**Frustrações:** Ficar doente e não conseguir agendar novos trabalhos.  |**_Hobbies_, História:** Um mulher simples que faz trabalhos extra como bartender.|
+
+Fonte: Elaborado pelos autores
 
 ## Histórias de Usuários
 
