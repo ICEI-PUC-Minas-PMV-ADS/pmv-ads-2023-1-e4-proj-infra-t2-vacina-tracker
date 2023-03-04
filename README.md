@@ -13,11 +13,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Eduardo Lordeiro Alves
 * Fabiana Bicalho Palhano Rocha Cossenzo
 * Felipe Costa Moreira
-* Nome completo do aluno 4
+* Nayara Katlin Oliveira da Silva
+* Rafael Pacheco Leite
+* Raíssa Araújo Oliveira Queiroz Lopes
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
