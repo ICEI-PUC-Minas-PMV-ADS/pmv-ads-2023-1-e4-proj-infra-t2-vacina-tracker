@@ -22,7 +22,7 @@ Quadro 1 - Personas
 |--------------------|-----------------------------------------------------------|
 |![Julieta Ferreira](https://user-images.githubusercontent.com/91228798/222981380-b3b6f41e-7063-45c2-9922-e7eddce7b91e.jpg)|**Julieta Ferreira** <br><br> **Idade:** 34 anos |
 | | **Ocupação:** Professora de ensino fundamental.|
-| | **Aplicativos:**_WhatsApp, Linkedin_.|
+| | **Aplicativos:** _WhatsApp, Linkedin_.|
 | | **Motivações:**  O amor pelos filhos e o amor pelo ensino.|
 | | **Frustrações:** Quando precisa levar os filhos no médico e não consegue encontrar os cartões de vacina.|
 | | **_Hobbies_, História:** Possui um filho especial e constantemente precisa levar os filhos ao médico.|
@@ -31,8 +31,8 @@ Quadro 1 - Personas
 |--------------------|-----------------------------------------------------------|
 |![Miguel Carvalho](https://user-images.githubusercontent.com/91228798/222981395-cf55014a-ad19-4ac7-93a9-3c33f930f196.jpg)|**Miguel Carvalho** <br><br> **Idade:** 57 anos |
 | | **Ocupação:** Diretor de uma ONG|
-| | **Aplicativos:**_WhatsApp, Instagram_.|
-| | **Motivações:**  judar crianças carentes.|
+| | **Aplicativos:** _WhatsApp, Instagram_.|
+| | **Motivações:**  Ajudar crianças carentes.|
 | | **Frustrações:** Não conseguir controlar surtos de doenças nas acomodações da ONG.|
 | | **_Hobbies_, História:** Diretor de uma ONG que resgata crianças abandonadas.|
 
@@ -40,7 +40,7 @@ Quadro 1 - Personas
 |--------------------|-----------------------------------------------------------|
 |![Henrique Gomes](https://user-images.githubusercontent.com/91228798/222981513-b69325d7-a70d-4e87-9dc6-56ca274d398a.jpg)|**Henrique Gomes** <br><br> **Idade:** 29 anos |
 | | **Ocupação:** Veterinário|
-| | **Aplicativos:**_WhatsApp, Instagram, Linkedin_.|
+| | **Aplicativos:** _WhatsApp, Instagram, Linkedin_.|
 | | **Motivações:**  Ama os animais.|
 | | **Frustrações:** Quando os cães não são vacinados e são contaminados pela doença da raiva.|
 | | **_Hobbies_, História:** Funcionário de um abrigo de cães. Possui o hábito de vacinar os cães para evitar contágio dos demais.|
@@ -49,19 +49,19 @@ Quadro 1 - Personas
 |--------------------|-----------------------------------------------------------|
 |![Mariana Souza](https://user-images.githubusercontent.com/91228798/222981619-aa210cbf-da55-42e1-8123-d55af2ef3fc2.jpg)|**Mariana Souza** <br><br> **Idade:** 20 anos |
 | | **Ocupação:** Estudante de medicina|
-| | **Aplicativos:**Twitter_, Tiktok, Instagram_.|
+| | **Aplicativos:** _Twitter, Tiktok, Instagram_.|
 | | **Motivações:** Se formar como cirurgiã geral.|
 | | **Frustrações:** Esquecer os prazos das injeções trimestrais e aumentar o risco de gravidez indesejada.|
 | | **_Hobbies_, História:** Uma estudante que se preocupa em não engravidar antes de se formar.|
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Luana Fernandes](https://user-images.githubusercontent.com/91228798/222981777-f81c24ec-4368-423e-825d-755d0f0db034.jpg)|**Luana Fernandes ** <br><br> **Idade:** 42 anos |
-| | **Ocupação:** Cozinheira e bartender nas horas vagas.|
-| | **Aplicativos:**Twitter_, Tiktok, Instagram_.|
+|![Luana Fernandes](https://user-images.githubusercontent.com/91228798/222981777-f81c24ec-4368-423e-825d-755d0f0db034.jpg)|**Luana Fernandes** <br><br> **Idade:** 42 anos |
+| | **Ocupação:** Cozinheira e _bartender_ nas horas vagas.|
+| | **Aplicativos:** _Twitter, Tiktok, Instagram_.|
 | | **Motivações:** Comprar sua casa própria.|
 | | **Frustrações:** Ficar doente e não conseguir agendar novos trabalhos.|
-| | **_Hobbies_, História:** Um mulher simples que faz trabalhos extra como bartender.|
+| | **_Hobbies_, História:** Uma mulher simples que faz trabalhos extra como _bartender_.|
 
 Fonte: Elaborado pelos autores
 
