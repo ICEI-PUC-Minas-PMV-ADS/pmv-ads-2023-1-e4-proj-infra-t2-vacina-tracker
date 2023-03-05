@@ -1,46 +1,47 @@
-# Introdução
+# 1. Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Um dos maiores avanços da ciência é o desenvolvimento de vacinas, pois elas objetivam fortalecer o sistema imunológico através da produção de anticorpos que combatem os agentes infecciosos (vírus e bactérias) e evitam a enfermidade.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Sendo assim, torna-se uma estratégia imprescindível para a saúde pública, a adoção de políticas públicas de combate e prevenção à disseminação de doenças, evitando as epidemias e pandemias. O Programa Nacional de Imunizações do Brasil tem avançado ano após ano visando proporcionar uma melhor qualidade de vida para a população com a prevenção de doenças (MS, 2023).
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+As vacinas são oferecidas pelo Sistema Único de Saúde (SUS) e pela rede privada. No caso do SUS, para que o cidadão seja contemplado com as vacinas ofertadas nas Unidades Básicas de Saúde (UBS) do Município, ele precisa comparecer à UBS mais próxima de sua residência levando seus documentos pessoais, seu cartão SUS e sua carteira de vacinação (DEAS, 2022).
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Consideramos imprescindível e impossível falar sobre a saúde do cidadão sem citar as vacinas e o controle delas. Torna-se uma ação coletiva que provê pelo pacto da saúde de toda a comunidade. Precisamos nos atentar para a importância da imunização de crianças, adolescentes, adultos, idosos, gestantes e puérperas, e povos indígenas.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além de levar os filhos para serem vacinados, é fundamental ficar atento para quais vacinas você deve tomar através do calendário de vacinas disponibilizado pelo Ministério da Saúde (Pfizer Brasil, 2023).
 
-## Objetivos
+Diante desse contexto, surge a necessidade de uma plataforma focada no serviço online de cadastro, controle e registro da trajetória de vacinação de quem busca atendimento no SUS, visando a facilitação no monitoramento das cadernetas de vacinação de toda a família. Assim, oferecemos também, em formato digital, na palma da mão e em tempo real, o registro do tipo de vacina aplicada, a data em que a dose foi tomada e a data de uma possível próxima dose, para todas as vacinas aplicadas nas redes pública e privada, deixando para trás a necessidade de carregar as antigas carteirinhas de vacinação de papel (que podem sofrer rasuras ou até serem perdidas com o tempo).
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## 1.1 Problema
 
-## Justificativa
+O uso de carteirinhas de vacinação de papel possibilitam o acúmulo desnecessário e exagerado de cartões de vacina, além de poderem sofrer rasuras ou até serem perdidas com o tempo, causando o descontrole sobre a carteira de vacinação. A vacinação inadequada aumenta o risco de transmissão de doenças, além de causar o desconforto da repetição da vacinação.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Buscando associar o crescente uso de políticas de sustentabilidade voltadas à tecnologia, com a internet se tornando essencial no dia a dia de todos, seja no entretenimento em geral, no controle financeiro, bem como no uso diversificado de aplicativos em geral, buscamos promover o acesso a um serviço online de cadastro, de controle e de registro da trajetória de vacinação dos membros da família, de forma prática e dinâmica.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+## 1.2 Objetivos
 
-## Público-Alvo
+Nosso projeto tem como objetivo central a criação de uma aplicação distribuída no formato de carteira de vacinação digital, que viabilize a organização das vacinas e o melhor controle do histórico vacinal dos membros da família.
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Como objetivos específicos, podemos citar:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+a) Apresentar o perfil de acesso, para melhor gestão do cadastro;
+b) Fornecer os dados principais e os registros das vacinas, associados a um perfil individual para cada membro da família;
+c) Fornecer informações das vacinas cadastradas, de forma organizada, conforme idade e calendário de vacinas.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+## 1.3 Justificativa
+
+O que incentivou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta online para organização e controle do histórico vacinal, que seja ágil, seguro e de fácil acesso, vai ao encontro das necessidades atuais e pode trazer muitos benefícios ao usuário.
+
+O usuário obtém de forma fácil e ágil o histórico vacinal de toda a família.
+
+Diante disso, uma aplicação online que conecte o usuário a um melhor controle da trajetória de vacinação de quem busca estar sempre imunizado, torna-se de grande utilidade numa era onde características como agilidade, facilidade e segurança são tão valorizadas.
+
+
+## 1.4 Público-Alvo
+
+O público que utilizará o sistema abrange pessoas que desejam organizar de forma sustentável e prática o histórico vacinal pessoal e de todos os membros da família. Não há distinção de gênero para o usuário, porém, no quesito faixa etária, será exigido que o responsável pela conta tenha a maioridade (acima de 18 anos). Também serão integradas todas as classes sociais, pois observa-se um grande potencial advindo de quaisquer uma dessas classes.
+
+
