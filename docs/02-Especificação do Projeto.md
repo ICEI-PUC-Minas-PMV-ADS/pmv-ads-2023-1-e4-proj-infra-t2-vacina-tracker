@@ -224,9 +224,31 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir conflitos, melhorar os indicadores, engajar/motivar a equipe, otimizar valores, conceder _feedbacks_, entre outras, mas todas em busca do principal objetivo: atingir o propósito apresentado no projeto.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+A organização da equipe está apresentada conforme abaixo:
+
+a) _Scrum Master_
+  *	Fabiana Bicalho Palhano Rocha Cossenzo
+
+b) _Product Owner_
+  * Eduardo Lordeiro Alves
+
+c) Equipe de Desenvolvimento
+  * Eduardo Lordeiro Alves
+  * Fabiana Bicalho Palhano Rocha Cossenzo
+  * Felipe Costa Moreira
+  * Nayara Katlin Oliveira da Silva
+  * Rafael Pacheco Leite
+  * Raíssa Araújo Oliveira Queiroz Lopes
+  
+d) Equipe de _Design_ 
+  * Eduardo Lordeiro Alves
+  * Fabiana Bicalho Palhano Rocha Cossenzo
+  * Felipe Costa Moreira
+  * Nayara Katlin Oliveira da Silva
+  * Rafael Pacheco Leite
+  * Raíssa Araújo Oliveira Queiroz Lopes
 
 ## Gestão de Orçamento
 
