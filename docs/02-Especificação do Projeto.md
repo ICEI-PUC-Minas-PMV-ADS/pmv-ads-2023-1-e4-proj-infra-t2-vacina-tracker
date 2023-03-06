@@ -20,7 +20,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Julieta Ferreira](https://user-images.githubusercontent.com/91228798/222981380-b3b6f41e-7063-45c2-9922-e7eddce7b91e.jpg)|**Julieta Ferreira** <br><br> **Idade:** 34 anos |
+|![Julieta Ferreira](https://user-images.githubusercontent.com/91228798/222999891-55e44342-6ea5-4066-b329-ee6a72b8cc78.jpg)|**Julieta Ferreira** <br><br> **Idade:** 34 anos |
 | | **Ocupação:** Professora de ensino fundamental.|
 | | **Aplicativos:** _WhatsApp, Linkedin_.|
 | | **Motivações:**  O amor pelos filhos e o amor pelo ensino.|
@@ -29,7 +29,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Miguel Carvalho](https://user-images.githubusercontent.com/91228798/222981395-cf55014a-ad19-4ac7-93a9-3c33f930f196.jpg)|**Miguel Carvalho** <br><br> **Idade:** 57 anos |
+|![Miguel Carvalho](https://user-images.githubusercontent.com/91228798/222999929-e85e2548-e664-4404-b50b-dff0e0aafe1b.jpg)|**Miguel Carvalho** <br><br> **Idade:** 57 anos |
 | | **Ocupação:** Diretor de uma ONG|
 | | **Aplicativos:** _WhatsApp, Instagram_.|
 | | **Motivações:**  Ajudar crianças carentes.|
@@ -38,7 +38,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Henrique Gomes](https://user-images.githubusercontent.com/91228798/222981513-b69325d7-a70d-4e87-9dc6-56ca274d398a.jpg)|**Henrique Gomes** <br><br> **Idade:** 29 anos |
+|![Henrique Gomes](https://user-images.githubusercontent.com/91228798/222999972-1f61ad14-5183-4c91-aa38-4e002b31bb86.jpg)|**Henrique Gomes** <br><br> **Idade:** 29 anos |
 | | **Ocupação:** Veterinário|
 | | **Aplicativos:** _WhatsApp, Instagram, Linkedin_.|
 | | **Motivações:**  Ama os animais.|
@@ -47,7 +47,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Mariana Souza](https://user-images.githubusercontent.com/91228798/222981619-aa210cbf-da55-42e1-8123-d55af2ef3fc2.jpg)|**Mariana Souza** <br><br> **Idade:** 20 anos |
+|![Mariana Souza](https://user-images.githubusercontent.com/91228798/223000020-4bedda54-2d1e-4085-967a-3b9f0e5eb1be.jpg)|**Mariana Souza** <br><br> **Idade:** 20 anos |
 | | **Ocupação:** Estudante de medicina|
 | | **Aplicativos:** _Twitter, Tiktok, Instagram_.|
 | | **Motivações:** Se formar como cirurgiã geral.|
@@ -56,7 +56,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Luana Fernandes](https://user-images.githubusercontent.com/91228798/222981777-f81c24ec-4368-423e-825d-755d0f0db034.jpg)|**Luana Fernandes** <br><br> **Idade:** 42 anos |
+|![Luana Fernandes](https://user-images.githubusercontent.com/91228798/223000042-6e38afd0-a973-4ffa-9452-b7fad5ced5de.jpg)|**Luana Fernandes** <br><br> **Idade:** 42 anos |
 | | **Ocupação:** Cozinheira e _bartender_ nas horas vagas.|
 | | **Aplicativos:** _Twitter, Tiktok, Instagram_.|
 | | **Motivações:** Comprar sua casa própria.|
@@ -252,6 +252,12 @@ d) Equipe de _Design_
 
 ## 4.3 Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2023), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
 
-![Orçamento](img/02-orcamento.png)
+Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 06 (seis) stakeholders, 06 (seis) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
+
+Figura x - Orçamento
+
+![Orçamento](https://user-images.githubusercontent.com/91228798/223007452-dae99d21-9d38-4d7f-b012-4d5bfee1953d.PNG)
+
+Fonte: Elaborado pelos autores
