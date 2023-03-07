@@ -86,25 +86,13 @@ Fonte: Elaborado pelos autores
 
 ## 2.3 Modelagem do Processo de Negócio 
 
-### 2.3.1 Análise da Situação Atual
+![img](https://lh5.googleusercontent.com/-HFnjgxLd6roT6u_wdbu26rRCGT_7k7zLC8-jvSUoCe7jcK-f6B2qf8wRak6pdDx2Erod2ZtMgLWnJgqqV5IzrHLRZkIpvTrZaprRNAEixLw8WqADlpEh6_qEspRc_UC2EFc35czZpgN-L5ODGgKZ2Y)
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+### **2.3.1 Análise da Situação Atual**
 
-### 2.3.2 Descrição Geral da Proposta
+Hoje em dia o uso de papel é algo considerado ultrapassado é nosso cartões de vacina tem espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações, no entanto para resolver está problemática pensamos em um sistema para que essas vacinas sejam registrada de forma mais fácil e organizada.
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
-
-### 2.3.3 Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### 2.3.4 Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+###  
 
 ## 2.4 Indicadores de Desempenho
 
@@ -241,7 +229,7 @@ c) Equipe de Desenvolvimento
   * Nayara Katlin Oliveira da Silva
   * Rafael Pacheco Leite
   * Raíssa Araújo Oliveira Queiroz Lopes
-  
+
 d) Equipe de _Design_ 
   * Eduardo Lordeiro Alves
   * Fabiana Bicalho Palhano Rocha Cossenzo
