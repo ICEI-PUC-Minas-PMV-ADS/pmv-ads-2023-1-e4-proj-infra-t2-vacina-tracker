@@ -14,8 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Fabiana Bicalho Palhano Rocha Cossenzo
 * Felipe Costa Moreira
 * Nayara Katlin Oliveira da Silva
-* Rafael Pacheco Leite
-* Raíssa Araújo Oliveira Queiroz Lopes
 
 ## Orientador
 
