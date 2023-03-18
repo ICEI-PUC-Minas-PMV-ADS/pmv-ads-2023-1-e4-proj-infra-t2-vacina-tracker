@@ -260,6 +260,8 @@ Figura x - Cronograma
 
 ![Cronograma](https://user-images.githubusercontent.com/91228798/226095425-89312440-ccfc-4a58-8e7a-2bf0cd4c90c1.PNG)
 
+Fonte: Elaborado pelos autores
+
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
 Figura x - Gráfico de Gantt
@@ -267,33 +269,19 @@ Figura x - Gráfico de Gantt
 ![Gráfico de Gantt](https://user-images.githubusercontent.com/91228798/226095453-17b4718e-5cb1-4c7e-b08d-fae589c47ebd.PNG)
 ![Grafico de Gantt 2](https://user-images.githubusercontent.com/91228798/226095471-284ece09-18db-4941-bd4e-8c959f9f3d9a.PNG)
 
+Fonte: Elaborado pelos autores
+
 ## 4.2 Gerenciamento de Equipe
 
 O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir conflitos, melhorar os indicadores, engajar/motivar a equipe, otimizar valores, conceder _feedbacks_, entre outras, mas todas em busca do principal objetivo: atingir o propósito apresentado no projeto.
 
 A organização da equipe está apresentada conforme abaixo:
 
-a) _Scrum Master_
-  *	Fabiana Bicalho Palhano Rocha Cossenzo
+Figura x - Gerenciamento de Equipe
 
-b) _Product Owner_
-  * Eduardo Lordeiro Alves
-
-c) Equipe de Desenvolvimento
-  * Eduardo Lordeiro Alves
-  * Fabiana Bicalho Palhano Rocha Cossenzo
-  * Felipe Costa Moreira
-  * Nayara Katlin Oliveira da Silva
-  * Rafael Pacheco Leite
-  * Raíssa Araújo Oliveira Queiroz Lopes
-
-d) Equipe de _Design_ 
-  * Eduardo Lordeiro Alves
-  * Fabiana Bicalho Palhano Rocha Cossenzo
-  * Felipe Costa Moreira
-  * Nayara Katlin Oliveira da Silva
-  * Rafael Pacheco Leite
-  * Raíssa Araújo Oliveira Queiroz Lopes
+![Gerenciamento de equipe](https://user-images.githubusercontent.com/91228798/226095885-95c60487-7b0b-4465-a9d5-8de05bc6a0ff.PNG)
+  
+Fonte: Elaborado pelos autores
 
 ## 4.3 Gestão de Orçamento
 
