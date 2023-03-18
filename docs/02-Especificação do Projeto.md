@@ -225,9 +225,10 @@ Fonte: Elaborado pelos autores
 
 Quadro x - Casos de Uso
 
-| ATOR         | DESCRIÇÃO                                                                      |
-|--------------|--------------------------------------------------------------------------------|
-| Usuário      | Integrante familiar que usará o aplicativo.                                    |
+| ATOR           | DESCRIÇÃO                                                                      |
+|----------------|--------------------------------------------------------------------------------|
+| Usuário        | Integrante familiar que usará o aplicativo.                                    |
+| Banco de Dados | Ator que receberá a requisição do caso de uso _Lembrar Vacina_.                                    |
 
 | CASO DE USO                    	| DESCRIÇÃO                                                                       	   | REQUISITO FUNCIONAL |
 |---------------------------------|--------------------------------------------------------------------------------------|---------------------|
@@ -243,7 +244,7 @@ Quadro x - Casos de Uso
 
 | PRÉ-REQUISITO E RELACIONAMENTOS | DESCRIÇÃO                                             	                                                            |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| PRÉ-REQUISITO                | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. |
+| PRÉ-REQUISITO                | O usuário deve estar logado para os casos de uso: _Gerenciar Cadastro_, _Cadastrar Membro Familiar_, _Gerenciar Vacina_ e _Lembrar Vacina_. |
 | INCLUSÃO   	                 | Ao criar conta será incluído o caso de uso _Fazer Login_.                                            |
 | EXTENSÃO   	                 | Se o usuário esquecer sua senha poderá redefinir informando seu e-mail de cadastro.<br> Para o caso de uso _Acessar Política de Privacidade_ o usuário não precisará ter efetuado _login_, mas  para aceitar os termos ele deve estar logado no sistema. |
 
