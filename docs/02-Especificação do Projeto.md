@@ -152,20 +152,20 @@ Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
 Quadro 4 - Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O aplicativo deve permitir cadastrar os membros da família. | MÉDIA|
-|RF-002| O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
-|RF-003| O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
-|RF-004| O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
-|RF-005| O aplicativo deve permitir o cadastro de usuários. | ALTA |
-|RF-006| O aplicativo deve permitir que o usuário faça login em sua conta através do seu e-mail e senha cadastrados. | ALTA |
-|RF-007| O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
-|RF-008| O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
-|RF-009| O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
-|RF-010| O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
-|RF-011| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
-|RF-012| O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
+|ID   | Descrição do Requisito                                      | Prioridade |
+|-----|-------------------------------------------------------------|------------|
+|RF-01| O aplicativo deve permitir cadastrar os membros da família. | MÉDIA |
+|RF-02| O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
+|RF-03| O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
+|RF-04| O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
+|RF-05| O aplicativo deve permitir o cadastro de usuários. | ALTA |
+|RF-06| O aplicativo deve permitir que o usuário faça login em sua conta através do seu e-mail e senha cadastrados. | ALTA |
+|RF-07| O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
+|RF-08| O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
+|RF-09| O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
+|RF-10| O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
+|RF-11| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
+|RF-12| O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
 
 Fonte: Elaborado pelos autores
 
@@ -176,15 +176,15 @@ Apresentamos a seguir os requisitos não funcionais que o projeto deverá atende
 
 Quadro 5 - Requisitos Não-Funcionais
 
-| ID      | Descrição do Requisito                                                                                       | Prioridade |
-| ------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
-| RNF-001 | O sistema de ser feito usando práticas de UX e IxD                                                           | ALTA       |
-| RNF-002 | O sistema deve ser disponibilizado publicamente no GitHub.                                                   | ALTA       |
-| RNF-003 | O sistema deve apresentar baixo tempo de resposta nas requisições.                                           | ALTA       |
-| RNF-004 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).                                  | ALTA       |
-| RNF-005 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação Web.                     | ALTA       |
-| RNF-006 | O sistema deve ser responsivo e compatível com os principais navegadores e sistemas operacionais do mercado. | ALTA       |
-| RNF-007 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana.                   | ALTA       |
+| ID      | Descrição do Requisito                                                                                      | Prioridade |
+| ------- | ----------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-01 | O sistema de ser feito usando práticas de UX e IxD                                                           | ALTA       |
+| RNF-02 | O sistema deve ser disponibilizado publicamente no GitHub.                                                   | ALTA       |
+| RNF-03 | O sistema deve apresentar baixo tempo de resposta nas requisições.                                           | ALTA       |
+| RNF-04 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).                                  | ALTA       |
+| RNF-05 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação Web.                     | ALTA       |
+| RNF-06 | O sistema deve ser responsivo e compatível com os principais navegadores e sistemas operacionais do mercado. | ALTA       |
+| RNF-07 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana.                   | ALTA       |
 
 Fonte: Elaborado pelos autores
 
@@ -215,37 +215,37 @@ Graficamente é representado com elementos como os atores, os casos de uso e seu
 
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
 
-Figura 4 - Diagrama de Casos de Uso
+
+Figura x - Diagrama de Casos de Uso
 
 ![Diagrama de Casos de Usos da Aplicação](img/diagrama-casos-de-uso.png)
 
 Fonte: Elaborado pelos autores
 
 
-Quadro 7 - Casos de Uso
+Quadro x - Casos de Uso
 
 | ATOR         | DESCRIÇÃO                                                                      |
 |--------------|--------------------------------------------------------------------------------|
 | Usuário      | Integrante familiar que usará o aplicativo.                                    |
 
 | CASO DE USO                    	| DESCRIÇÃO                                                                       	   | REQUISITO FUNCIONAL |
-|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
-| Criar conta             	       | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-012              |
-| Alterar dados cadastrais        | O usuário pode fazer alterações em seu cadastro.                                	   | RF-007 	            |
-| Excluir conta           	       | O usuário pode excluir sua conta quando assim desejar.                             	| RF-007 	            |
-| Fazer Login             	       | O usuário deve fazer login para acessar sua conta.                                 	| RF-006 	            |
+|---------------------------------|--------------------------------------------------------------------------------------|---------------------|
+| Criar conta                     | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação.  | RF-012              |
+| Alterar dados cadastrais        | O usuário pode fazer alterações em seu cadastro.                                	   | RF-007 	           |
+| Excluir conta           	      | O usuário pode excluir sua conta quando assim desejar.                             	| RF-007 	            |
+| Fazer Login             	      | O usuário deve fazer _login_ para acessar sua conta.                               	| RF-006 	            |
 | Redefinir senha                	| O usuário pode redefinir sua senha se necessário.                                  	| RF-011 	            |
-| Gerenciar Vacina     	          | O usuário pode cadastrar, consultar ou editar as vacinas já tomadas e/ou pendentes.	| RF-002/003/004/009  |
+| Gerenciar Vacina     	          | O usuário pode cadastrar, consultar ou editar as vacinas já tomadas e/ou pendentes. | RF-002/003/004/009  |
 | Cadastrar Membro Familiar       | O usuário pode cadastrar um membro da família ou dependente.             	          | RF-001/005	         |
 | Lembrar Vacina       	          | O sistema emitirá um alerta para vacinas futuras ou pendentes.             	        | RF-008	             |
 | Acessar Política de Privacidade | O usuário pode acessar a política de privacidade.                                  	| RF-010	             |
 
-| PRÉ-REQUISITO E RELACIONAMENTOS | DESCRIÇÃO                                    	                                                            |
-|----------------|----------------------------------------------------------------------------------------------------------------------------|
-| PRÉ-REQUISITO  | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. 	|
-| INCLUSÃO   	   | Ao criar conta será incluído o caso de uso _Fazer Login_.                                                                  |
-| EXTENSÃO   	   | Se o usuário esquecer sua senha poderá redefinir informando seu e-mail de cadastro.                                        |
-| EXTENSÃO      	| Para o caso de uso _Acessar Política de Privacidade_ o usuário não precisará ter efetuado login, mas  para aceitar os termos ele deve estar logado no sistema. |
+| PRÉ-REQUISITO E RELACIONAMENTOS | DESCRIÇÃO                                             	                                                            |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| PRÉ-REQUISITO                | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. |
+| INCLUSÃO   	                 | Ao criar conta será incluído o caso de uso _Fazer Login_.                                            |
+| EXTENSÃO   	                 | Se o usuário esquecer sua senha poderá redefinir informando seu e-mail de cadastro.<br> Para o caso de uso _Acessar Política de Privacidade_ o usuário não precisará ter efetuado _login_, mas  para aceitar os termos ele deve estar logado no sistema. |
 
 Fonte: Elaborado pelos autores
 
