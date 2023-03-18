@@ -109,7 +109,7 @@ Fonte: Elaborado pelos autores
 
 ### 2.3.4 Processo 2 - CADASTRO DO USUÁRIO
 
-Neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, sendo mais especificamente o Processo de Cadastro de Usuário.
+Neste diagrama de notação BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, sendo mais especificamente o Processo de Cadastro de Usuário.
 
 O processo começa com o cadastro/_login_ do usuário, parte para visualização e leitura dos Termos e Condições de Uso e das Políticas de Privacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
 
