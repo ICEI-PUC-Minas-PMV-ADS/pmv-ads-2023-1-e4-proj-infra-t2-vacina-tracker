@@ -100,7 +100,7 @@ Abaixo foram descritos os processos de:
 * Processo de cadastro de vacina via usuário responsável;
 * Solicitação de listagem de vacinas cadastradas pelo usuário.
 
-Figura x - Processo Completo
+Figura 1 - Processo Completo
 
 ![WhatsApp Image 2023-03-18 at 00 24 30](https://user-images.githubusercontent.com/90854853/226082117-9652bbcb-fe99-46b1-bcc5-cc4d56b8d91e.jpeg)
 
@@ -111,9 +111,9 @@ Fonte: Elaborado pelos autores
 
 Neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, sendo mais especificamente o Processo de Cadastro de Usuário.
 
-O processo começa com o cadastro/login do usuário, parte para visualização e leitura dos Termos e COndições de Uso e das Políticas de Provacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
+O processo começa com o cadastro/login do usuário, parte para visualização e leitura dos Termos e Condições de Uso e das Políticas de Privacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
 
-Figura x - Processo de Cadastro do Usuário
+Figura 2 - Processo de Cadastro do Usuário
 
 <img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
 
@@ -126,7 +126,7 @@ Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais m
 
 O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
 
-Figura x - Processo de Cadastro de Vacinas
+Figura 3 - Processo de Cadastro de Vacinas
 
 <img width="685" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226079320-b72c2d07-ed8f-4e5a-833a-445d924c8434.PNG">
 
@@ -137,8 +137,11 @@ Fonte: Elaborado pelos autores
 
 Congênere Rabello (2022), através dos indicadores de desempenho é possível avaliar a efetividade das ações e a performance do negócio, sendo um importante guia para a tomada de decisões, além de medir o sucesso e performance da empresa ao longo do tempo. Os indicadores podem oferecer resultados quantitativos e qualitativos, ajudando a ter o máximo de informações possíveis e necessárias para análise dos dados.
 
+Quadro 3 - Indicadores de Desempenho
 
-(inserir quadro - Quadro 3)
+(inserir quadro)
+
+Fonte: Elaborado pelos autores
 
 
 ## 2.5 Requisitos
@@ -216,14 +219,14 @@ Graficamente é representado com elementos como os atores, os casos de uso e seu
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
 
 
-Figura x - Diagrama de Casos de Uso
+Figura 4 - Diagrama de Casos de Uso
 
 ![Diagrama de Casos de Usos da Aplicação](img/diagrama-casos-de-uso.png)
 
 Fonte: Elaborado pelos autores
 
 
-Quadro x - Casos de Uso
+Quadro 7 - Casos de Uso
 
 | ATOR           | DESCRIÇÃO                                                                      |
 |----------------|--------------------------------------------------------------------------------|
@@ -257,7 +260,7 @@ A matriz de rastreabilidade é uma ferramenta usada para explicitar a relação 
 
 Nossa matriz contempla todos os requisitos funcionais e casos de uso que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-Figura x - Matriz de Rastreabilidade
+Figura 5 - Matriz de Rastreabilidade
 
 ![image](https://user-images.githubusercontent.com/89549220/226075174-52327802-dfb7-4cf4-a403-c2dabdc3b3be.png)
 
@@ -275,7 +278,7 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-Figura x - Cronograma
+Figura 6 - Cronograma
 
 ![Cronograma](https://user-images.githubusercontent.com/91228798/226095425-89312440-ccfc-4a58-8e7a-2bf0cd4c90c1.PNG)
 
@@ -283,7 +286,7 @@ Fonte: Elaborado pelos autores
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-Figura x - Gráfico de Gantt
+Figura 7 - Gráfico de Gantt
 
 ![Gráfico de Gantt](https://user-images.githubusercontent.com/91228798/226095453-17b4718e-5cb1-4c7e-b08d-fae589c47ebd.PNG)
 ![Grafico de Gantt 2](https://user-images.githubusercontent.com/91228798/226095471-284ece09-18db-4941-bd4e-8c959f9f3d9a.PNG)
@@ -296,7 +299,7 @@ O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir c
 
 A organização da equipe está apresentada conforme abaixo:
 
-Figura x - Gerenciamento de Equipe
+Figura 8 - Gerenciamento de Equipe
 
 ![Gerenciamento de equipe](https://user-images.githubusercontent.com/91228798/226095885-95c60487-7b0b-4465-a9d5-8de05bc6a0ff.PNG)
   
@@ -308,7 +311,7 @@ A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do pr
 
 Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 06 (seis) stakeholders, 06 (seis) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
-Figura x - Orçamento
+Figura 9 - Orçamento
 
 ![Orçamento](https://user-images.githubusercontent.com/91228798/223007452-dae99d21-9d38-4d7f-b012-4d5bfee1953d.PNG)
 
