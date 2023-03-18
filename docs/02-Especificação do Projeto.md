@@ -115,7 +115,7 @@ O processo começa com o cadastro/_login_ do usuário, parte para visualização
 
 Figura 2 - Processo de Cadastro do Usuário
 
-<img width="756" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226120657-4907da25-ad25-4646-a233-4c04c444fdfa.PNG">
+<img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
 
 Fonte: Elaborado pelos autores
 
@@ -128,7 +128,7 @@ O processo começa com o cadastro das vacinas, parte para visualização da cart
 
 Figura 3 - Processo de Cadastro de Vacinas
 
-<img width="639" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226120728-4cde7310-85d0-4e9d-9700-86577a832475.PNG">
+<img width="685" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226079320-b72c2d07-ed8f-4e5a-833a-445d924c8434.PNG">
 
 Fonte: Elaborado pelos autores
 
@@ -278,13 +278,30 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
+Pretendendo demonstrar uma visão geral das atividades e das relações entre elas, além de mostrar os prazos das atividades, nosso projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
+
 Figura 6 - Cronograma
 
 ![Cronograma](https://user-images.githubusercontent.com/91228798/226095425-89312440-ccfc-4a58-8e7a-2bf0cd4c90c1.PNG)
 
 Fonte: Elaborado pelos autores
 
-O gráfico de _Gantt_ ou diagrama de _Gantt_ também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+Para organização e distribuição das tarefas do projeto, o grupo utilizará o aplicativo de gerenciamento de projetos _Git Projects_, conforme figura ilustrativa abaixo.
+
+Figura 7 - _Git Projects_
+
+![image](https://user-images.githubusercontent.com/89549220/226120851-e174db93-5d12-4602-b51c-883fa2f02651.png)
+
+Fonte: Elaborado pelos autores
+
+Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou através do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/235).
+
+
+### 4.1.1 Diagrama de _Gantt_
+
+Também conhecido como Gráfico de _Gantt_, é uma ferramenta visual utilizada para controlar o cronograma de um projeto, ajudando a avaliar os prazos de entrega e os recursos críticos, mostrando um painel com as tarefas que precisam ser realizadas, a relação de precedência entre elas, quando as tarefas serão iniciadas, sua duração, o responsável e a previsão de término (LEÃO, 2022).
+
+Nessa perspectiva, demonstramos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do _software ProjectLibre_.
 
 Figura 7 - Gráfico de _Gantt_
 
@@ -311,7 +328,7 @@ Fonte: Elaborado pelos autores
 
 A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2023), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
 
-Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 04 (quatro) stakeholders, 04 (quatro) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
+Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 04 (quatro) _stakeholders_, 04 (quatro) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
 Figura 9 - Orçamento
 
