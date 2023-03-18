@@ -261,7 +261,7 @@ Nossa matriz contempla todos os requisitos funcionais e casos de uso que fazem p
 
 Figura 5 - Matriz de Rastreabilidade
 
-![image](https://user-images.githubusercontent.com/89549220/226075174-52327802-dfb7-4cf4-a403-c2dabdc3b3be.png)
+![image](https://user-images.githubusercontent.com/89549220/226125783-6dd22003-fb8b-42b2-a4c9-5752fa79a4ef.png)
 
 Fonte: Elaborado pelos autores
 
