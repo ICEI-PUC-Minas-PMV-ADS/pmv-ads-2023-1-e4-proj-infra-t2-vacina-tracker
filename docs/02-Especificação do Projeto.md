@@ -122,7 +122,7 @@ Fonte: Elaborado pelos autores
 
 ### 2.3.5 Processo 3 - CADASTRO DE VACINAS
 
-Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, como o Processo de Cadastro de Vacinas.
+Já neste diagrama de notação BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, como o Processo de Cadastro de Vacinas.
 
 O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
 
