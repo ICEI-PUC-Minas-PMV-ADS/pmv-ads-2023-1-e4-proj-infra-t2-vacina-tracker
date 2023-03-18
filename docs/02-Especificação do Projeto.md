@@ -161,14 +161,13 @@ Quadro 4 - Requisitos Funcionais
 | RF-02 | O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
 | RF-03 | O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
 | RF-04 | O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
-| RF-05 | O aplicativo deve permitir o cadastro de usuários. | ALTA |
+| RF-05 | O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
 | RF-06 | O aplicativo deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | ALTA |
 | RF-07 | O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
 | RF-08 | O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
 | RF-09 | O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
 | RF-10 | O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
 | RF-11 | O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
-| RF-12 | O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
 
 Fonte: Elaborado pelos autores
 
@@ -235,7 +234,7 @@ Quadro 7 - Casos de Uso
 
 | CASO DE USO                    	| DESCRIÇÃO                                                                       	   | REQUISITO FUNCIONAL |
 |---------------------------------|--------------------------------------------------------------------------------------|---------------------|
-| Criar conta                     | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação.  | RF-012              |
+| Criar conta                     | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação.  | RF-005              |
 | Alterar dados cadastrais        | O usuário pode fazer alterações em seu cadastro.                                	   | RF-007 	           |
 | Excluir conta           	      | O usuário pode excluir sua conta quando assim desejar.                             	| RF-007 	            |
 | Fazer Login             	      | O usuário deve fazer _login_ para acessar sua conta.                               	| RF-006 	            |
