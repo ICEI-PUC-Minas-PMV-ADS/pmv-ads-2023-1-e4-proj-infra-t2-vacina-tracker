@@ -338,6 +338,6 @@ Para a elaboração da tabela de orçamento a seguir, foram considerados os cust
 
 Figura 9 - Orçamento
 
-![Orçamento](https://user-images.githubusercontent.com/91228798/223007452-dae99d21-9d38-4d7f-b012-4d5bfee1953d.PNG)
+![ORÇAMENTO](https://user-images.githubusercontent.com/91228798/226137919-46f7c689-9972-4cee-9a77-da90c754a82f.PNG)
 
 Fonte: Elaborado pelos autores
