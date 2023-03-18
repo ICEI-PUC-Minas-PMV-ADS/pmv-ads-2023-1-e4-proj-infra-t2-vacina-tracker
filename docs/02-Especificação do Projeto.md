@@ -92,7 +92,7 @@ O aplicativo Vacina Tracker oferece acesso e controle de todo histórico de vaci
 
 Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo COMPLETO que o projeto Vacina Tracker teria, caso realizado na prática.
 
-O processo começa com o cadastro/login do usuário, usuário cria ou seleciona membros, segue para a escolha para alteração do cadastro dos usuários e termina com o usuário cadastrando e gerando o seu histórico e/ou de seus dependentes.
+O processo começa com o cadastro/_login_ do usuário, usuário cria ou seleciona membros, segue para a escolha para alteração do cadastro dos usuários e termina com o usuário cadastrando e gerando o seu histórico e/ou de seus dependentes.
 
 Abaixo foram descritos os processos de:
 
@@ -111,7 +111,7 @@ Fonte: Elaborado pelos autores
 
 Neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, sendo mais especificamente o Processo de Cadastro de Usuário.
 
-O processo começa com o cadastro/login do usuário, parte para visualização e leitura dos Termos e Condições de Uso e das Políticas de Privacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
+O processo começa com o cadastro/_login_ do usuário, parte para visualização e leitura dos Termos e Condições de Uso e das Políticas de Privacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
 
 Figura 2 - Processo de Cadastro do Usuário
 
@@ -155,39 +155,39 @@ Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
 Quadro 4 - Requisitos Funcionais
 
-|ID   | Descrição do Requisito                                      | Prioridade |
-|-----|-------------------------------------------------------------|------------|
-|RF-01| O aplicativo deve permitir cadastrar os membros da família. | MÉDIA |
-|RF-02| O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
-|RF-03| O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
-|RF-04| O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
-|RF-05| O aplicativo deve permitir o cadastro de usuários. | ALTA |
-|RF-06| O aplicativo deve permitir que o usuário faça login em sua conta através do seu e-mail e senha cadastrados. | ALTA |
-|RF-07| O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
-|RF-08| O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
-|RF-09| O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
-|RF-10| O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
-|RF-11| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
-|RF-12| O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
+| ID    | Descrição do Requisito                                      | Prioridade |
+|-------|-------------------------------------------------------------|------------|
+| RF-01 | O aplicativo deve permitir cadastrar os membros da família. | MÉDIA |
+| RF-02 | O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
+| RF-03 | O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
+| RF-04 | O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
+| RF-05 | O aplicativo deve permitir o cadastro de usuários. | ALTA |
+| RF-06 | O aplicativo deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | ALTA |
+| RF-07 | O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
+| RF-08 | O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
+| RF-09 | O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
+| RF-10 | O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
+| RF-11 | O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
+| RF-12 | O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
 
 Fonte: Elaborado pelos autores
 
 
-### 2.5.2 Requisitos não Funcionais
+### 2.5.2 Requisitos Não Funcionais
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
 Quadro 5 - Requisitos Não-Funcionais
 
-| ID      | Descrição do Requisito                                                                                      | Prioridade |
-| ------- | ----------------------------------------------------------------------------------------------------------- | ---------- |
-| RNF-01 | O sistema de ser feito usando práticas de UX e IxD                                                           | ALTA       |
-| RNF-02 | O sistema deve ser disponibilizado publicamente no GitHub.                                                   | ALTA       |
-| RNF-03 | O sistema deve apresentar baixo tempo de resposta nas requisições.                                           | ALTA       |
-| RNF-04 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).                                  | ALTA       |
-| RNF-05 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação Web.                     | ALTA       |
-| RNF-06 | O sistema deve ser responsivo e compatível com os principais navegadores e sistemas operacionais do mercado. | ALTA       |
-| RNF-07 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana.                   | ALTA       |
+| ID      | Descrição do Requisito                                                                                         | Prioridade |
+| ------- | -------------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-01 | O sistema de ser feito usando práticas de _UX e IxD_.                                                           | ALTA       |
+| RNF-02 | O sistema deve ser disponibilizado publicamente no _GitHub_.                                                    | ALTA       |
+| RNF-03 | O sistema deve apresentar baixo tempo de resposta nas requisições.                                              | ALTA       |
+| RNF-04 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).                                     | ALTA       |
+| RNF-05 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação _Web_.                      | ALTA       |
+| RNF-06 | O sistema deve ser responsivo e compatível com os principais navegadores e sistemas operacionais do mercado.    | ALTA       |
+| RNF-07 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana.                      | ALTA       |
 
 Fonte: Elaborado pelos autores
 
@@ -274,6 +274,7 @@ Veja [aqui](https://docs.google.com/spreadsheets/d/1GHACQIs1BArVdLQ-MwobDlJtP5jn
 
 De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
+
 ## 4.1 Gerenciamento de Tempo
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
@@ -284,14 +285,15 @@ Figura 6 - Cronograma
 
 Fonte: Elaborado pelos autores
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O gráfico de _Gantt_ ou diagrama de _Gantt_ também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-Figura 7 - Gráfico de Gantt
+Figura 7 - Gráfico de _Gantt_
 
 ![Gráfico de Gantt](https://user-images.githubusercontent.com/91228798/226095453-17b4718e-5cb1-4c7e-b08d-fae589c47ebd.PNG)
 ![Grafico de Gantt 2](https://user-images.githubusercontent.com/91228798/226095471-284ece09-18db-4941-bd4e-8c959f9f3d9a.PNG)
 
 Fonte: Elaborado pelos autores
+
 
 ## 4.2 Gerenciamento de Equipe
 
@@ -305,11 +307,12 @@ Figura 8 - Gerenciamento de Equipe
   
 Fonte: Elaborado pelos autores
 
+
 ## 4.3 Gestão de Orçamento
 
 A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2023), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
 
-Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 06 (seis) stakeholders, 06 (seis) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
+Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 04 (quatro) stakeholders, 04 (quatro) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
 Figura 9 - Orçamento
 
