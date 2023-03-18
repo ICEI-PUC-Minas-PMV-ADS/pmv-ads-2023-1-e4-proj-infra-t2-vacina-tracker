@@ -128,7 +128,7 @@ Abaixo foram descritos os processos de:
 Congênere Rabello (2022), através dos indicadores de desempenho é possível avaliar a efetividade das ações e a performance do negócio, sendo um importante guia para a tomada de decisões, além de medir o sucesso e performance da empresa ao longo do tempo. Os indicadores podem oferecer resultados quantitativos e qualitativos, ajudando a ter o máximo de informações possíveis e necessárias para análise dos dados.
 
 
-(inserir quadro)
+(inserir quadro - Quadro 3)
 
 
 ## 2.5 Requisitos
@@ -140,7 +140,7 @@ O propósito funcional do projeto é definido por meio dos requisitos funcionais
 
 Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
-Quadro x - Requisitos Funcionais
+Quadro 4 - Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -164,7 +164,7 @@ Fonte: Elaborado pelos autores
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Quadro x - Requisitos Não-Funcionais
+Quadro 5 - Requisitos Não-Funcionais
 
 | ID      | Descrição do Requisito                                                                                       | Prioridade |
 | ------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
@@ -183,7 +183,7 @@ Fonte: Elaborado pelos autores
 
 Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
-Quadro x - Restrições
+Quadro 6 - Restrições
 
 | ID    | Restrição                                                    |
 | ----- | ------------------------------------------------------------ |
@@ -205,14 +205,14 @@ Graficamente é representado com elementos como os atores, os casos de uso e seu
 
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
 
-Figura X - Diagrama de Casos de Uso
+Figura 4 - Diagrama de Casos de Uso
 
 ![Diagrama de Casos de Usos da Aplicação](img/diagrama-casos-de-uso.png)
 
 Fonte: Elaborado pelos autores
 
 
-Quadro X - Casos de Uso
+Quadro 7 - Casos de Uso
 
 | ATOR         | DESCRIÇÃO                                                                      |
 |--------------|--------------------------------------------------------------------------------|
