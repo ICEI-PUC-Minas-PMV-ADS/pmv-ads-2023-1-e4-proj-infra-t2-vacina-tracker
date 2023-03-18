@@ -155,6 +155,7 @@ Quadro x - Requisitos Funcionais
 |RF-009| O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
 |RF-010| O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
 |RF-011| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
+|RF-012| O aplicativo deve permitir ao usuário criar uma conta. | ALTA |
 
 Fonte: Elaborado pelos autores
 
@@ -228,6 +229,25 @@ Quadro X - Casos de Uso
 | Cadastrar vacina         | O usuário pode cadastrar as vacinas já tomadas e/ou pendentes.                      | RF-009     |
 | Consultar vacina         | O usuário pode consultar as vacinas já tomadas e/ou pendentes.                      | RF-002/003 |
 | Editar vacina            | O usuário pode editar/alterar as vacinas já tomadas e/ou pendentes.                 | RF-010     |
+
+| CASO DE USO                    	| DESCRIÇÃO                                                                       	   | REQUISITO FUNCIONAL |
+|---------------------------------|-------------------------------------------------------------------------------------|---------------------|
+| Criar conta             	       | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-012              |
+| Alterar dados cadastrais        | O usuário pode fazer alterações em seu cadastro.                                	   | RF-007 	            |
+| Excluir conta           	       | O usuário pode excluir sua conta quando assim desejar.                             	| RF-007 	            |
+| Fazer Login             	       | O usuário deve fazer login para acessar sua conta.                                 	| RF-006 	            |
+| Redefinir senha                	| O usuário pode redefinir sua senha se necessário.                                  	| RF-011 	            |
+| Gerenciar Vacina     	          | O usuário pode cadastrar, consultar ou editar as vacinas já tomadas e/ou pendentes.	| RF-002/003/004/009  |
+| Cadastrar Membro Familiar       | O usuário pode cadastrar um membro da família ou dependente.             	          | RF-001/005	         |
+| Lembrar Vacina       	          | O sistema emitirá um alerta para vacinas futuras ou pendentes.             	        | RF-008	             |
+| Acessar Política de Privacidade | O usuário pode acessar a política de privacidade.                                  	| RF-010	             |
+
+| RELACIONAMENTO | DESCRIÇÃO                                                     	                                                            |
+|----------------|----------------------------------------------------------------------------------------------------------------------------|
+|PRÉ-REQUISITO   | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. 	|
+| INCLUSÃO   	   | Ao criar conta será incluído o caso de uso _Fazer Login_.                                                                  |
+| EXTENSÃO   	   | Se o usuário esquecer sua senha poderá redefinir informando seu e-mail de cadastro.                                        |
+| EXTENSÃO      	| Para o caso de uso _Acessar Política de Privacidade_ o usuário não precisará ter efetuado login, mas  para aceitar os termos ele deve estar logado no sistema. |
 
 Fonte: Elaborado pelos autores
 
