@@ -139,7 +139,13 @@ Congênere Rabello (2022), através dos indicadores de desempenho é possível a
 
 Quadro 3 - Indicadores de Desempenho
 
-(inserir quadro)
+| Nº | Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
+|----|-----------|----------|-----------|---------|----------------|-------------|------|---------------|
+|	1	|Quantidade de Cadastro| Mensurar a quantidade de cadastros desejados | Avaliar a taxa de cadastros mensais |Nº de cadastro/período |Banco de Dados |Crescimento e Aprendizado |100 novos cadastros por mês |Mensal |
+|	2	|Índice de engajamento|	Verificar a aceitação do aplicativo	|Avaliar o tempo gasto |Google Analytics, Play Store e Apple Store	|Relatórios internos gerados a partir de dados coletados pelo banco de dados	|Crescimento e Aprendizado	|Evitar desinstalação do aplicativo	|Mensal	|
+|	3	|Percentual de reclamações|	Verificar o índice de mensagens recebidas	|Avaliar o percentual de reclamações a fim de satisfazer as necessidade dos usuários |Nº de reclamações / quantidade de cadastros ativos |Formulário de Contato |Processo interno	|Nenhuma reclamação	|Mensal	|
+|	4	|Desempenho	|Verificar a freqência de falhas|	Avaliar a periodicidade das falhas na aplicação |Nº log de falha /período	|Registros de log do Banco de dados |Processo interno	|Nenhuma Falha ou redução das falhas |Semestral |
+|	5	|Desinstalação/exclusão de cadastro	|Verificar a quantidade de desinstalações realizadas |Avaliar o que pode ser transformado a fim de evitar desinstalações |Nº de desinstalações/período	|Registros do Banco de dados |Processo interno	|Reduzir desinstalações e exclusões de cadastros |Semestral	|
 
 Fonte: Elaborado pelos autores
 
