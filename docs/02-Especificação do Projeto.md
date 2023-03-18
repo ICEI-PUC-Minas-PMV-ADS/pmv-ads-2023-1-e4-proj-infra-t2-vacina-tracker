@@ -63,12 +63,12 @@ Registramos as histórias de usuários no quadro abaixo, diante da informação 
 
 Quadro 2 - História de Usuários
 
-|EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
-|----------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
+|EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                            |
+|----------------------------------------------|--------------------------------------------------------------|---------------------------------------------------|
 |Mateus Ribeiro (Atleta de natação)            |Controlar vacinas anuais.                                     |Não contrair doenças infecciosas e ser impedido de treinar.|
 |Julieta Ferreira (Professora)                 |Pesquisar informações sobre vacinas tomadas.                  |Ficar mais fácil quando precisar levar os filhos no médico.|
 |Miguel Carvalho  (Diretor)                    |Reunir as informações de vacinas das crianças encontradas.    |Facilitar o controle de doenças contagiosas como sarampo, por exemplo.  |
-|Mariana Souza (Estudante)                     |Criar um lembrete das injeções trimestrais                    |Controlar sua prevenção e diminuir o risco de gravidez indesejada.                 |
+|Mariana Souza (Estudante)                     |Criar um lembrete das injeções trimestrais                    |Controlar sua prevenção e diminuir o risco de gravidez indesejada. |
 |Luana Fernandes (Cozinheira e bartender)      |Agendar as vacinas de gripe.                                  |Para evitar ficar doente e perder dias de trabalho.| 
 
 Fonte: Elaborado pelos autores
@@ -76,43 +76,23 @@ Fonte: Elaborado pelos autores
 
 ## 2.3 Modelagem do Processo de Negócio 
 
-![WhatsApp Image 2023-03-18 at 00 24 30](https://user-images.githubusercontent.com/90854853/226082117-9652bbcb-fe99-46b1-bcc5-cc4d56b8d91e.jpeg)
-
-
 ### 2.3.1 Análise da Situação Atual
 
-Hoje em dia o uso de papel é algo considerado ultrapassado e com espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações,sem contar que este processo é feito manualmente pelas pessoas, e ainda existe o transtorno de perder um cartão de vacina, que é algo de extrema importância. No entanto para resolver esta problemática, pensamos em um sistema para que essas vacinas sejam registrada de forma mais fácil e organizada.
-Considerando o cenário  atual, boa parte das pessoas têm acesso a um computador, tablet ou smartphone. Nossa proposta é aproveitar o acesso à tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um total controle de suas vacinas. 
+Hoje em dia o uso de papel é algo considerado ultrapassado e com espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações, sem contar que este processo é feito manualmente pelas pessoas, e ainda existe o transtorno de perder um cartão de vacina, que é algo de extrema importância. No entanto para resolver esta problemática, pensamos em um sistema para que essas vacinas sejam registradas de forma mais fácil e organizada.
 
+Considerando o cenário  atual, boa parte das pessoas têm acesso a um computador, _tablet_ ou _smartphone_. Nossa proposta é aproveitar o acesso à tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um total controle de suas vacinas. 
 
 
 ###  2.3.2 Descrição Geral da Proposta
-O aplicativo Vacina Tracker oferece acesso  e controle de todo  histórico de vacinas e atualizações na palma das mãos. 
-Com o aplicativo suas vacinas e de membros da família podem ser registradas de forma mais fácil, rápida e organizada.
-No aplicativo você pode ter controle das vacinas que já tomou, qual foi a dose, data e até mesmo quando e qual é a próxima vacina que você precisa tomar, além de poder incluir membros para ter o controle dos mesmos.
-Nele será possível armazenar e buscar informações, histórico, vacinas pendentes entre outros, isso tudo com com qualidade, rapidez, eficiência e total controle de suas informações.
+
+O aplicativo Vacina Tracker oferece acesso e controle de todo histórico de vacinas e atualizações na palma das mãos. Com o aplicativo, suas vacinas e de membros da família podem ser registradas de forma mais fácil, rápida e organizada. No aplicativo você pode ter controle das vacinas que já tomou, qual foi a dose, data e até mesmo quando e qual é a próxima vacina que você precisa tomar, além de poder incluir membros para ter o controle dos mesmos. Nele será possível armazenar e buscar informações, histórico, vacinas pendentes, entre outros, isso tudo com qualidade, rapidez, eficiência e total controle de suas informações.
 
 
+### 2.3.3 Processo 1 - VISÃO GERAL DO PROCESSO
 
-
-
-### 2.3.3 Processo 1
-
-Processo 1 – PROCESSO DE CADASTRO DE DADOS
-
-Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo COMPLETO que o projeto Carpe Diem teria, caso realizado na prática.
+Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo COMPLETO que o projeto Vacina Tracker teria, caso realizado na prática.
 
 O processo começa com o cadastro/login do usuário, usuário cria ou seleciona membros, segue para a escolha para alteração do cadastro dos usuários e termina com o usuário cadastrando e gerando o seu histórico e/ou de seus dependentes.
-
-<img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
-
-
-### 2.3.4 Processo 2
- PROCESSO DE CADASTRO DE VACINAS
-
-Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais.
-
-O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
 
 Abaixo foram descritos os processos de:
 
@@ -120,7 +100,37 @@ Abaixo foram descritos os processos de:
 * Processo de cadastro de vacina via usuário responsável;
 * Solicitação de listagem de vacinas cadastradas pelo usuário.
 
+Figura x - Processo Completo
+
+![WhatsApp Image 2023-03-18 at 00 24 30](https://user-images.githubusercontent.com/90854853/226082117-9652bbcb-fe99-46b1-bcc5-cc4d56b8d91e.jpeg)
+
+Fonte: Elaborado pelos autores
+
+
+### 2.3.4 Processo 2 - CADASTRO DO USUÁRIO
+
+Neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, sendo mais especificamente o Processo de Cadastro de Usuário.
+
+O processo começa com o cadastro/login do usuário, parte para visualização e leitura dos Termos e COndições de Uso e das Políticas de Provacidade, segue para a adição/seleção (opcional) de membros e termina com o usuário podendo editar o seu cadastro, assim como cadastrar vacinas.
+
+Figura x - Processo de Cadastro do Usuário
+
+<img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
+
+Fonte: Elaborado pelos autores
+
+
+### 2.3.5 Processo 3 - CADASTRO DE VACINAS
+
+Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais, como o Processo de Cadastro de Vacinas.
+
+O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
+
+Figura x - Processo de Cadastro de Vacinas
+
 <img width="685" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226079320-b72c2d07-ed8f-4e5a-833a-445d924c8434.PNG">
+
+Fonte: Elaborado pelos autores
 
 
 ## 2.4 Indicadores de Desempenho
