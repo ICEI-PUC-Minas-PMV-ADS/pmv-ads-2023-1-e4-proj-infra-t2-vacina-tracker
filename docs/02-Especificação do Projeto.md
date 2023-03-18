@@ -77,7 +77,6 @@ Quadro 2 - História de Usuários
 |Mateus Ribeiro (Atleta de natação)            |Controlar vacinas anuais.                                     |Não contrair doenças infecciosas e ser impedido de treinar.|
 |Julieta Ferreira (Professora)                 |Pesquisar informações sobre vacinas tomadas.                  |Ficar mais fácil quando precisar levar os filhos no médico.|
 |Miguel Carvalho  (Diretor)                    |Reunir as informações de vacinas das crianças encontradas.    |Facilitar o controle de doenças contagiosas como sarampo, por exemplo.  |
-|Henrique Gomes (Veterinário)                  |Registrar as informações de vacinas dos cães.                 |Mantér o cartão de vacina dos animais atualizado.|
 |Mariana Souza (Estudante)                     |Criar um lembrete das injeções trimestrais                    |Controlar sua prevenção e diminuir o risco de gravidez indesejada.                 |
 |Luana Fernandes (Cozinheira e bartender)      |Agendar as vacinas de gripe.                                  |Para evitar ficar doente e perder dias de trabalho.| 
 
@@ -86,22 +85,50 @@ Fonte: Elaborado pelos autores
 
 ## 2.3 Modelagem do Processo de Negócio 
 
-![img](https://lh5.googleusercontent.com/-HFnjgxLd6roT6u_wdbu26rRCGT_7k7zLC8-jvSUoCe7jcK-f6B2qf8wRak6pdDx2Erod2ZtMgLWnJgqqV5IzrHLRZkIpvTrZaprRNAEixLw8WqADlpEh6_qEspRc_UC2EFc35czZpgN-L5ODGgKZ2Y)
-
-### **2.3.1 Análise da Situação Atual**
+### 2.3.1 Análise da Situação Atual
 
 Hoje em dia o uso de papel é algo considerado ultrapassado é nosso cartões de vacina tem espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações, no entanto para resolver está problemática pensamos em um sistema para que essas vacinas sejam registrada de forma mais fácil e organizada.
 
-###  
+(inserir imagem)
+
+
+###  2.3.2 Descrição Geral da Proposta
+
+(inserir texto)
+
+(inserir imagem)
+
+
+### 2.3.3 Processo 1
+
+(rever texto)
+Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo COMPLETO que o projeto Carpe Diem teria, caso realizado na prática.
+
+O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
+
+(inserir imagem)
+
+
+### 2.3.4 Processo 2
+
+(rever texto)
+Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais.
+
+Abaixo foram descritos os processos de:
+
+* Processo de cadastro do usuário responsável; 
+* Processo de cadastro de vacina via usuário responsável;
+* Solicitação de listagem de vacinas cadastradas pelo usuário.
+
+(inserir imagem)
+
 
 ## 2.4 Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Congênere Rabello (2022), através dos indicadores de desempenho é possível avaliar a efetividade das ações e a performance do negócio, sendo um importante guia para a tomada de decisões, além de medir o sucesso e performance da empresa ao longo do tempo. Os indicadores podem oferecer resultados quantitativos e qualitativos, ajudando a ter o máximo de informações possíveis e necessárias para análise dos dados.
 
-Usar o seguinte modelo: 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+(inserir quadro)
 
 
 ## 2.5 Requisitos
@@ -121,30 +148,34 @@ Quadro x - Requisitos Funcionais
 |RF-002| O aplicativo deve mostrar o histórico das vacinas cadastradas pelo usuário. | ALTA |
 |RF-003| O aplicativo deve separar o histórico das vacinas cadastradas para cada membro da família.| ALTA |
 |RF-004| O aplicativo deve permitir realizar a conferência de informações como: local, data da imunização, nome da vacina, data da próxima dose.| BAIXA |
-|RF-005|O aplicativo deve permitir o cadastro de usuários. | ALTA |
+|RF-005| O aplicativo deve permitir o cadastro de usuários. | ALTA |
 |RF-006| O aplicativo deve permitir que o usuário faça login em sua conta através do seu e-mail e senha cadastrados. | ALTA |
 |RF-007| O aplicativo deve permitir ao usuário gerenciar seu cadastro. | ALTA |
 |RF-008| O aplicativo deverá emitir um alerta/lembrete para futuras vacinas e/ou vacinas pendentes.| BAIXA |
 |RF-009| O aplicativo deve permitir ao usuário gerenciar o cadastro das vacinas. | ALTA |
 |RF-010| O aplicativo deve permitir acesso à documentação de termos e condições de uso e de políticas de privacidade. | MÉDIA |
-|RF-010| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
+|RF-011| O aplicativo deve permitir ao usuário solicitar a redefinição de senha. | BAIXA |
+
+Fonte: Elaborado pelos autores
 
 
 ### 2.5.2 Requisitos não Funcionais
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Qaudro x - Requisitos Não-Funcionais
+Quadro x - Requisitos Não-Funcionais
 
-| ID      | Descrição do Requisito                                       | Prioridade |
-| ------- | ------------------------------------------------------------ | ---------- |
-| RNF-001 | O sistema de ser feito usando práticas de UX e IxD           | ALTA       |
-| RNF-002 | O sistema deve ser disponibilizado publicamente no GitHub.   | ALTA       |
-| RNF-003 | O sistema deve apresentar baixo tempo de resposta nas requisições. | ALTA       |
-| RNF-004 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).      | ALTA       |
-| RNF-005 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação Web. | ALTA       |
+| ID      | Descrição do Requisito                                                                                       | Prioridade |
+| ------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
+| RNF-001 | O sistema de ser feito usando práticas de UX e IxD                                                           | ALTA       |
+| RNF-002 | O sistema deve ser disponibilizado publicamente no GitHub.                                                   | ALTA       |
+| RNF-003 | O sistema deve apresentar baixo tempo de resposta nas requisições.                                           | ALTA       |
+| RNF-004 | O sistema deve estar de acordo com a Lei Geral de Proteção de Dados (LGPD).                                  | ALTA       |
+| RNF-005 | O sistema deve ser implementado em uma linguagem para dispositivo móvel e aplicação Web.                     | ALTA       |
 | RNF-006 | O sistema deve ser responsivo e compatível com os principais navegadores e sistemas operacionais do mercado. | ALTA       |
-| RNF-006 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana. | ALTA  |
+| RNF-007 | O sistema deve estar disponível pelo menos 99% das 24 horas do dia, nos 07 dias da semana.                   | ALTA       |
+
+Fonte: Elaborado pelos autores
 
 
 ## 2.6 Restrições
@@ -153,20 +184,16 @@ Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução 
 
 Quadro x - Restrições
 
-| ID   | Restrição                                                    |
-| ---- | ------------------------------------------------------------ |
-| 01   | O projeto deverá ser entregue até o final do semestre        |
-| 02   | A equipe não pode subcontratar o desenvolvimento do trabalho. |
-| 03   |O Projeto deve ser desenvolvido em uma linguagem para uma aplicação distribuída.
-| 03   |O aplicativo deve se restringir às tecnologias propostas pelo curso
-| 05   |A rotina de estudos da faculdade e do projeto deve se adequar e ser compartilhado com a família e o trabalho remunerado.
-| 06   |A organização do projeto e do grupo deve possibilitar sua execução de forma assíncrona.
+| ID    | Restrição                                                    |
+| ----- | ------------------------------------------------------------ |
+| RE-01 | O projeto deverá ser entregue até o final do semestre        |
+| RE-02 | A equipe não pode subcontratar o desenvolvimento do trabalho. |
+| RE-03 | O Projeto deve ser desenvolvido em uma linguagem para uma aplicação distribuída. |
+| RE-04 | O aplicativo deve se restringir às tecnologias propostas pelo curso. |
+| RE-05 | A rotina de estudos da faculdade e do projeto deve se adequar e ser compartilhado com a família e o trabalho remunerado. |
+| RE-06 | A organização do projeto e do grupo deve possibilitar sua execução de forma assíncrona. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+Fonte: Elaborado pelos autores
 
 
 ## 2.7 Diagrama de Casos de Uso
@@ -209,9 +236,16 @@ Fonte: Elaborado pelos autores
 
 A matriz de rastreabilidade é uma ferramenta usada para explicitar a relação e para facilitar a visualização desse relacionamento direto dos requisitos entre si ou com outros artefatos ou componentes do projeto. Com ela tonrna-se possível rastrear a origem dos requisitos, os elos que os ligam com outros elementos, encontrar inconsistências e garantir que os diferentes níveis do projeto estejam alinhados entre si (ESPINHA, 2022).
 
-Nossa matriz contempla todos os requisitos funcionais e não funcionais que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+Nossa matriz contempla todos os requisitos funcionais e casos de uso que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
 Figura x - Matriz de Rastreabilidade
+
+![image](https://user-images.githubusercontent.com/89549220/226075174-52327802-dfb7-4cf4-a403-c2dabdc3b3be.png)
+
+Fonte: Elaborado pelos autores
+
+
+Veja [aqui](https://docs.google.com/spreadsheets/d/1GHACQIs1BArVdLQ-MwobDlJtP5jnmCfx/edit#gid=1924698943) nossa Matriz de Rastreabilidade de Requisitos completa.
 
 
 # 4. Gerenciamento de Projeto
