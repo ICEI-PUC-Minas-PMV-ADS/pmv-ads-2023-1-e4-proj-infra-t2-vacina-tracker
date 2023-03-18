@@ -218,18 +218,6 @@ Quadro X - Casos de Uso
 |--------------|--------------------------------------------------------------------------------|
 | Usuário      | Integrante familiar que usará o aplicativo.                                    |
 
-
-| CASO DE USO              | DESCRIÇÃO                                                                           | REQUISITO FUNCIONAL |
-|--------------------------|-------------------------------------------------------------------------------------|---------------------|
-| Criar conta              | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-001/006 |
-| Alterar dados cadastrais | O usuário pode fazer alterações em seu cadastro.                                    | RF-008     |
-| Excluir conta            | O usuário pode excluir sua conta quando assim o desejar.                            | RF-00X     |
-| Fazer _login_            | O usuário deve fazer _login_ para acessar sua conta.                                | RF-007     |
-| Redefinir senha          | O usuário pode redefinir sua senha se necessário.                                   | RF-00X     |
-| Cadastrar vacina         | O usuário pode cadastrar as vacinas já tomadas e/ou pendentes.                      | RF-009     |
-| Consultar vacina         | O usuário pode consultar as vacinas já tomadas e/ou pendentes.                      | RF-002/003 |
-| Editar vacina            | O usuário pode editar/alterar as vacinas já tomadas e/ou pendentes.                 | RF-010     |
-
 | CASO DE USO                    	| DESCRIÇÃO                                                                       	   | REQUISITO FUNCIONAL |
 |---------------------------------|-------------------------------------------------------------------------------------|---------------------|
 | Criar conta             	       | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-012              |
@@ -242,9 +230,9 @@ Quadro X - Casos de Uso
 | Lembrar Vacina       	          | O sistema emitirá um alerta para vacinas futuras ou pendentes.             	        | RF-008	             |
 | Acessar Política de Privacidade | O usuário pode acessar a política de privacidade.                                  	| RF-010	             |
 
-| RELACIONAMENTO | DESCRIÇÃO                                                     	                                                            |
+| PRÉ-REQUISITO E RELACIONAMENTOS | DESCRIÇÃO                                    	                                                            |
 |----------------|----------------------------------------------------------------------------------------------------------------------------|
-|PRÉ-REQUISITO   | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. 	|
+| PRÉ-REQUISITO  | O usuário deve estar logado para os casos de uso: Gerenciar Cadastro, Cadastrar Membro Familiar, Gerenciar Vacina e Lembrar Vacina. 	|
 | INCLUSÃO   	   | Ao criar conta será incluído o caso de uso _Fazer Login_.                                                                  |
 | EXTENSÃO   	   | Se o usuário esquecer sua senha poderá redefinir informando seu e-mail de cadastro.                                        |
 | EXTENSÃO      	| Para o caso de uso _Acessar Política de Privacidade_ o usuário não precisará ter efetuado login, mas  para aceitar os termos ele deve estar logado no sistema. |
