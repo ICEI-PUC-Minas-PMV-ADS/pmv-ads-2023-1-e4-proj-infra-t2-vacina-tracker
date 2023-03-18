@@ -38,15 +38,6 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|![Henrique Gomes](https://user-images.githubusercontent.com/91228798/222999972-1f61ad14-5183-4c91-aa38-4e002b31bb86.jpg)|**Henrique Gomes** <br><br> **Idade:** 29 anos |
-| | **Ocupação:** Veterinário|
-| | **Aplicativos:** _WhatsApp, Instagram, Linkedin_.|
-| | **Motivações:**  Ama os animais.|
-| | **Frustrações:** Quando os cães não são vacinados e são contaminados pela doença da raiva.|
-| | **_Hobbies_, História:** Funcionário de um abrigo de cães. Possui o hábito de vacinar os cães para evitar contágio dos demais.|
-
-| FOTO               | INFORMAÇÕES COLETADAS                                     |                     
-|--------------------|-----------------------------------------------------------|
 |![Mariana Souza](https://user-images.githubusercontent.com/91228798/223000020-4bedda54-2d1e-4085-967a-3b9f0e5eb1be.jpg)|**Mariana Souza** <br><br> **Idade:** 20 anos |
 | | **Ocupação:** Estudante de medicina|
 | | **Aplicativos:** _Twitter, Tiktok, Instagram_.|
@@ -265,11 +256,16 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+Figura x - Cronograma
+
+![Cronograma](https://user-images.githubusercontent.com/91228798/226095425-89312440-ccfc-4a58-8e7a-2bf0cd4c90c1.PNG)
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+Figura x - Gráfico de Gantt
+
+![Gráfico de Gantt](https://user-images.githubusercontent.com/91228798/226095453-17b4718e-5cb1-4c7e-b08d-fae589c47ebd.PNG)
+![Grafico de Gantt 2](https://user-images.githubusercontent.com/91228798/226095471-284ece09-18db-4941-bd4e-8c959f9f3d9a.PNG)
 
 ## 4.2 Gerenciamento de Equipe
 
