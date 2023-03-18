@@ -115,7 +115,7 @@ O processo começa com o cadastro/_login_ do usuário, parte para visualização
 
 Figura 2 - Processo de Cadastro do Usuário
 
-<img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
+<img width="756" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226120657-4907da25-ad25-4646-a233-4c04c444fdfa.PNG">
 
 Fonte: Elaborado pelos autores
 
@@ -128,7 +128,7 @@ O processo começa com o cadastro das vacinas, parte para visualização da cart
 
 Figura 3 - Processo de Cadastro de Vacinas
 
-<img width="685" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226079320-b72c2d07-ed8f-4e5a-833a-445d924c8434.PNG">
+<img width="639" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226120728-4cde7310-85d0-4e9d-9700-86577a832475.PNG">
 
 Fonte: Elaborado pelos autores
 
