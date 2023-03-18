@@ -85,34 +85,43 @@ Fonte: Elaborado pelos autores
 
 ## 2.3 Modelagem do Processo de Negócio 
 
+![WhatsApp Image 2023-03-18 at 00 24 30](https://user-images.githubusercontent.com/90854853/226082117-9652bbcb-fe99-46b1-bcc5-cc4d56b8d91e.jpeg)
+
+
 ### 2.3.1 Análise da Situação Atual
 
-Hoje em dia o uso de papel é algo considerado ultrapassado é nosso cartões de vacina tem espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações, no entanto para resolver está problemática pensamos em um sistema para que essas vacinas sejam registrada de forma mais fácil e organizada.
+Hoje em dia o uso de papel é algo considerado ultrapassado e com espaço limitado, sendo necessário utilização de outras folhas para que sejam colocadas as devidas atualizações,sem contar que este processo é feito manualmente pelas pessoas, e ainda existe o transtorno de perder um cartão de vacina, que é algo de extrema importância. No entanto para resolver esta problemática, pensamos em um sistema para que essas vacinas sejam registrada de forma mais fácil e organizada.
+Considerando o cenário  atual, boa parte das pessoas têm acesso a um computador, tablet ou smartphone. Nossa proposta é aproveitar o acesso à tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um total controle de suas vacinas. 
 
-(inserir imagem)
 
 
 ###  2.3.2 Descrição Geral da Proposta
+O aplicativo Vacina Tracker oferece acesso  e controle de todo  histórico de vacinas e atualizações na palma das mãos. 
+Com o aplicativo suas vacinas e de membros da família podem ser registradas de forma mais fácil, rápida e organizada.
+No aplicativo você pode ter controle das vacinas que já tomou, qual foi a dose, data e até mesmo quando e qual é a próxima vacina que você precisa tomar, além de poder incluir membros para ter o controle dos mesmos.
+Nele será possível armazenar e buscar informações, histórico, vacinas pendentes entre outros, isso tudo com com qualidade, rapidez, eficiência e total controle de suas informações.
 
-(inserir texto)
 
-(inserir imagem)
+
 
 
 ### 2.3.3 Processo 1
 
-(rever texto)
+Processo 1 – PROCESSO DE CADASTRO DE DADOS
+
 Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo COMPLETO que o projeto Carpe Diem teria, caso realizado na prática.
 
-O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
+O processo começa com o cadastro/login do usuário, usuário cria ou seleciona membros, segue para a escolha para alteração do cadastro dos usuários e termina com o usuário cadastrando e gerando o seu histórico e/ou de seus dependentes.
 
-(inserir imagem)
+<img width="796" alt="Fluxo cadastro de usuário" src="https://user-images.githubusercontent.com/90854853/226079271-b95b6f19-babb-4bb9-a764-4ff2c3d774a2.PNG">
 
 
 ### 2.3.4 Processo 2
+ PROCESSO DE CADASTRO DE VACINAS
 
-(rever texto)
 Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que a aplicação Vacina Tracker realiza em seus processos lógicos e funcionais.
+
+O processo começa com o cadastro das vacinas, parte para visualização da cartela de vacinas cadastradas, segue para a escolha entre as opções e termina com o usuário visualizando seu histórico e/ou de seus dependentes, separados entre si. Os detalhes do processo estão descritos nesta notação.
 
 Abaixo foram descritos os processos de:
 
@@ -120,7 +129,7 @@ Abaixo foram descritos os processos de:
 * Processo de cadastro de vacina via usuário responsável;
 * Solicitação de listagem de vacinas cadastradas pelo usuário.
 
-(inserir imagem)
+<img width="685" alt="Fluxo cadastro de vacinas" src="https://user-images.githubusercontent.com/90854853/226079320-b72c2d07-ed8f-4e5a-833a-445d924c8434.PNG">
 
 
 ## 2.4 Indicadores de Desempenho
