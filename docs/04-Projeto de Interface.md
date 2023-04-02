@@ -9,16 +9,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção "_Wireframe_ Estático" encontra-se detalhado as telas desse fluxo. O _wireframe_ interativo pode ser acessado no ambiente Figma do projeto, conforme _link_ disponibilizado na seção "Relação de Ambientes de Trabalho".
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+Figura 12 - Diagrama de Fluxo
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+<img width="1606" alt="DIAGRAMA DE FLUXO - EIXO 4 " src="https://user-images.githubusercontent.com/91228798/229384165-743c21dd-38a9-4883-8ab0-d553ffbcb5b0.png">
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+Fonte: Elaborado pelos autores
 
 ## Wireframes
 
