@@ -1,15 +1,12 @@
 
-# Projeto de Interface
+# 4. Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Dentre os anseios para o desenvolvimento da interface do sistema, definiu-se o foco em questões como dinâmica interpessoal entre o usuário e a aplicação, acessibilidade, usabilidade e simplicidade. O projeto tem uma identidade visual estilizada nas telas, que são projetadas baseando-se na responsividade, para o correto funcionamento em dispositivos móveis, assim como em aplicativos mobile.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+## 4.1 Diagrama de Fluxo
 
-## Diagrama de Fluxo
-
-Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção "_Wireframe_ Estático" encontra-se detalhado as telas desse fluxo. O _wireframe_ interativo pode ser acessado no ambiente Figma do projeto, conforme _link_ disponibilizado na seção "Relação de Ambientes de Trabalho".
+Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção "_Wireframe_ Estático" encontra-se detalhado as telas desse fluxo. O "_Wireframe_ Interativo" pode ser acessado no ambiente Figma do projeto, conforme _link_ disponibilizado na seção "Relação de Ambientes de Trabalho", Quadro 8.
 
 Figura 12 - Diagrama de Fluxo
 
@@ -17,17 +14,23 @@ Figura 12 - Diagrama de Fluxo
 
 Fonte: Elaborado pelos autores
 
-## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+## 4.2 Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do projeto de um modo geral apresentando a dinâmica do sistema. As telas da aplicação podem ser vistas com mais detalhes conforme descrito nos itens que se seguem abaixo:
+
+### 4.2.1 _Wireframe_ Interativo
+
+Congênere link abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
+
+(inserir link)
+
+
+### 4.2.2 _Wireframe_ Estático
+
+Com o objetivo de apresentar de forma estática as telas da aplicação criada pelo grupo, apresentamos o print das mesmas, de acordo com as seções abaixo.
+
+#### 4.2.2.1 Aplicação _Web_
+
+#### 4.2.2.2 Aplicação _Mobile_
+
