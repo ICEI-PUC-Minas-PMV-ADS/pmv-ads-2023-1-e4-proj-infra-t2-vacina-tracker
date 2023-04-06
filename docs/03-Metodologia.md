@@ -17,8 +17,7 @@ Quadro 8 - Ambientes de Trabalho
 |Repositório de Código Fonte       | GitHub       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker |
 |Documento do Projeto              | GitHub Docs  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/tree/main/docs |
 |Documento e Imagens do Projeto    | Google Drive | https://drive.google.com/drive/folders/19flSKVYBKsrLSF6V46qhVD_I4HdnY-Yb |
-|Projeto de Interface e Wireframes | Figma        | Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0
-<br> Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0 |
+|Projeto de Interface e Wireframes | Figma        | Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0 <br> Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0 |
 |Gerenciamento do Projeto          | Git Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/235 |
 
 Fonte: Elaborado pelos autores
