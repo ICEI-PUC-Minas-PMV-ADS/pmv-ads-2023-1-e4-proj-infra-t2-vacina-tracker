@@ -103,11 +103,11 @@ Na organização e na distribuição das tarefas do projeto, o grupo utiliza o a
 - In Progress: tarefas que foram iniciadas são adicionadas nessa lista.
 - Done: nesta lista são adicionadas as tarefas que passaram pela Checagem de Qualidade e estão prontas para serem enviadas e/ou entregues.
 
-O quadro gerenciado pelo grupo no aplicativo Git Projects está disponível através da URL especificada no Quadro x e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de Scrum de Schwaber e Sutherland (2020).
+O quadro gerenciado pelo grupo no aplicativo Git Projects está disponível através da URL especificada no Quadro 8 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de Scrum de Schwaber e Sutherland (2020).
 
 Figura 12 - Tela do Git Projects para Gerenciamento do Projeto
 
-![image](https://user-images.githubusercontent.com/89549220/226083266-3b49f3c7-a971-4901-9623-a8df45ab96af.png)
+![image](https://user-images.githubusercontent.com/89549220/230413909-d922c960-aad3-484e-b56a-6727e65d575c.png)
 
 Fonte: Elaborado pelos autores
 
@@ -116,16 +116,21 @@ Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba 
 
 ### 3.4.3 Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas aplicadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+a) Editor de Código:
+- Visual Studio e Visual Studio Code
+- Possuem integração com o _Git_, sendo possível realizar _commits_ do _GitHub_.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+b) Ferramentas de Comunicação:
+- _WhatsApp, Discord, Microsoft Teams, Git Projects, Google Drive_
+- São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo _smartphone_.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+c) Ferramentas de Desenho de Tela (_wireframing_):
+- Figma
+- Possui acesso gratuito e de fácil interação, sendo possível criar _wireframes_ conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+
+d) Ferramentas para Criação de Diagramas:
+- Lucidchart e Visio
+- Possui acesso gratuito e/ou disponibilizado por convênio com a Universidade, sendo de fácil interação, assim como a possibilidade de criar diagramas conforme a necessidade do projeto, através de uma edição colaborativa com a equipe.
+
