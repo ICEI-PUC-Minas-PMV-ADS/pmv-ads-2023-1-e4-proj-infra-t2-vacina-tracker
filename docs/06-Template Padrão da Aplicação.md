@@ -9,9 +9,9 @@ Para melhor visualização, acesse: (inserir link)
 
 Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será apresentado conforme demonstrado a seguir.
 
-a) HEADER (Cabeçalho): logo + slogan, menu de navegação geral.
-b) CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
-c) FOOTER (Rodapé): copyright.
+* HEADER (Cabeçalho): logo + slogan, menu de navegação geral.
+* CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
+* FOOTER (Rodapé): copyright.
 
 Figura 28 - Layout
 
