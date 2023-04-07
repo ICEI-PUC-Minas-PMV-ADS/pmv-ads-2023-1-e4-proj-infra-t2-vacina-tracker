@@ -8,7 +8,7 @@
 
 `PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO DISTRIBUÍDA`
 
-`01/2023`
+`SEMESTRE 01/2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
