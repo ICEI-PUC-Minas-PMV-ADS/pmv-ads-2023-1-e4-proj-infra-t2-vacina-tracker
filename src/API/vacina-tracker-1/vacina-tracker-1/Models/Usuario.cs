@@ -21,10 +21,11 @@ namespace vacina_tracker_1.Models
         [JsonIgnore]
         public string Senha { get; set; }
 
+        [Required]
         [Display(Name = "Perfil do Usuário")]
         public PerfilUsuario PerfilUsuario { get; set; }
 
-        //public ICollection<VacinasUsuarios> Vacina { get; set; }
+        public ICollection<VacinaUsuarios> Vacina { get; set; }
     }
 
     public enum PerfilUsuario
@@ -33,7 +34,7 @@ namespace vacina_tracker_1.Models
         TipoAdministrador,
         [Display(Name = "Responsável")]
         TipoResponsavel,
-        [Display(Name = "Dependente")]
+        [Display(Name = "Membro Dependente")]
         TipoDependente
     }
 }

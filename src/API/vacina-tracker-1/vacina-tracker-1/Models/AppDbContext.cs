@@ -9,23 +9,23 @@ namespace vacina_tracker_1.Models
 
         }
 
-        /*protected override void OnModelCreating(ModelBuilder builder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<VacinasUsuarios>()
-                .HasKey(c => new { c.VacinaId, c.ResponsavelId });
+            builder.Entity<VacinaUsuarios>()
+                .HasKey(c => new { c.VacinaId, c.UsuarioId });
 
-            builder.Entity<VacinasUsuarios>()
-                .HasOne(c => c.Vacina).WithMany(c => c.Responsavel)
+            builder.Entity<VacinaUsuarios>()
+                .HasOne(c => c.Vacina).WithMany(c => c.Usuario)
                 .HasForeignKey(c => c.VacinaId);
 
-            builder.Entity<VacinasUsuarios>()
-                .HasOne(c => c.Responsavel).WithMany(c => c.Vacina)
-                .HasForeignKey(c => c.ResponsavelId);
+            builder.Entity<VacinaUsuarios>()
+                .HasOne(c => c.Usuario).WithMany(c => c.Vacina)
+                .HasForeignKey(c => c.UsuarioId);
         }
-        */
+        
 
         public DbSet<Vacina> Vacina { get; set; }
-        //public DbSet<Responsavel> Responsavel { get; set; }
-        //public DbSet<VacinasUsuarios> VacinasUsuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<VacinaUsuarios> VacinaUsuarios { get; set; }
     }
 }

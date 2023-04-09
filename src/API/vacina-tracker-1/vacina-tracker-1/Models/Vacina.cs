@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace vacina_tracker_1.Models
 {
     [Table("Vacinas")]
-    public class Vacina
+    public class Vacina : LinksHATEOS
     {
 
         [Key]
@@ -22,7 +22,7 @@ namespace vacina_tracker_1.Models
         [Required]
         public DateTime DataProxAplicacao { get; set; }
                 
-        //public ICollection<VacinasUsuarios> Responsavel { get; set; }
+        public ICollection<VacinaUsuarios> Usuario { get; set; }
     }
 
     public enum Dose

@@ -7,11 +7,11 @@ namespace vacina_tracker_1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VacinasController : ControllerBase
+    public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public VacinasController(AppDbContext context)
+        public UsuariosController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,47 +19,56 @@ namespace vacina_tracker_1.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var model = await _context.Vacina.ToListAsync();
+            var model = await _context.Usuario.ToListAsync();
 
             return Ok(model);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Vacina model)
+        public async Task<ActionResult> Create(UsuarioDto model)
         {
-            _context.Vacina.Add(model);
+            Usuario novo = new Usuario()
+            {
+                Nome = model.Nome,
+                Email = model.Email,
+                Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha),
+                PerfilUsuario = model.PerfilUsuario,
+            };
+
+            _context.Usuario.Add(novo);
             await _context.SaveChangesAsync();
 
             //return Ok(model);
 
-            return CreatedAtAction("GetById", new { id = model.Id }, model);
+            return CreatedAtAction("GetById", new { id = novo.Id }, novo);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Vacina
-                //.Include(t => t.Responsavel).ThenInclude(t => t.Responsavel)
-                //.Include(t => t.Usuario)
+            var model = await _context.Usuario
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
-
-            GerarLinks(model);
-
+                       
             return Ok(model);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, Vacina model)
+        public async Task<ActionResult> Update(int id, UsuarioDto model)
         {
             if (id != model.Id) return BadRequest();
-            var modeloDb = await _context.Vacina.AsNoTracking()
+            var modeloDb = await _context.Usuario.AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Vacina.Update(model);
+            modeloDb.Nome = model.Nome;
+            modeloDb.Email = model.Email;
+            modeloDb.Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha);
+            modeloDb.PerfilUsuario = model.PerfilUsuario;
+
+            _context.Usuario.Update(modeloDb);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -68,21 +77,14 @@ namespace vacina_tracker_1.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var model = await _context.Vacina.FindAsync(id);
+            var model = await _context.Usuario.FindAsync(id);
 
             if (model == null) return NotFound();
 
-            _context.Vacina.Remove(model);
+            _context.Usuario.Remove(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
-        }
-
-        private void GerarLinks(Vacina model)
-        {
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "DELETE"));
-        }
+        }        
     }
 }
