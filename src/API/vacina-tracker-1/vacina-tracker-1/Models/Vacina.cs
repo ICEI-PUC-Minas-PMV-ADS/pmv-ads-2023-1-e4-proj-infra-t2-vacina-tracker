@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace vacina_tracker_1.Models
 {
-    [Table("Vacinas Adicionadas")]
+    [Table("Vacinas")]
     public class Vacina
     {
 
@@ -21,7 +21,7 @@ namespace vacina_tracker_1.Models
 
         [Required]
         public DateTime DataProxAplicacao { get; set; }
-
+                
         //public ICollection<VacinasUsuarios> Responsavel { get; set; }
     }
 
