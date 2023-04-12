@@ -39,8 +39,8 @@ namespace vacina_tracker_1.Controllers
         public async Task<ActionResult> GetById(int id)
         {
             var model = await _context.Vacina
-                //.Include(t => t.Responsavel).ThenInclude(t => t.Responsavel)
-                //.Include(t => t.Usuario)
+                .Include(t => t.Usuario).ThenInclude(t => t.Usuario)
+                .Include(t => t.Usuario)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -83,6 +83,31 @@ namespace vacina_tracker_1.Controllers
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "DELETE"));
+        }
+
+        [HttpPost("{id}/usuarios")]
+        public async Task<ActionResult> AddUsuario(int id, VacinaUsuarios model)
+        {
+            if (id != model.VacinaId) return BadRequest();
+            _context.VacinaUsuarios.Add(model);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetById", new { id = model.VacinaId }, model);
+        }
+
+        [HttpDelete("{id}/usuarios/{UsuarioId}")]
+        public async Task<ActionResult> DeleteUsuario(int id, int UsuarioId)
+        {
+            var model = await _context.VacinaUsuarios
+                .Where(c => c.VacinaId == id && c.UsuarioId == UsuarioId)
+                .FirstOrDefaultAsync();
+
+            if (model == null) return NotFound();
+
+            _context.VacinaUsuarios.Remove(model);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

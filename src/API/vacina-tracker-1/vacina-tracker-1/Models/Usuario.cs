@@ -32,9 +32,9 @@ namespace vacina_tracker_1.Models
     {
         [Display(Name = "Administrador")]
         TipoAdministrador,
-        [Display(Name = "Responsável")]
+        [Display(Name = "Usuário Responsável")]
         TipoResponsavel,
-        [Display(Name = "Membro Dependente")]
+        [Display(Name = "Usuário Dependente")]
         TipoDependente
     }
 }
