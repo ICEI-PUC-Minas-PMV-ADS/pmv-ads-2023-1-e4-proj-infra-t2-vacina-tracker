@@ -7,7 +7,7 @@ A arquitetura de solução apresenta como o _software_ é estruturado em termos 
 
 O diagrama de classes ilustra esquematicamente como será a estrutura do _software_ e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Classe UML (2)](https://user-images.githubusercontent.com/90854853/233253143-78832602-e5b2-40b0-a43d-f54e6f8a8261.png)
+![Classe UML (3)](https://user-images.githubusercontent.com/90854853/233253875-1864be22-ceea-4c2f-95ec-19c6ca299faf.png)
 
 
 
