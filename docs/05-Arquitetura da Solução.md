@@ -17,6 +17,8 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 Figura x - Modelo ER
 
+<img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233256369-f47fb393-1259-4249-a30a-6affb81dbe47.png">
+
 
 Fonte: Elaborado pelos autores
 
