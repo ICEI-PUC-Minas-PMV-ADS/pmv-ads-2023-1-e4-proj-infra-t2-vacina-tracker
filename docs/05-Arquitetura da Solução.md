@@ -29,6 +29,8 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura x - Esquema Relacional
 
+![Esquema relacional - Eixo 4](https://user-images.githubusercontent.com/91228798/233257377-6e697e92-7edc-4068-ae4b-bb11d48db0ef.png)
+
 
 Fonte: Elaborado pelos autores
 
