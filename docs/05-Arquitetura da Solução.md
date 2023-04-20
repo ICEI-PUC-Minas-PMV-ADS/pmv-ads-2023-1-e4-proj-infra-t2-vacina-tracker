@@ -7,8 +7,7 @@ A arquitetura de solução apresenta como o _software_ é estruturado em termos 
 
 O diagrama de classes ilustra esquematicamente como será a estrutura do _software_ e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-<img width="530" alt="DIAGRAMA DE CLASSES C" src="https://user-images.githubusercontent.com/90854853/233245512-8ce2e96c-d5da-4f44-8b43-a0621dc6d0c5.PNG">
-
+![Classe UML](https://user-images.githubusercontent.com/90854853/233246388-605dc61f-6d22-4091-996f-ce21c4e43088.png)
 
 
 
