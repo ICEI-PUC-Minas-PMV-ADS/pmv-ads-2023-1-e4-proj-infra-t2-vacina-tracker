@@ -6,7 +6,11 @@ A arquitetura de solução apresenta como o _software_ é estruturado em termos 
 ## 5.1 Diagrama de Classes
 O diagrama de classes ilustra esquematicamente como será a estrutura do _software_ e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagrama de Classes (2)](https://user-images.githubusercontent.com/90854853/233437500-cbbde04a-686e-48c9-b91f-be3533bb6ede.png)
+Figura x - Diagrama de Classes
+
+![Diagrama Classes Vacina Tracker](https://user-images.githubusercontent.com/89549220/233522887-249a4dba-817f-48ce-b905-8cbad78b60cc.png)
+
+Fonte: Elaborado pelos autores
 
 
 ## 5.2 Modelo ER
@@ -16,7 +20,6 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 Figura x - Modelo ER
 
 <img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233256369-f47fb393-1259-4249-a30a-6affb81dbe47.png">
-
 
 Fonte: Elaborado pelos autores
 
