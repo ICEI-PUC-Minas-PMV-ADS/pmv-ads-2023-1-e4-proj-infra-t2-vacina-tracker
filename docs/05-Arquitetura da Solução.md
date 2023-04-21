@@ -6,7 +6,7 @@ A arquitetura de solução apresenta como o _software_ é estruturado em termos 
 ## 5.1 Diagrama de Classes
 O diagrama de classes ilustra esquematicamente como será a estrutura do _software_ e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-Figura x - Diagrama de Classes
+Figura 14 - Diagrama de Classes
 
 ![Diagrama Classes Vacina Tracker](https://user-images.githubusercontent.com/89549220/233687031-2cd7baaf-a852-482f-b822-e030bcb0c4de.png)
 
@@ -17,7 +17,7 @@ Fonte: Elaborado pelos autores
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. Segue abaixo a representação do Modelo ER:
 
-Figura x - Modelo ER
+Figura 15 - Modelo ER
 
 <img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233256369-f47fb393-1259-4249-a30a-6affb81dbe47.png">
 
@@ -28,7 +28,7 @@ Fonte: Elaborado pelos autores
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária. Segue abaixo a representação do Esquema Relacional:
 
-Figura x - Esquema Relacional
+Figura 16 - Esquema Relacional
 
 ![Esquema relacional - Eixo 4](https://user-images.githubusercontent.com/91228798/233257377-6e697e92-7edc-4068-ae4b-bb11d48db0ef.png)
 
@@ -45,7 +45,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
 
-Figura x - Arquitetura da Solução
+Figura 17 - Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/230423142-2b2ca2c9-ba9b-47f6-a8a9-fd15f492e501.png)
 
@@ -53,7 +53,7 @@ Fonte: Elaborado pelos autores
 
 ### 5.5.1 Refatoração
 
-Figura x - Refatoração da Arquitetura da Solução
+Figura 18 - Refatoração da Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/230424313-4e0649e9-51a9-4242-828a-cdae1294dc7a.png)
 
