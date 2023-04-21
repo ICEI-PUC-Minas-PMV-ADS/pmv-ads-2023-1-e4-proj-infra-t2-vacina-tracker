@@ -8,7 +8,7 @@ O diagrama de classes ilustra esquematicamente como será a estrutura do _softwa
 
 Figura x - Diagrama de Classes
 
-![Diagrama Classes Vacina Tracker](https://user-images.githubusercontent.com/89549220/233522887-249a4dba-817f-48ce-b905-8cbad78b60cc.png)
+![Diagrama Classes Vacina Tracker (1)](https://user-images.githubusercontent.com/89549220/233526557-cb3351d5-c68c-4e64-8136-1e3a6133a028.png)
 
 Fonte: Elaborado pelos autores
 
