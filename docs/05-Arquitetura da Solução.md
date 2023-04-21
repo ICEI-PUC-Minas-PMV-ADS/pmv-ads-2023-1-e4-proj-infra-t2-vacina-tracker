@@ -62,9 +62,18 @@ Fonte: Elaborado pelos autores
 
 ## 5.6 Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para implantação da solução, decidimos por utilizar as seguintes tecnologias:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+a) Editor de Código, Linguagens, Frameworks, Bibliotecas, Banco de Dados: Visual Studio, Visual Studio Code, JavaScript, React, React Native, React Native Paper, Bootstrap, C#, ASP NET Core, Insomnia, Swagger. 
+
+b) Ferramentas de Desenho de Tela (_wireframing_): Figma
+
+c) Ferramentas para Criação de Diagramas: Lucidchart e Visio
+
+d) Banco de Dados: SQL Server e MongoDB.
+
+No que tange à ilustração da interação do usuário com o sistema, demonstramos no item 5.5 e subitem 5.5.1, através da arquittura da solução.
+
 
 ## 5.7 Hospedagem
 
