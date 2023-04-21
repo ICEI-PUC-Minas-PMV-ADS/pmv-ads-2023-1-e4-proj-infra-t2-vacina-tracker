@@ -13,7 +13,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 * CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
 * FOOTER (Rodapé): copyright.
 
-Figura 28 - Layout
+Figura 19 - Layout
 
 ![image](https://user-images.githubusercontent.com/89549220/230427756-e7695933-bb35-4692-8907-2fd1c5259fb0.png)
 
@@ -33,7 +33,7 @@ Fonte: Cellbiol (2022)
 
 ### 6.2.1 Cores da Logo
 
-Figura 29 - Cores da Logo
+Figura 20 - Cores da Logo
 
 ![cores da logo](https://user-images.githubusercontent.com/89549220/233232643-e2b16ded-a8e2-411f-b297-ca62852a47f3.png)
 
@@ -42,7 +42,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.2 Cores Principais
 
-Figura 30 - Cores Principais
+Figura 21 - Cores Principais
 
 ![cores principais](https://user-images.githubusercontent.com/89549220/233232676-c09d3b0f-a027-45f5-9ff6-665ef4b8d2d1.png)
 
@@ -51,7 +51,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.3 Cores Secundárias
 
-Figura 31 - Cores Secundárias
+Figura 22 - Cores Secundárias
 
 ![cores secundárias](https://user-images.githubusercontent.com/89549220/233232700-908c2060-96c0-4ab3-bfb4-6b11b63aad2a.png)
 
@@ -60,7 +60,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.4 Cores Neutras
 
-Figura 32 - Cores Neutras
+Figura 23 - Cores Neutras
 
 ![cores neutras](https://user-images.githubusercontent.com/89549220/233232727-fda48a34-ea79-43c3-8935-3c01683c5d87.png)
 
@@ -92,7 +92,7 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 ### 6.4.1 _Font Size_
 
-Figura 33 - _Font Size_
+Figura 24 - _Font Size_
 
 ![font size](https://user-images.githubusercontent.com/89549220/233232750-044b970c-af59-4164-a8ee-a0847ca20602.png)
 
@@ -101,7 +101,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.4.2 _Font Size Responsive_
 
-Figura 34 - _Font Size Responsive_
+Figura 25 - _Font Size Responsive_
 
 ![font size responsive](https://user-images.githubusercontent.com/89549220/233232775-37cfd617-4e3d-45d0-9970-1d040acab3b0.png)
 
@@ -118,7 +118,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.5.1 Iconografia Geral
 
-Figura 35 - Iconografia Geral
+Figura 26 - Iconografia Geral
 
 ![iconografia geral](https://user-images.githubusercontent.com/89549220/233232800-5fc6961d-6e1b-4c7f-ba72-61c8a20393b6.png)
 
