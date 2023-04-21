@@ -55,7 +55,7 @@ Fonte: Elaborado pelos autores
 
 Figura 18 - Refatoração da Arquitetura da Solução
 
-![image](https://user-images.githubusercontent.com/89549220/230424313-4e0649e9-51a9-4242-828a-cdae1294dc7a.png)
+![image](https://user-images.githubusercontent.com/89549220/233716226-af2c216d-3e38-4efd-ab37-c2ac811abc2b.png)
 
 Fonte: Elaborado pelos autores
 
