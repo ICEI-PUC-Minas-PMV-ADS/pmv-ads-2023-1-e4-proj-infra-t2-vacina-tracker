@@ -8,7 +8,7 @@ Dentre os anseios para o desenvolvimento da interface do sistema, definiu-se o f
 
 Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção "_Wireframe_ Estático" encontra-se detalhado as telas desse fluxo. O "_Wireframe_ Interativo" pode ser acessado no ambiente Figma do projeto, conforme _link_ disponibilizado na seção "Relação de Ambientes de Trabalho", Quadro 8.
 
-Figura 12 - Diagrama de Fluxo
+Figura 13 - Diagrama de Fluxo
 
 ![Diagrama de Fluxo - Eixo 4](https://user-images.githubusercontent.com/91228798/233252152-7a7c06b0-53e0-49a9-bc4b-e2a7a661217a.PNG)
 
