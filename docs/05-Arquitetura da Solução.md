@@ -19,7 +19,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 Figura 15 - Modelo ER
 
-<img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233256369-f47fb393-1259-4249-a30a-6affb81dbe47.png">
+<img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233808111-670efa49-3878-4fed-8e57-f1f193d7bc26.png">
 
 Fonte: Elaborado pelos autores
 
@@ -30,8 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura 16 - Esquema Relacional
 
-![Esquema relacional - Eixo 4](https://user-images.githubusercontent.com/91228798/233257377-6e697e92-7edc-4068-ae4b-bb11d48db0ef.png)
-
+![Esquema relacional - Eixo 4](https://user-images.githubusercontent.com/91228798/233808254-80e05b4d-7fa7-4143-b41f-5779b9ec4228.png)
 
 Fonte: Elaborado pelos autores
 
