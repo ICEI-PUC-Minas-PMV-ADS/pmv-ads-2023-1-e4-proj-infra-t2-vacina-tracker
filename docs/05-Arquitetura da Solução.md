@@ -59,7 +59,20 @@ Figura 18 - Refatoração da Arquitetura da Solução
 Fonte: Elaborado pelos autores
 
 
-## 5.6 Tecnologias Utilizadas
+## 5.6 Rotas e Recursos
+
+Figura 19 - Rotas _Swagger_
+
+![Swagger_Rota Usuarios](https://user-images.githubusercontent.com/89549220/233861093-4e7d7936-1959-456f-b987-9954e8569ab6.png)
+
+![Swagger_Rota Vacinas](https://user-images.githubusercontent.com/89549220/233861101-c26dc200-e099-4c5e-be7a-aa02b074d9c3.png)
+
+![Swagger_Schemas](https://user-images.githubusercontent.com/89549220/233861114-911b1e16-81c2-4700-904c-3b492bbfb5eb.png)
+
+Fonte: Elaborado pelos autores
+
+
+## 5.7 Tecnologias Utilizadas
 
 Para implantação da solução, decidimos por utilizar as seguintes tecnologias:
 
@@ -74,7 +87,7 @@ d) Banco de Dados: SQL Server e MongoDB.
 No que tange à ilustração da interação do usuário com o sistema, demonstramos no item 5.5 e subitem 5.5.1, através da arquitetura da solução.
 
 
-## 5.7 Hospedagem
+## 5.8 Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
@@ -85,7 +98,7 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
-## 5.8 Qualidade de Software
+## 5.9 Qualidade de Software
 
 Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
 
