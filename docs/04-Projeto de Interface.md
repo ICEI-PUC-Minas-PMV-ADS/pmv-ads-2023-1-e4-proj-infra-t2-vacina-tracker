@@ -33,9 +33,9 @@ Com o objetivo de apresentar de forma estática as telas da aplicação criada p
 #### 4.2.2.1 Aplicação _Web_
 
 Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0
-(em desenvolvimento)
+<br> (em desenvolvimento)
 
 #### 4.2.2.2 Aplicação _Mobile_
 
 Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0
-(em desenvolvimento)
+<br> (em desenvolvimento)
