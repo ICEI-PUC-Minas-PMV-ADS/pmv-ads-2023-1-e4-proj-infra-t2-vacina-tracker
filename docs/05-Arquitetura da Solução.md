@@ -71,7 +71,7 @@ c) Ferramentas para Criação de Diagramas: Lucidchart e Visio
 
 d) Banco de Dados: SQL Server e MongoDB.
 
-No que tange à ilustração da interação do usuário com o sistema, demonstramos no item 5.5 e subitem 5.5.1, através da arquittura da solução.
+No que tange à ilustração da interação do usuário com o sistema, demonstramos no item 5.5 e subitem 5.5.1, através da arquitetura da solução.
 
 
 ## 5.7 Hospedagem
