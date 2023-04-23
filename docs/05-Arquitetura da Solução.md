@@ -100,9 +100,8 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## 5.9 Qualidade de Software
 
-Entendendo as características e subcaracterísticas que definem a qualidade de um produto de software
-A qualidade de software é um conceito fundamental para garantir que um produto final atenda às expectativas dos usuários e demais stakeholders envolvidos. No entanto, essa definição não é simples e envolve uma série de características e subcaracterísticas que devem ser levadas em conta durante o desenvolvimento do software. Neste contexto, a norma ISO/IEC 25010 apresenta oito características e 30 subcaracterísticas de qualidade que devem ser consideradas.
-No desenvolvimento de um projeto de software, é importante entender como as características e subcaracterísticas de qualidade se aplicam. Por exemplo, no desenvolvimento do nosso aplicativo "Vacina Tracker", a equipe utilizará as seguintes características e subcaracterísticas como guias:
+Entendendo as características e subcaracterísticas que definem a qualidade de um produto de software, a qualidade de _software_ é um conceito fundamental para garantir que um produto final atenda às expectativas dos usuários e demais _stakeholders_ envolvidos. No entanto, essa definição não é simples e envolve uma série de características e subcaracterísticas que devem ser levadas em conta durante o desenvolvimento do _software_. Neste contexto, a norma ISO/IEC 25010 apresenta oito características e 30 subcaracterísticas de qualidade que devem ser consideradas.
+No desenvolvimento de um projeto de _software_, é importante entender como as características e subcaracterísticas de qualidade se aplicam. Por exemplo, no desenvolvimento do nosso aplicativo "Vacina Tracker", a equipe utilizará as seguintes características e subcaracterísticas como guias:
 
 1.	Segurança: essa característica envolve a confidencialidade e integridade dos dados. Para avaliar a segurança do, a equipe pode verificar se a aplicação garante a confidencialidade e integridade dos dados dos usuários.
 2.	Usabilidade: essa característica envolve a facilidade de aprendizado, operação e estética da interface do software. Para avaliar a usabilidade do sistema, a equipe pode verificar se a aplicação é fácil de usar, se possui uma interface atual e se é de fácil entendimento.
