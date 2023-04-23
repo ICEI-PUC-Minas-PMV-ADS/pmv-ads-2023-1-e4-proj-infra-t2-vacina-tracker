@@ -76,13 +76,13 @@ Fonte: Elaborado pelos autores
 
 Para implantação da solução, decidimos por utilizar as seguintes tecnologias:
 
-a) Editor de Código, Linguagens, Frameworks, Bibliotecas, Banco de Dados: Visual Studio, Visual Studio Code, JavaScript, React, React Native, React Native Paper, Bootstrap, C#, ASP NET Core, Insomnia, Swagger. 
+a) Editor de Código, Linguagens, Frameworks, Bibliotecas, Banco de Dados: Visual Studio, Visual Studio Code, JavaScript, React, React Native, React Native Paper, Bootstrap, C#, ASP NET Core, Insomnia, Postman, Swagger. 
 
 b) Ferramentas de Desenho de Tela (_wireframing_): Figma
 
-c) Ferramentas para Criação de Diagramas: Lucidchart e Visio
+c) Ferramentas para Criação de Diagramas: Lucidchart, Visio, Gitmind.
 
-d) Banco de Dados: SQL Server e MongoDB.
+d) Banco de Dados: SQL Server e MongoDB Atlas.
 
 No que tange à ilustração da interação do usuário com o sistema, demonstramos no item 5.5 e subitem 5.5.1, através da arquitetura da solução.
 
