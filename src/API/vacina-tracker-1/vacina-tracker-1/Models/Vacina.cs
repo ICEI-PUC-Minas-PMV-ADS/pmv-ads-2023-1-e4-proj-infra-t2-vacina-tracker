@@ -11,7 +11,7 @@ namespace vacina_tracker_1.Models
         public int Id { get; set; }
 
         [Required]
-        public string NomeVacina { get; set; }
+        public NomeVacina NomeVacina { get; set; }
 
         [Required]
         public DateTime DataAplicacao { get; set; }
@@ -37,5 +37,47 @@ namespace vacina_tracker_1.Models
         TerceiraDose,
         [Display(Name = "Quarta Dose")]
         QuartaDose
+    }
+    
+    public enum NomeVacina
+    {
+        [Display(Name = "BCG")]
+        Bcg,
+        [Display(Name = "Hepatite A")]
+        HepatiteA,
+        [Display(Name = "Hepatite B")]
+        HepatiteB,
+        [Display(Name = "Penta (DTP / Hib / Hep. B)")]
+        Penta,
+        [Display(Name = "Pneumocócica 10 valente")]
+        Pneumocócica,
+        [Display(Name = "Vacina Inativada Poliomielite (VIP)")]
+        Vip,
+        [Display(Name = "Vacina Oral Poliomielite (VOP)")]
+        Vop,
+        [Display(Name = "Vacina Rotavírus Humano (VRH)")]
+        Vrh,
+        [Display(Name = "Meningocócica C (conjugada)")]
+        MeningC,
+        [Display(Name = "Febre Amarela")]
+        FebreAmarela,
+        [Display(Name = "Tríplice Viral")]
+        TripliceViral,
+        [Display(Name = "Tetra Viral")]
+        TetraViral,
+        [Display(Name = "DTP (Tríplice Bacteriana)")]
+        Dtp,
+        [Display(Name = "Varicela")]
+        Varicela,
+        [Display(Name = "HPV quadrivalente")]
+        Hpv,
+        [Display(Name = "dT (Dupla Adulto)")]
+        Dt,
+        [Display(Name = "dTpa (DTP Adulto)")]
+        Dtpa,
+        [Display(Name = "Menigocócica ACWY")]
+        Acwy,
+        [Display(Name = "Covid-19")]
+        Covid
     }
 }

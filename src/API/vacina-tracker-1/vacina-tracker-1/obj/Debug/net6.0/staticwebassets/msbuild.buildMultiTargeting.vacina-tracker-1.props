@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\vacina-tracker-1.props" />
+</Project>

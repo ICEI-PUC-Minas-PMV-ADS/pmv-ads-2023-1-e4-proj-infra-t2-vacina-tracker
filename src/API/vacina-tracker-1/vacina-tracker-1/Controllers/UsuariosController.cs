@@ -29,10 +29,9 @@ namespace vacina_tracker_1.Controllers
         {
             Usuario novo = new Usuario()
             {
-                Nome = model.Nome,
                 Email = model.Email,
                 Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha),
-                PerfilUsuario = model.PerfilUsuario,
+        
             };
 
             _context.Usuario.Add(novo);
@@ -63,10 +62,8 @@ namespace vacina_tracker_1.Controllers
 
             if (modeloDb == null) return NotFound();
 
-            modeloDb.Nome = model.Nome;
             modeloDb.Email = model.Email;
             modeloDb.Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha);
-            modeloDb.PerfilUsuario = model.PerfilUsuario;
 
             _context.Usuario.Update(modeloDb);
             await _context.SaveChangesAsync();
