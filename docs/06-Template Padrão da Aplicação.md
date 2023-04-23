@@ -20,15 +20,6 @@ Figura 19 - Layout
 Fonte: Cellbiol (2022)
 
 
-### 6.1.1 _Template Web_
-
-(inserir)
-
-### 6.1.2 _Template Mobile_
-
-(inserir)
-
-
 ## 6.2 Cores da Aplicação
 
 ### 6.2.1 Cores da Logo
@@ -127,8 +118,8 @@ Fonte: Elaborado pelos autores
 
 ## 6.6 Template da Aplicação _Web_
 
-### 6.6.1 (inserir telas)
+### 6.6.1 (em desenvolvimento)
 
 ## 6.7 _Template_ da Aplicação _Mobile_
 
-### 6.7.1 (inserir telas)
+### 6.7.1 (em desenvolvimento)
