@@ -23,7 +23,7 @@ Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do pro
 
 Congênere link abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
-(inserir link)
+(em desenvolvimento)
 
 
 ### 4.2.2 _Wireframe_ Estático
@@ -32,5 +32,10 @@ Com o objetivo de apresentar de forma estática as telas da aplicação criada p
 
 #### 4.2.2.1 Aplicação _Web_
 
+Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0
+(em desenvolvimento)
+
 #### 4.2.2.2 Aplicação _Mobile_
 
+Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0
+(em desenvolvimento)
