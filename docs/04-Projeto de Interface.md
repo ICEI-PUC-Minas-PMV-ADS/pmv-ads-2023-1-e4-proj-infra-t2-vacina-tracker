@@ -8,9 +8,9 @@ Dentre os anseios para o desenvolvimento da interface do sistema, definiu-se o f
 
 Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção "_Wireframe_ Estático" encontra-se detalhado as telas desse fluxo. O "_Wireframe_ Interativo" pode ser acessado no ambiente Figma do projeto, conforme _link_ disponibilizado na seção "Relação de Ambientes de Trabalho", Quadro 8.
 
-Figura 12 - Diagrama de Fluxo
+Figura 13 - Diagrama de Fluxo
 
-<img width="1606" alt="DIAGRAMA DE FLUXO - EIXO 4 " src="https://user-images.githubusercontent.com/91228798/229384165-743c21dd-38a9-4883-8ab0-d553ffbcb5b0.png">
+![Diagrama de Fluxo - Eixo 4](https://user-images.githubusercontent.com/91228798/233252152-7a7c06b0-53e0-49a9-bc4b-e2a7a661217a.PNG)
 
 Fonte: Elaborado pelos autores
 
@@ -23,7 +23,7 @@ Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do pro
 
 Congênere link abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
-(inserir link)
+(em desenvolvimento)
 
 
 ### 4.2.2 _Wireframe_ Estático
@@ -32,5 +32,10 @@ Com o objetivo de apresentar de forma estática as telas da aplicação criada p
 
 #### 4.2.2.1 Aplicação _Web_
 
+Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0
+<br> (em desenvolvimento)
+
 #### 4.2.2.2 Aplicação _Mobile_
 
+Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0
+<br> (em desenvolvimento)
