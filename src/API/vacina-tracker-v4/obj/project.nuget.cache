@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmTCdXz76DLkbsXMfiQyqSXDGbxNY3k3gRRbjNPPKsTMWlUqZxway06OoJKVAh/FJeIEU83cow2pnbOCFYiitw==",
+  "dgSpecHash": "r7u6F+1XOhbv7Nm+tGU8SuWechBWzn8YW4jLAX43uIsoImDG0u0i0sCvu2G5WZ2EoZ14fgfxi0fQuFTz+5e9Ow==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+  "projectFilePath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4a.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabiana\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Fabiana\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

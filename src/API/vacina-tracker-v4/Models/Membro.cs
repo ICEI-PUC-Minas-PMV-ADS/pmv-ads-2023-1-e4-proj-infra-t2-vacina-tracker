@@ -19,9 +19,7 @@ namespace vacina_tracker_v4.Models
         [Required]
         public int VacinaId { get; set; } 
 
-        public Vacina Vacinas { get; set; } //navegação virtual
-
-        //public ICollection<Vacina> Vacinas { get; set; } //1 membro está associado a várias vacinas
+        public Vacina Vacinas { get; set; } //navegação virtual        
 
         public ICollection<UsuarioMembros> Usuarios { get; set; } //membro pode estar associado a vários usuários
     }

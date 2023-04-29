@@ -40,8 +40,7 @@ namespace vacina_tracker_v4.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Vacinas
-                //.Include(t => t.Membros).ThenInclude(t => t.Membro)
+            var model = await _context.Vacinas                
                 .Include(t => t.Membros)
                 .FirstOrDefaultAsync(c => c.Id == id);
 

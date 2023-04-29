@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>vacina_tracker_v4</RootNamespace>
+    <RootNamespace>vacina_tracker_v4a</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
