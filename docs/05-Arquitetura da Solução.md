@@ -63,11 +63,13 @@ Fonte: Elaborado pelos autores
 
 Figura 19 - Rotas _Swagger_
 
-![Swagger_Rota Usuarios](https://user-images.githubusercontent.com/89549220/233861093-4e7d7936-1959-456f-b987-9954e8569ab6.png)
+![Swagger_Rota Membros2](https://user-images.githubusercontent.com/89549220/235312822-4ee2f21b-52d3-4c84-af27-a910c3df4a62.png)
 
-![Swagger_Rota Vacinas](https://user-images.githubusercontent.com/89549220/233861101-c26dc200-e099-4c5e-be7a-aa02b074d9c3.png)
+![Swagger_Rota Usuarios2](https://user-images.githubusercontent.com/89549220/235312829-e34577fc-5377-43f1-a65f-0fb3adf06d53.png)
 
-![Swagger_Schemas](https://user-images.githubusercontent.com/89549220/233861114-911b1e16-81c2-4700-904c-3b492bbfb5eb.png)
+![Swagger_Rota Vacinas2](https://user-images.githubusercontent.com/89549220/235312844-74812547-ebc8-4f8f-be09-a1e81ecbaa83.png)
+
+![Swagger_Schemas2](https://user-images.githubusercontent.com/89549220/235312856-3eb73f21-9661-408b-a8b8-b2e76286a5e0.png)
 
 Fonte: Elaborado pelos autores
 
