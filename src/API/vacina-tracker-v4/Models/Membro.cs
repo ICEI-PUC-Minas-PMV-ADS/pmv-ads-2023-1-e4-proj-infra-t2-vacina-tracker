@@ -15,12 +15,12 @@ namespace vacina_tracker_v4.Models
         [Required(ErrorMessage = ("Obrigatório informar a idade"))]
         public int Idade { get; set; }
 
-
+        
         [Required]
         public int VacinaId { get; set; } 
 
         public Vacina Vacinas { get; set; } //navegação virtual        
-
+        
         public ICollection<UsuarioMembros> Usuarios { get; set; } //membro pode estar associado a vários usuários
     }
 }

@@ -20,12 +20,9 @@ namespace vacina_tracker_v4.Models
 
         [Required(ErrorMessage = ("Obrigatório informar a Data da Próxima Aplicação da Vacina"))]
         public DateTime DataProxAplicacao { get; set; }
-               
+        
 
-        public ICollection<Membro> Membros { get; set; } //1 membro está associado a várias vacinas
-
-
-        //public ICollection<VacinaMembro> Membros { get; set; }
+        public ICollection<Membro> Membros { get; set; } //1 membro está associado a várias vacinas        
     }
 
     public enum Dose
