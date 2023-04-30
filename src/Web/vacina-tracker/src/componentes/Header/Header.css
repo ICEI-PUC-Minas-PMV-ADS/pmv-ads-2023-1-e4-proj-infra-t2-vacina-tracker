@@ -1,0 +1,19 @@
+.header {
+    background-color: #0A0362;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 20%;    
+    padding: 8px;
+}
+
+.navbar {
+    background-color: #0A0362;
+    color: #F5F5F5;
+    text-align: end;
+    padding: 16px;  
+    flex-direction: row;  
+    margin-left: auto;    
+}
