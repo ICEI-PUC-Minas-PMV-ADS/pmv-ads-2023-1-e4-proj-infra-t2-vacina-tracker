@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vacina-tracker-v4", "vacina-tracker-v4\vacina-tracker-v4.csproj", "{650E21D4-F073-4233-85B5-76BF5CD28B16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-mongo-vt", "api-mongo-vt\api-mongo-vt.csproj", "{3F96657B-B5F7-4EAC-B1E7-9258D4489A9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{650E21D4-F073-4233-85B5-76BF5CD28B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650E21D4-F073-4233-85B5-76BF5CD28B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650E21D4-F073-4233-85B5-76BF5CD28B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F96657B-B5F7-4EAC-B1E7-9258D4489A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F96657B-B5F7-4EAC-B1E7-9258D4489A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F96657B-B5F7-4EAC-B1E7-9258D4489A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F96657B-B5F7-4EAC-B1E7-9258D4489A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
