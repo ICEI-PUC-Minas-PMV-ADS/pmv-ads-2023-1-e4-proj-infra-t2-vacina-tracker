@@ -37,14 +37,24 @@ Fonte: Elaborado pelos autores
 
 ## 5.4 Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+Nossa aplicação utiliza o ASP .Net com o padrão MVC.
+Na arquitetura MVC o modelo representa os dados da aplicação e as regras do negócio que governam o acesso e a modificação dos dados. O modelo mantém o estado persistente do negócio e fornece ao controlador a capacidade de acessar as funcionalidades da aplicação encapsuladas pelo próprio modelo.
+Após criar os controladores e os modelos é executado os comandos add-migration e update-database. Esses comandos são responsáveis por criar o banco de dados a partir dos modelos. Segue abaixo a representação do banco de dados criado:
+
+Figura 17 - Tabelas do Banco de dados
+
+![Tabelas Geradas](https://user-images.githubusercontent.com/91228798/235325915-2a83ccc2-0bf4-441c-9220-1a1eb8b8148f.png)
+
+Fonte: Elaborado pelos autores
+
+Além disso, na pasta src/bd colocamos as migrations geradas.
 
 
 ## 5.5 Diagrama de Componentes
 
 Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
 
-Figura 17 - Arquitetura da Solução
+Figura 18 - Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/230423142-2b2ca2c9-ba9b-47f6-a8a9-fd15f492e501.png)
 
@@ -52,7 +62,7 @@ Fonte: Elaborado pelos autores
 
 ### 5.5.1 Refatoração
 
-Figura 18 - Refatoração da Arquitetura da Solução
+Figura 19 - Refatoração da Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/233716226-af2c216d-3e38-4efd-ab37-c2ac811abc2b.png)
 
@@ -61,7 +71,7 @@ Fonte: Elaborado pelos autores
 
 ## 5.6 Rotas e Recursos
 
-Figura 19 - Rotas _Swagger_
+Figura 20 - Rotas _Swagger_
 
 ![Swagger_Rota Membros2](https://user-images.githubusercontent.com/89549220/235312822-4ee2f21b-52d3-4c84-af27-a910c3df4a62.png)
 
