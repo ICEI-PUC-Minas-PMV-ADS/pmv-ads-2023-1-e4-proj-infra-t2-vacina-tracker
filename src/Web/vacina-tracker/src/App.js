@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './componentes/Header/Header'
 import Home from './componentes/Home/Home'
 import Login from './componentes/Login/Login'
@@ -13,23 +13,17 @@ function App() {
     <Router>
       <Header/>
 
-      <Switch>
-        <Route exact path='/'>
-          <Home/>
-        </Route>
-        <Route path='/login'>
-          <Login/>
-        </Route>
-        <Route path='/cadastro'>
-          <Cadastro/>
-        </Route>
-        <Route path='/perfil'>
-          <Perfil/>
-        </Route>
-        <Route path='/sair'>
-          <Sair/>
-        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+                  
+        <Route path='/login' element={<Login/>}/>
+                  
+        <Route path='/cadastro' element={<Cadastro/>}/>          
+        
+        <Route path='/perfil' element={<Perfil/>}/>          
+        
+        <Route path='/sair' element={<Sair/>}/>                  
+      </Routes>
 
       <Footer/>
     </Router>    

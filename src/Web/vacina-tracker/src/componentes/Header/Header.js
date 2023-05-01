@@ -14,7 +14,7 @@ function Header() {
                     <Link to="/login">Acessar</Link>
                 </li>
                 <li className="item">
-                    <Link to="/cadastro">Cadastre-se</Link>
+                    <Link to="/cadastro">Cadastrar</Link>
                 </li>
                 <li className="item">
                     <Link to="/perfil">Usuário</Link>
@@ -23,18 +23,6 @@ function Header() {
                     <Link to="/home">Sair</Link>
                 </li>
             </ul>
-{/* 
-            <div>
-                <Nav className="navbar" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Usuário</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/home">Sair</Nav.Link>
-                    </Nav.Item>
-                </Nav>
-            </div>
-*/}
         </section>
     );
 }
