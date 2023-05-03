@@ -1,7 +1,7 @@
-.header {
-    background-color: #0A0362;
+.header {    
     display: flex;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo img {
@@ -9,8 +9,7 @@
     padding: 8px;
 }
 
-.navbar {
-    background-color: #0A0362;
+.navbar {    
     color: #F5F5F5;
     text-align: end;
     padding: 8px;  
