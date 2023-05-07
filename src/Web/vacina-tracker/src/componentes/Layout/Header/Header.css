@@ -14,9 +14,11 @@
     text-align: end;
     padding: 8px;  
     display: flex;
-    list-style: none;    
+    list-style: none;      
 }
 
 .item {
     margin-right: 1em;
+    text-decoration: none;
+    color: #F5F5F5;
 }

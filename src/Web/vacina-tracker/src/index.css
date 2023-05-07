@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;;
 }
 
 html, body, #root {
@@ -11,5 +12,5 @@ html, body, #root {
 }
 
 
-.font-family-1 { font-family: 'Open Sans', sans-serif;  }
-.font-family-2 { font-family: 'Montserrat', sans-serif; }
+.font-family-textos { font-family: 'Open Sans', sans-serif;  }
+.font-family-titulos { font-family: 'Montserrat', sans-serif; }
