@@ -3,7 +3,7 @@ import './Cadastro.css'
 function Cadastro() {
     return (
         <div>
-            <p>Teste para as rotas</p>
+            <p>Teste para as rotas - Cadastro</p>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import './PoliticaTermos.css'
 function PoliticaTermos() {
     return (
         <div>
-            <p>Teste para as rotas</p>
+            <p>Teste para as rotas - Política e Termos</p>
         </div>
     )
 }

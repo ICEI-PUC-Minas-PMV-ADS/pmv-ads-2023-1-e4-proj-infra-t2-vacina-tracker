@@ -1,0 +1,13 @@
+.btn-texto {
+    color: #F5F5F5;
+    padding-inline-start: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-texto:hover {
+    color: #9113C2;
+}

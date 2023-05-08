@@ -1,0 +1,25 @@
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px;
+}
+
+.perfil h1 {
+    padding-inline-start: 40px;
+    font-size: 36px;
+}
+
+.caixa-texto {
+    background-color: #9113C2;
+    width: 40%;
+    margin-bottom: 56px;
+    color: #9113C2;
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 8px;    
+    display: flex;
+    border: none;
+}

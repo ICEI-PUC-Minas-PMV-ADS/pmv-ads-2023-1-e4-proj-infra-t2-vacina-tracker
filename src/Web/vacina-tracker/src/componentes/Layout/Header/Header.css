@@ -1,24 +1,31 @@
-.header {    
-    display: flex;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .logo img {
     max-width: 20%;    
     padding: 8px;
+    display: flex;
 }
 
 .navbar {    
-    color: #F5F5F5;
-    text-align: end;
+    color: #F5F5F5;    
     padding: 8px;  
     display: flex;
-    list-style: none;      
+    justify-content: space-between;     
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
 .item {
-    margin-right: 1em;
+    margin-right: 1em;    
+}
+
+.item a {
     text-decoration: none;
     color: #F5F5F5;
+}
+
+.item a:hover {
+    color: #9113C2;
 }
