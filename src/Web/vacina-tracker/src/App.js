@@ -5,7 +5,6 @@ import Login from './componentes/Pages/Login/Login'
 import Cadastro from './componentes/Pages/Cadastro/Cadastro'
 import Perfil from './componentes/Pages/Perfil/Perfil'
 import Sair from './componentes/Pages/Home/Home'
-import Footer from './componentes/Layout/Container/Footer/Footer'
 
 
 function App() {
