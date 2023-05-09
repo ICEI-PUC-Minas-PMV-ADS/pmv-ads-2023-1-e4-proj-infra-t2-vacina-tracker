@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\proj-eixo4\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {}
+    "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {}
   },
   "projects": {
-    "E:\\proj-eixo4\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {
+    "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\proj-eixo4\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+        "projectUniqueName": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
         "projectName": "vacina-tracker-v4",
-        "projectPath": "E:\\proj-eixo4\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
-        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "E:\\proj-eixo4\\src\\API\\vacina-tracker-v4\\obj\\",
+        "projectPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+        "packagesPath": "C:\\Users\\Fabiana\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

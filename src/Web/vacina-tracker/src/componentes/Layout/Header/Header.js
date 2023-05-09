@@ -7,7 +7,7 @@ import logo from '../../../img/Logo3 dark2.png'
 function Header() {
     return (
         <nav className="navbar">
-            <Container>
+            <section className='grid'>
                 <div className="logo">
                     <Link to="/"><img src={logo} alt='Logo Vacina Tracker' /></Link>
                 </div>
@@ -26,7 +26,7 @@ function Header() {
                         <Link to="/home">Sair</Link>
                     </li>
                 </ul>
-            </Container>
+            </section>
         </nav>
         /*
                 <section className='header'>

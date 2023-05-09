@@ -133,7 +133,7 @@ namespace vacina_tracker_v4.Controllers
         private string GenerateJwtToken(Usuario model)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("13f62d8b4119e0f12d719aeb77428e202a1730de");
+            var key = Encoding.ASCII.GetBytes("d4505d03454c4be749c87458a2a3846d0287bce5");
             var claims = new ClaimsIdentity(new Claim[]
             {
                 new Claim(ClaimTypes.NameIdentifier, model.Id.ToString())                
@@ -142,7 +142,7 @@ namespace vacina_tracker_v4.Controllers
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = claims,
-                Expires = DateTime.UtcNow.AddHours(8),
+                //Expires = DateTime.UtcNow.AddHours(8),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 

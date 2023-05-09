@@ -19,6 +19,7 @@
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 48px;    
+    width: 100%;
 }
 
 .form-control input::placeholder {
