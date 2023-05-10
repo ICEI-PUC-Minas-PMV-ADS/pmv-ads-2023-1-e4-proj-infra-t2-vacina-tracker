@@ -4,6 +4,8 @@
     margin-bottom: 8px;
     padding-inline-start: 40px;
     font-size: 24px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .form-control label {
@@ -19,7 +21,8 @@
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 48px;    
-    width: 100%;
+    width: auto;
+    outline: none;
 }
 
 .form-control input::placeholder {

@@ -1,0 +1,41 @@
+.cadastro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.cadastro h1 {
+    padding-inline-start: 40px;
+    font-size: 36px;
+}
+
+.altura {
+    margin-top: 40px;
+}
+
+.icone {
+    color: #13adc2;
+    width: 48px;
+    height: 48px;
+}
+
+.icone-user {
+    color: #13adc2;
+    width: 160px;
+    height: 160px;
+}
+
+.lista-icones {
+    display: flex;
+    padding-bottom: 24px;
+    justify-content: space-evenly;   
+    gap: 160px; 
+    margin-top: 32px;   
+}
+
+.lista-icones svg{
+    cursor: pointer;
+}

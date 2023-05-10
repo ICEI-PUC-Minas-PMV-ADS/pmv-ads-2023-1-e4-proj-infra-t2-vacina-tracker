@@ -9,6 +9,8 @@ import Sair from './componentes/Pages/Home/Home'
 import Header from './componentes/Layout/Header/Header'
 import Footer from './componentes/Layout/Footer/Footer'
 
+import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
+
 function App() {
   return (
     <Router>
@@ -23,8 +25,11 @@ function App() {
 
           <Route path='/perfil' element={<Perfil />} />
 
-          <Route path='/sair' element={<Sair />} />        
-      </Routes>      
+          <Route path='/sair' element={<Sair />} />   
+               
+      </Routes>  
+
+      <MCadastroVacina/>   
 
       <Footer />
     </Router>
