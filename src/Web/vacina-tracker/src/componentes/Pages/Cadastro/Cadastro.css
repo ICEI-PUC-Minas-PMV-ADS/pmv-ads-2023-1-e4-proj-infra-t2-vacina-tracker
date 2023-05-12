@@ -1,0 +1,23 @@
+.CadastroUsuario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.CadastroUsuario h1 {
+    padding-inline-start: 40px;
+    font-size: 36px;
+}
+
+.CadastroUsuario-input {
+    margin-top: 40px;
+}
+
+.checkbox-termos {
+    display: flex;
+    gap: 8px;    
+    justify-content: center;
+}
