@@ -2,14 +2,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 8px;
+    padding: 0 32px;    
 }
 
-.cadastro h1 {
-    padding-inline-start: 40px;
-    font-size: 36px;
+.cadastro h1 {    
+    font-size: 36px;    
 }
 
 .altura {
@@ -22,18 +21,6 @@
     justify-content: center;
 }
 
-.icone {
-    color: #13adc2;
-    width: 48px;
-    height: 48px;
-}
-
-.icone-user {
-    color: #13adc2;
-    width: 160px;
-    height: 160px;
-}
-
 .lista-icones {
     display: flex;
     padding-bottom: 24px;
@@ -44,4 +31,16 @@
 
 .lista-icones svg{
     cursor: pointer;
+}
+
+.icone {
+    color: #13adc2;
+    width: 48px;
+    height: 48px;
+}
+
+.icone-user {
+    color: #13adc2;
+    width: 160px;
+    height: 160px;
 }

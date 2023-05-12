@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
+import Header from './componentes/Layout/Header/Header'
+import Footer from './componentes/Layout/Footer/Footer'
+
 import Home from './componentes/Pages/Home/Home'
 import Login from './componentes/Pages/Login/Login'
 import Cadastro from './componentes/Pages/Cadastro/Cadastro'
 import Perfil from './componentes/Pages/Perfil/Perfil'
 import Sair from './componentes/Pages/Home/Home'
-
-import Header from './componentes/Layout/Header/Header'
-import Footer from './componentes/Layout/Footer/Footer'
 
 import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
 
