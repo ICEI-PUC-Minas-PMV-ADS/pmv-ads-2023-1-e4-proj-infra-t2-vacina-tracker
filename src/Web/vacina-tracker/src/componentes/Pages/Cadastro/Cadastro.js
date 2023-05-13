@@ -1,11 +1,35 @@
+import Input from '../../Layout/Input/Input'
+import Botao from '../../Layout/Botao/Botao'
+import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
+
 import './Cadastro.css'
 
-function Cadastro() {
+function CadastroUsuario() {
     return (
-        <div>
-            <p>Teste para as rotas - Cadastro</p>
-        </div>
+        <section className='CadastroUsuario'>
+
+            <h1>Cadastrar</h1>
+
+            <div className='CadastroUsuario-input'>
+               <Input type="text" text="E-mail" name="E-mail" placeholder="Cadastre um E-mail" />
+               <Input type="password" text="Senha" name="Senha" placeholder="Cadastre uma Senha" />
+            </div>
+             
+            <div className='checkbox-termos'>
+                <Input type="checkbox" name="termos"/> Li e Aceito os Termos e Condições de Uso 
+            </div>
+
+            <div className='Submit-cadastrar'>
+               <Botao Type="Submit" text="Cadastre-se" name="Cadastrar" />
+            </div>
+
+            <div>
+               <LinkTexto to="#" text="Já possui cadastro? Faça Login"/> 
+            </div>
+
+
+        </section>      
     )
 }
 
-export default Cadastro
+export default CadastroUsuario

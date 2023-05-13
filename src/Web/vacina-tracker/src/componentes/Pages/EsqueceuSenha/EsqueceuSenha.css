@@ -1,0 +1,17 @@
+.EsqueceuSenha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.EsqueceuSenha h1 {
+    padding-inline-start: 40px;
+    font-size: 36px;
+}
+
+.EsqueceuSenha-input {
+    margin-top: 40px;
+}
