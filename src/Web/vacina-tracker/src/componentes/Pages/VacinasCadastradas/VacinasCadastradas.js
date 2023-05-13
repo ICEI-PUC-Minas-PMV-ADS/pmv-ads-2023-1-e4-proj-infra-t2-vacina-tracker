@@ -1,9 +1,16 @@
 import './VacinasCadastradas.css'
+import React from 'react';
+import TabelaDadosVacinas from './TabelaVacinas';
 
 function VacinasCadastradas() {
     return (
-        <div>
-            <p>Teste para as rotas - Vacinas Cadastradas</p>
+       
+        <div className='Container'>
+
+            <h1 className='texto'>Vacinas Cadastradas</h1>
+
+            <TabelaDadosVacinas />
+
         </div>
     )
 }

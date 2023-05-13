@@ -1,14 +1,17 @@
-.grid1 {
-	display: grid;
+.Container {
+	display: block;
+    padding: 100px;
+
 }
 
-.grid-template-columns-3 {
-	grid-template-columns: 1fr 2fr 1fr;
+.texto {
+    padding: 1%;
+
 }
 
-.item1 {
-	margin: 5px;
+.tab {
 	background: #540075;
-	text-align: left;
-	font-size: 1.5em;
+	border-radius: 1%;
+	width: 100%;
+	
 }

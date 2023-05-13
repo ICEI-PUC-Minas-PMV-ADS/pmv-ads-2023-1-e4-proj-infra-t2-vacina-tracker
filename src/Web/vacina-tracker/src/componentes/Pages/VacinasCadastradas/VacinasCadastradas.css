@@ -1,0 +1,17 @@
+.Container {
+	display: block;
+    padding: 100px;
+
+}
+
+.texto {
+    padding: 1%;
+
+}
+
+.tab {
+	background: #540075;
+	border-radius: 1%;
+	width: 100%;
+	
+}
