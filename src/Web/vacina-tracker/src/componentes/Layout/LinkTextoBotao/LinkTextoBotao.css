@@ -1,0 +1,12 @@
+.btn-texto-botao {
+    color: #F5F5F5;
+    padding-inline-start: 40px;
+    font-size: 16px;    
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-texto-botao:hover {
+    color: #9113C2;
+}

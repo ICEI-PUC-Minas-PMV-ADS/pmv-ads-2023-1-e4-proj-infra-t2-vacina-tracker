@@ -10,9 +10,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-function MCadastroVacina() {   
-    
-    
+function MCadastroVacina() {  
     return (
         <section className='cadastro'>
 
@@ -39,7 +37,7 @@ function MCadastroVacina() {
                     </Col>
 
                     <Col md={{ span: 4, offset: 4 }}>
-                        <img src={imagem} alt='Logo Vacina Tracker' />
+                        <img src={imagem} alt='Cadastro Vacina' />
                     </Col>
                 </Row>
             </Container>
