@@ -1,6 +1,5 @@
 import Input from '../../Layout/Input/Input'
 import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
-import Botao from '../../Layout/Botao/Botao'
 
 import './EsqueceuSenha.css'
 
@@ -15,7 +14,7 @@ function EsqueceuSenha() {
             </div>
 
             <div className='Submit-cadastrar'>
-               <Botao Type="Submit" text="Recuperar Senha" name="Recuperar Senha" />
+               <button Type="Submit" text="Recuperar Senha" name="Recuperar Senha" />
             </div>
 
             <div>

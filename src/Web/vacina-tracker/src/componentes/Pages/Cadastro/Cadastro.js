@@ -1,5 +1,4 @@
 import Input from '../../Layout/Input/Input'
-import Botao from '../../Layout/Botao/Botao'
 import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
 
 import './Cadastro.css'
@@ -20,7 +19,7 @@ function CadastroUsuario() {
             </div>
 
             <div className='Submit-cadastrar'>
-               <Botao Type="Submit" text="Cadastre-se" name="Cadastrar" />
+               <button Type="Submit" text="Cadastre-se" name="Cadastrar" />
             </div>
 
             <div>

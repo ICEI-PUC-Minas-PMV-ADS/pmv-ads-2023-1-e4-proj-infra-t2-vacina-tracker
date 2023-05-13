@@ -10,7 +10,7 @@ import Cadastro from './componentes/Pages/Cadastro/Cadastro'
 import Perfil from './componentes/Pages/Perfil/Perfil'
 import Sair from './componentes/Pages/Home/Home'
 
-import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
+//import Perfil from './componentes/Pages/Perfil/Perfil'
 
 function App() {
   return (    
@@ -32,7 +32,7 @@ function App() {
                
       </Routes>  
 
-      <MCadastroVacina/>   
+      <Perfil/>   
 
       <Footer />
     </Router>
