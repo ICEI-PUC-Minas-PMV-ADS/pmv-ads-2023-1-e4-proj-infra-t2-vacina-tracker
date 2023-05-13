@@ -6,12 +6,19 @@ src/API~4246b7dda583abecb135dbb6ec28002d785b39ca
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+.package.json
+.package-lock.json
+
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.vscode
+*.vs
+*.obj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
