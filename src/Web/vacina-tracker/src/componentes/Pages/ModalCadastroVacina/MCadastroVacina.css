@@ -1,9 +1,5 @@
 .cadastro {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    width: 100%;        
     padding: 0 32px;    
 }
 
@@ -11,14 +7,31 @@
     font-size: 36px;    
 }
 
-.altura {
-    margin-top: 40px;
+.form-img {
+    display: flex;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-between;    
 }
 
-.checkbox {
+.form-cadastro-vacina {    
+    align-content: space-between;
+}
+
+.form-cadastro-vacina.col-md-4 {
+    width: 50%;
+}
+
+.altura {
+    margin-top: 40px;
+    align-content: space-between;
+}
+
+.checkbox {    
     display: flex;
-    gap: 8px;    
-    justify-content: center;
+    width: 31%;
+    gap: 8px; 
+    align-items: start;             
 }
 
 .lista-icones {
@@ -43,4 +56,9 @@
     color: #13adc2;
     width: 160px;
     height: 160px;
+}
+
+img {
+    width: 100%;
+    justify-content: end;
 }

@@ -2,7 +2,6 @@ import './MCadastroVacina.css'
 
 import Input from '../../Layout/Input/Input'
 import { FaSave, FaPlusCircle } from "react-icons/fa";
-import React from 'react'
 import { Link } from 'react-router-dom';
 import imagem from '../../../img/tela_cadastro_vacina.svg'
 
@@ -11,15 +10,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-function MCadastroVacina() {
+function MCadastroVacina() {   
+    
+    
     return (
         <section className='cadastro'>
 
             <h1>Cadastrar Vacina</h1>
 
             <Container>
-                <Row>
-                    <Col sm>
+                <Row className='form-img grid'>
+                    <Col md={4} className='form-cadastro-vacina'>                        
                         <div className='altura'>
                             <Input type="text" text="Nome da Vacina" name="name" placeholder="Selecione o Nome da Vacina" />
                             <Input type="date" text="Data da Aplicação" name="data" />
@@ -28,17 +29,17 @@ function MCadastroVacina() {
                         </div>
 
                         <div className='checkbox'>
-                            <Input type="checkbox" name="caixa-texto" /> Ativar/Desativar Lembrete
+                            <Input type="checkbox" name="caixa-texto" /> Ativar/Desativar Lembrete 
                         </div>
 
                         <div className='lista-icones'>
                             <FaSave className='icone' />
                             <FaPlusCircle className='icone' />
-                        </div>
+                        </div>                        
                     </Col>
 
-                    <Col sm>
-                        <Link to="/"><img src={imagem} alt='Logo Vacina Tracker' /></Link>
+                    <Col md={{ span: 4, offset: 4 }}>
+                        <img src={imagem} alt='Logo Vacina Tracker' />
                     </Col>
                 </Row>
             </Container>
