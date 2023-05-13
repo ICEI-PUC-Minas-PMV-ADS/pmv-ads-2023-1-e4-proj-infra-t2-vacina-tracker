@@ -1,37 +1,83 @@
-.CadastroUsuario {
-    width: 100%;        
-    padding: 0 32px; 
+.cadastro-usuario {
+    width: 100%;
+    padding: 0 32px;
 }
 
-.CadastroUsuario h1 {
-    font-size: 36px;
+.cadastro-usuario h1 {
+    font-size: 48px;
+    color: #13ADC2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-1 {
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
 
 .form-img {
     display: flex;
     justify-items: stretch;
     align-items: stretch;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
-.form-cadastro-usuario {
+.form-cadastro {
     align-content: space-between;
 }
 
-.form-cadastro-usuario.col-md-4 {
+.form-cadastro.col-md-4 {
     width: 50%;
 }
 
-.CadastroUsuario-input {
+.box {
+    width: 90vw;
+    height: 50vw;
+    max-width: 500px;
+    max-height: 550px;
+    background-color: rgba(194, 95, 19, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.altura {
     margin-top: 40px;
     align-content: space-between;
+    padding-right: 16px;
+}
+
+.form-control input {
+    background-color: rgba(19, 173, 194, 0.8);
 }
 
 .checkbox-termos {
     display: flex;
-    width: 31%;
-    gap: 8px; 
+    width: 72%;
+    gap: 8px;
     align-items: start;
+}
+
+.btn {
+    background-color: #9113C2;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 240px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
 }
 
 img {
