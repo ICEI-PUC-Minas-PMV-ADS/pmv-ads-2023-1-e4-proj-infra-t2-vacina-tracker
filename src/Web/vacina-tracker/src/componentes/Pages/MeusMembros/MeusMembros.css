@@ -1,0 +1,14 @@
+.grid1 {
+	display: grid;
+}
+
+.grid-template-columns-3 {
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+.item1 {
+	margin: 5px;
+	background: #540075;
+	text-align: left;
+	font-size: 1.5em;
+}
