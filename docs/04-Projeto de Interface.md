@@ -17,9 +17,9 @@ Fonte: Elaborado pelos autores
 
 Figura 14 - Fluxo de Telas Estático (_Web_)
 
-![fluxo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4d85641c-2dd8-48c1-a433-ddcd6283d672)
-![fluxo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4831ed31-b41f-4001-8163-98a9ccd8b020)
-![fluxo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/08ea87ff-89c2-43a9-b9e9-61c53bf4e7f0)
+![fluxo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/0edb61ad-b3f8-4f6e-b38d-dc5aad87ff73)
+![fluxo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/993caa08-3280-4ec4-88a6-05b089d7e0c5)
+![fluxo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/cfb200bb-3a89-49ac-9cf7-8dce98e995f1)
 
 Fonte: Elaborado pelos autores
 
