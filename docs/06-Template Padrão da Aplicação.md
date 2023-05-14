@@ -128,61 +128,79 @@ Os _templates_ das telas da aplicação (_Web e Mobile_) criadas até o momento 
 
 #### 6.6.1.1 Tela _Home_
 
-Figura 41 - 
+Figura 41
+
+![home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/0d9691e2-419c-4b22-ab2a-ef5ef5fcc247)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.2 Tela _Login_
 
-Figura 42 - 
+Figura 42
+
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/c4bdde9f-54aa-4b34-a3ad-9621ace270a4)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.3 Tela Cadastro
 
-Figura 43 - 
+Figura 43
+
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/0edc53f5-9e06-438f-8209-e4404db30f47)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.4 Tela Esqueceu Senha
 
-Figura 44 - 
+Figura 44
+
+![EsqueceuSenha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/6f8e843f-c475-436b-9f6b-e6615a11f73e)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.5 Tela Perfil
 
-Figura 45 - 
+Figura 45
+
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/f0fbf80e-91fb-448e-b267-0c5373e14f71)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.6 Tela Cadastro Membro
 
-Figura 46 - 
+Figura 46 
+
+![cadastroMembro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/963b8885-14aa-4d51-b717-2c62c99c7937)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.7 Tela Cadastro Vacinas
 
-Figura 47 - 
+Figura 47 
+
+![CadastroVacina](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/cc1e7974-fae5-429f-b58b-d65e63d59a15)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.8 Tela Meus Membros
 
-Figura 48 - 
+Figura 48 
+
+![MeusMembros](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/c536d94d-66ee-4c78-9c13-fe725374c772)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.9 Tela Vacinas Cadastradas
 
-Figura 49 - 
+Figura 49  
+
+![VacinasCadastradas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/864133ec-1b4b-4000-b0a5-b129a44a2930)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.10 Tela Política e Termos
 
-Figura 50 - 
+Figura 50 
 
 Fonte: Elaborado pelos autores
 
