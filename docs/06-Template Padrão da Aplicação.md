@@ -116,10 +116,27 @@ Figura 28 - Iconografia Geral
 Fonte: Elaborado pelos autores
 
 
-## 6.6 Template da Aplicação _Web_
+## 6.6 _Template_ da Aplicação
 
-### 6.6.1 (em desenvolvimento)
+Alusivo às funcionalidades do sistema, apresentamos o print das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no GitHub, pelo link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker
 
-## 6.7 _Template_ da Aplicação _Mobile_
+No que tange à responsividade, optamos por seguir o padrão do Media Queries. De acordo com Wikipédia (11/2021), Media Queries se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).”
 
-### 6.7.1 (em desenvolvimento)
+Os _templates_ das telas da aplicação (_Web e Mobile_) criadas até o momento contém os seguintes layouts:
+
+### 6.6.1 _Template_ da Aplicação _Web_
+
+#### 6.6.1.1 Tela _Home_
+#### 6.6.1.2 Tela _Login_
+#### 6.6.1.3 Tela Cadastro
+#### 6.6.1.4 Tela Esqueceu Senha
+#### 6.6.1.5 Tela Perfil
+#### 6.6.1.6 Tela Cadastro Membro
+#### 6.6.1.7 Tela Cadastro Vacinas
+#### 6.6.1.8 Tela Meus Membros
+#### 6.6.1.9 Tela Vacinas Cadastradas
+#### 6.6.1.10 Tela Política e Termos
+
+### 6.6.2 _Template_ da Aplicação _Mobile_
+
+(em desenvolvimento)

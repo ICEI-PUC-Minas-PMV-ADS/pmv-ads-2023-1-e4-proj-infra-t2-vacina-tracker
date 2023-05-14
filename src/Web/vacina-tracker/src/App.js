@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
-import Header from './componentes/Layout/Header/Header'
-import Footer from './componentes/Layout/Footer/Footer'
+import Header from './componentes/Layout/Header/Header';
+import Footer from './componentes/Layout/Footer/Footer';
 
 import Cadastro from './componentes/Pages/Cadastro/Cadastro'
 import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
@@ -16,11 +16,18 @@ import PoliticaTermos from './componentes/Pages/PoliticaTermos/PoliticaTermos'
 import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
 import Sair from './componentes/Pages/Home/Home'
 
+function HeaderRouter() {
+  const location = useLocation();
+  const shouldRenderHeader = location.pathname !== '/';
+
+  return shouldRenderHeader ? <Header /> : null;
+}
 
 function App() {
+  
   return (
     <Router>
-      <Header />
+      <HeaderRouter />
 
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -49,7 +56,7 @@ function App() {
 
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;

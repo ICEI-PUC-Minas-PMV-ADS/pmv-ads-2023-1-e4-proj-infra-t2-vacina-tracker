@@ -6,7 +6,7 @@ A arquitetura de solução apresenta como o _software_ é estruturado em termos 
 ## 5.1 Diagrama de Classes
 O diagrama de classes ilustra esquematicamente como será a estrutura do _software_ e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-Figura 14 - Diagrama de Classes
+Figura 25 - Diagrama de Classes
 
 ![Diagrama Classes Vacina Tracker](https://user-images.githubusercontent.com/91228798/233861223-11a095ee-6b09-41cf-97d7-f11dac557e7a.png)
 
@@ -17,7 +17,7 @@ Fonte: Elaborado pelos autores
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. Segue abaixo a representação do Modelo ER:
 
-Figura 15 - Modelo ER
+Figura 26 - Modelo ER
 
 <img width="1656" alt="Modelo ER - EIXO 4" src="https://user-images.githubusercontent.com/91228798/233808111-670efa49-3878-4fed-8e57-f1f193d7bc26.png">
 
@@ -28,7 +28,7 @@ Fonte: Elaborado pelos autores
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária. Segue abaixo a representação do Esquema Relacional:
 
-Figura 16 - Esquema Relacional
+Figura 27 - Esquema Relacional
 
 ![Esquema relacional - Eixo 4](https://user-images.githubusercontent.com/91228798/233808254-80e05b4d-7fa7-4143-b41f-5779b9ec4228.png)
 
@@ -41,7 +41,7 @@ Nossa aplicação utiliza o ASP .Net com o padrão MVC.
 Na arquitetura MVC o modelo representa os dados da aplicação e as regras do negócio que governam o acesso e a modificação dos dados. O modelo mantém o estado persistente do negócio e fornece ao controlador a capacidade de acessar as funcionalidades da aplicação encapsuladas pelo próprio modelo.
 Após criar os controladores e os modelos é executado os comandos add-migration e update-database. Esses comandos são responsáveis por criar o banco de dados a partir dos modelos. Segue abaixo a representação do banco de dados criado:
 
-Figura 17 - Tabelas do Banco de dados
+Figura 28 - Tabelas do Banco de dados
 
 ![Tabelas Geradas](https://user-images.githubusercontent.com/91228798/235325915-2a83ccc2-0bf4-441c-9220-1a1eb8b8148f.png)
 
@@ -54,7 +54,7 @@ Além disso, na pasta src/bd colocamos as migrations geradas.
 
 Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
 
-Figura 18 - Arquitetura da Solução
+Figura 29 - Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/230423142-2b2ca2c9-ba9b-47f6-a8a9-fd15f492e501.png)
 
@@ -62,7 +62,7 @@ Fonte: Elaborado pelos autores
 
 ### 5.5.1 Refatoração
 
-Figura 19 - Refatoração da Arquitetura da Solução
+Figura 30 - Refatoração da Arquitetura da Solução
 
 ![image](https://user-images.githubusercontent.com/89549220/233716226-af2c216d-3e38-4efd-ab37-c2ac811abc2b.png)
 
@@ -71,7 +71,7 @@ Fonte: Elaborado pelos autores
 
 ## 5.6 Rotas e Recursos
 
-Figura 20 - Rotas _Swagger_
+Figura 31 - Rotas _Swagger_
 
 ![Swagger_Rota Membros2](https://user-images.githubusercontent.com/89549220/235312822-4ee2f21b-52d3-4c84-af27-a910c3df4a62.png)
 
