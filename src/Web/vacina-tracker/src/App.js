@@ -8,31 +8,39 @@ import Login from './componentes/Pages/Login/Login'
 import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
 import Cadastro from './componentes/Pages/Cadastro/Cadastro'
 import Perfil from './componentes/Pages/Perfil/Perfil'
+import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros'
+import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
 import Sair from './componentes/Pages/Home/Home'
 
-//import Perfil from './componentes/Pages/Perfil/Perfil'
+import MCadastroVacina from './componentes/Pages/MCadastroVacina/MCadastroVacina'
 
 function App() {
-  return (    
+  return (
     <Router>
       <Header />
 
-      <Routes>        
-          <Route exact path='/' element={<Home />} />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
 
-          <Route path='/login' element={<Login />} />
+        <Route path='/login' element={<Login />} />
 
-          <Route path='/EsqueceuSenha' element={<EsqueceuSenha />} />
+        <Route path='/EsqueceuSenha' element={<EsqueceuSenha />} />
 
-          <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/cadastro' element={<Cadastro />} />
 
-          <Route path='/perfil' element={<Perfil />} />
+        <Route path='/perfil' element={<Perfil />} />
 
-          <Route path='/sair' element={<Sair />} />   
-               
-      </Routes>  
+        <Route path='/MeusMembros' element={<MeusMembros />} />
 
-      
+        <Route path='/VacinasCadastradas' element={<VacinasCadastradas />} />
+
+        <Route path='/sair' element={<Sair />} />
+
+      </Routes>
+
+      <MCadastroVacina />
+
+      <Perfil />
 
       <Footer />
     </Router>

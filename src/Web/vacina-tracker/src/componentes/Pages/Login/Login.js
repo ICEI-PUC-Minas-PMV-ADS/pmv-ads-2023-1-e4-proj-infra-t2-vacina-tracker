@@ -33,7 +33,7 @@ function Login() {
                             <LinkTextoBotao to="#" text="Já possui cadastro? Faça Login" />
                         </div>
                     </Col>
-
+                    
                     <Col md={{ span: 4, offset: 4 }}>
                         <img src={imagem} alt='Perfil' />
                     </Col>
@@ -42,5 +42,4 @@ function Login() {
         </section>
     )
 }
-
 export default Login
