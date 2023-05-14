@@ -19,7 +19,7 @@
     padding-bottom: 24px;       
     gap: 160px; 
     margin-top: 32px;  
-	justify-content: end;  
+	justify-content: flex-end;  
 }
 
 .lista-icones-membros svg{
