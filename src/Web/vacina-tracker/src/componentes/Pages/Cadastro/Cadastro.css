@@ -7,14 +7,16 @@
     font-size: 48px;
     color: #13ADC2;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
 }
 
-.texto-1 {
+.texto-1-cadastro {
     align-items: center;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form-img {
@@ -51,18 +53,14 @@
     padding-right: 16px;    
 }
 
-.form-control input {    
-    background-color: rgba(19, 173, 194, 0.8);   
-}
-
-.checkbox-termos {    
+.checkbox-cadastro {    
     display: flex;
-    width: 72%;
+    width: 80%;
     gap: 8px;                
 }
 
-.btn {    
-    background-color: #13ADC2;
+.btn-cadastro {    
+    background-color: #9113C2;
     color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 10px;
@@ -73,7 +71,7 @@
     transition: 0.5s;
     cursor: pointer;  
     width: 240px;
-    height: 60px;
+    height: 50px;
     justify-content: center;
     display: flex;  
     margin: 0 auto;   

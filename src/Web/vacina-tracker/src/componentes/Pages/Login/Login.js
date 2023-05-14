@@ -1,5 +1,5 @@
 import './Login.css'
-import Input from '../../Layout/Input/Input'
+import Input from '../../Layout/InputRoxo/InputRoxo'
 import LinkTextoBotao from '../../Layout/LinkTextoBotao/LinkTextoBotao'
 import React from 'react'
 import imagem from '../../../img/tela_login.svg'
@@ -14,23 +14,23 @@ function Login() {
             <Container>
                 <Row className='form-img grid'>
                     <Col md={4} className='form-login box'>
-                        <h1 className='texto-1'>ACESSO</h1>
+                        <h1 className='texto-1-login'>ACESSO</h1>
                         
                         <div className='altura'>
-                            <Input type="text" text="E-mail" name="E-mail" placeholder="Cadastre um E-mail" />
-                            <Input type="password" text="Senha" name="Senha" placeholder="Cadastre uma Senha" />
+                            <Input type="text" text="E-mail" name="E-mail" placeholder="Digite seu E-mail" />
+                            <Input type="password" text="Senha" name="Senha" placeholder="Digite sua Senha" />
                         </div>     
 
                         <div>
-                            <LinkTextoBotao to="#" text="Esqueceu a Senha?" />
+                            <LinkTextoBotao to="/esqueceusenha" text="Esqueceu a Senha?" />
                         </div>                   
 
                         <div>
-                            <button className='btn' type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
+                            <button className='btn-login' type="Submit" text="Acesso" name="Acesso" >Acessar</button>
                         </div>
 
                         <div>
-                            <LinkTextoBotao to="#" text="Já possui cadastro? Faça Login" />
+                            <LinkTextoBotao to="/cadastro" text="Não tem Conta? Cadastre-se" />
                         </div>
                     </Col>
                     

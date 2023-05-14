@@ -1,9 +1,9 @@
-.Container {
+.container-membros {
 	display: block;
     padding: 100px;
 }
 
-.texto {
+.texto-1-membros {
     padding: 1%;
 	font-family: 'Montserrat', sans-serif;
 }

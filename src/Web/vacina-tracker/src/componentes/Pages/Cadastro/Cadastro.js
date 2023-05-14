@@ -1,4 +1,4 @@
-import Input from '../../Layout/Input/Input'
+import Input from '../../Layout/InputAzul/InputAzul'
 import LinkTextoBotao from '../../Layout/LinkTextoBotao/LinkTextoBotao'
 
 import './Cadastro.css'
@@ -15,19 +15,19 @@ function CadastroUsuario() {
             <Container>
                 <Row className='form-img grid'>
                     <Col md={4} className='form-cadastro box'>
-                        <h1 className='texto-1'>CADASTRAR</h1>
+                        <h1 className='texto-1-cadastro'>CADASTRAR</h1>
 
                         <div className='altura'>
                             <Input type="text" text="E-mail" name="E-mail" placeholder="Cadastre um E-mail" />
                             <Input type="password" text="Senha" name="Senha" placeholder="Cadastre uma Senha" />
                         </div>
 
-                        <div className='checkbox-termos'>
+                        <div className='checkbox-cadastro'>
                             <Input type="checkbox" name="termos" /> Li e Aceito os Termos e Condições de Uso
                         </div>
 
                         <div >
-                            <button className='btn' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
+                            <button className='btn-cadastro' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
                         </div>
 
                         <div>

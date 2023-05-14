@@ -9,7 +9,7 @@ function Home() {
 
             <h1 className='texto-1'>Seu cartão de vacinas onde você estiver</h1>
 
-            <div className='box'>
+            <div className='box-home'>
                 <img className='imagem' src={imagem} alt='Tela Home' />
                 
                 <h2 className='texto-2'>Usuário</h2>

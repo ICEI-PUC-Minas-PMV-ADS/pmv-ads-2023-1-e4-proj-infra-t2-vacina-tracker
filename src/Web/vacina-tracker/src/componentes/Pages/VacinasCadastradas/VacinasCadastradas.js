@@ -5,9 +5,9 @@ import TabelaDadosVacinas from './TabelaVacinas';
 function VacinasCadastradas() {
     return (
        
-        <div className='Container'>
+        <div className='container-vacinas'>
 
-            <h1 className='texto'>Vacinas Cadastradas</h1>
+            <h1 className='texto-1-vacinas'>Vacinas Cadastradas</h1>
 
             <TabelaDadosVacinas />
 

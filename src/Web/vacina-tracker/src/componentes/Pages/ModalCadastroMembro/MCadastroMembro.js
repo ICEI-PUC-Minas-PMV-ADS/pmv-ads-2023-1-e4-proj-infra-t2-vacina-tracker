@@ -1,6 +1,6 @@
 import './MCadastroMembro.css'
 
-import Input from '../../Layout/Input/Input'
+import Input from '../../Layout/InputRoxo/InputRoxo'
 import { FaSave, FaPlusCircle } from "react-icons/fa";
 import React from 'react'
 import imagem from '../../../img/tela_cadastro_membro.svg'
@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 function MCadastroMembro() {
     return (
-        <section className='cadastro'>
+        <section className='cadastro-membro'>
 
             <h1>Cadastrar Membro</h1>
 
@@ -24,7 +24,7 @@ function MCadastroMembro() {
                             <Input type="text" text="Idade " name="senha" placeholder="Digite a Idade" />
                         </div>
 
-                        <div className='lista-icones'>
+                        <div className='lista-icones-cadastro-membro'>
                             <FaSave className='icone' />
                             <FaPlusCircle className='icone' />
                         </div>

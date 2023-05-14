@@ -1,12 +1,12 @@
 import './EsqueceuSenha.css'
-
+import React from 'react'
 import imagem from '../../../img/tela_esqueceu_senha.svg'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LinkTextoBotao from '../../Layout/LinkTextoBotao/LinkTextoBotao';
-import Input from '../../Layout/Input/Input';
+import Input from '../../Layout/InputRoxo/InputRoxo';
 
 
 function EsqueceuSenha() {
@@ -16,14 +16,14 @@ function EsqueceuSenha() {
             <Container>
                 <Row className='form-img grid'>
                     <Col md={4} className='form-esqueceu-senha box'>
-                        <h1 className='texto-1'>ESQUECEU SUA SENHA?</h1>
+                        <h1 className='texto-1-esqueceu-senha'>ESQUECEU SUA SENHA?</h1>
 
                         <div className='altura'>
                             <Input type="text" text="E-mail" name="E-mail" placeholder="Digite seu E-mail" />
                         </div>
 
                         <div>
-                            <button className='btn' Type="Submit" text="Recuperar Senha" name="Recuperar Senha" >Recuperar Senha</button>
+                            <button className='btn-esqueceu-senha' Type="Submit" text="Recuperar Senha" name="Recuperar Senha" >Recuperar Senha</button>
                         </div>
 
                         <div>

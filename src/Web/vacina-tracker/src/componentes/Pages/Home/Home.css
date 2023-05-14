@@ -73,12 +73,12 @@
     justify-content: center; 
 }
 
-.box {
+.box-home {
     width: 90vw;
     height: 50vw;    
     max-width: 500px;
     max-height: 550px;    
-    background-color: #C29027;
+    background: #C29027;
     border-radius: 10px;
     display: flex;    
     flex-direction: column;

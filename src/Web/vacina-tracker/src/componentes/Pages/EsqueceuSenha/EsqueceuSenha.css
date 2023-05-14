@@ -6,15 +6,15 @@
 .esqueceu-senha h1 {
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
-    color: #9113C2;
+    color: #9113C2;    
 }
 
-.texto-1 {
+.texto-1-esqueceu-senha {
     align-items: center;
-    margin: 0 auto;
-    align-content: center;
+    margin: 0 auto;    
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 
 .form-img {
@@ -42,9 +42,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    padding: 20px;
 }
-
 
 .altura {
     margin-top: 40px;
@@ -52,12 +51,8 @@
     padding-right: 16px;
 }
 
-.form-control input {
-    background-color: rgba(19, 173, 194, 0.8);
-}
-
-.btn {
-    background-color: #8CC20A;
+.btn-esqueceu-senha {
+    background-color: #13ADC2;
     color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 10px;
@@ -76,5 +71,6 @@
 
 img {
     width: 100%;
-    justify-content: end;
+    justify-content: center;
+    display: flex;
 }

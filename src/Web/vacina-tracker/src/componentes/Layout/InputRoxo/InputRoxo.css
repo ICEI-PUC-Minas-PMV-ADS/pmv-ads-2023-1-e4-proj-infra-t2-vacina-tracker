@@ -1,4 +1,4 @@
-.form-control {
+.form-control-roxo {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
@@ -8,22 +8,23 @@
     margin: auto;
 }
 
-.form-control label {
+.form-control-roxo label {
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-.form-control input {
+.form-control-roxo input {
     padding: 8px;
     border-radius: 20px;
     border: none;    
     font-size: 16px;
     color: #FFFFFF;
+    background-color: rgba(145, 19, 194, 0.8);
     margin-bottom: 48px;    
     width: auto;
     outline: none;
 }
 
-.form-control input::placeholder {
+.form-control-roxo input::placeholder {
     color: #FFFFFF;
 }

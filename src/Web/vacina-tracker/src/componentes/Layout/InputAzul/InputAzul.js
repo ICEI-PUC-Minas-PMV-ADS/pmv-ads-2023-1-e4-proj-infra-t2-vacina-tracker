@@ -1,12 +1,12 @@
-import './Input.css'
+import './InputAzul.css'
 
-function Input({ type, text, name, placeholder, handleOnChange, value}) {
+function InputAzul({ type, text, name, placeholder, handleOnChange, value}) {
     return(
-        <div className='form-control'>
+        <div className='form-control-azul'>
             <label for={name}>{text}</label>
             <input type={type} name={name} id={name} placeholder={placeholder} onChange={handleOnChange} value={value} />
         </div>
     )
 }
 
-export default Input
+export default InputAzul

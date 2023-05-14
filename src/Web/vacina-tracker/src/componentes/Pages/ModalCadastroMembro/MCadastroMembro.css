@@ -1,10 +1,11 @@
-.cadastro {
+.cadastro-membro {
     width: 100%;        
     padding: 0 32px;
 }
 
-.cadastro h1 {    
+.cadastro-membro h1 {    
     font-size: 36px;
+    margin-top: 40px;
 }
 
 .form-img {
@@ -27,11 +28,7 @@
     align-content: space-between;
 }
 
-.form-control input {    
-    background-color: rgba(145, 19, 194, 0.5);    
-}
-
-.lista-icones {
+.lista-icones-cadastro-membro {
     display: flex;
     padding-bottom: 24px;
     justify-content: space-evenly;   
@@ -39,7 +36,7 @@
     margin-top: 32px;   
 }
 
-.lista-icones svg{
+.lista-icones-cadastro-membro svg{
     cursor: pointer;
 }
 

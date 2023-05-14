@@ -1,9 +1,9 @@
-import Input from '../../Layout/Input/Input'
+import Input from '../../Layout/InputRoxo/InputRoxo'
 import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
 
 import './Perfil.css'
 //import {FontAwesomeIcon} from '@fortawesome/fontawesome-free'
-import { FaUserCircle, FaUserPlus, FaCheckCircle } from "react-icons/fa";
+import { FaUserCircle, FaUserPlus } from "react-icons/fa";
 import React from 'react'
 import imagem from '../../../img/tela_perfil.svg'
 
@@ -30,21 +30,20 @@ function Perfil() {
                             <Input type="text" text="Senha " name="senha" placeholder="Digite sua Nova Senha" />
                             <Input type="text" text="Confirme sua Senha " name="senha" placeholder="Confirme sua Nova Senha" />
 
-                            <div>                                
-                                <button className='btn'>Salvar Alterações</button>
-                            </div>
+                            <div className='botoes-perfil'>                                
+                                <button className='btn-perfil'>Salvar Alterações</button>   
+                                <button className='btn-perfil-excluir'>Excluir Conta</button>                             
+                            </div>                            
                         </div>
 
-                        <div className='lista-icones'>
+                        <div className='lista-icones-perfil'>
                             <LinkTexto to="#" text="Membros" />
-                            <FaUserPlus className='icone' />
-                            <FaCheckCircle className='icone' />
+                            <FaUserPlus className='icone' />                            
                         </div>
 
-                        <div className='lista-icones'>
+                        <div className='lista-icones-perfil'>
                             <LinkTexto to="#" text="Vacinas" />
-                            <FaUserPlus className='icone' />
-                            <FaCheckCircle className='icone' />
+                            <FaUserPlus className='icone' />                            
                         </div>
                     </Col>
 

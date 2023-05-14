@@ -1,9 +1,9 @@
-.Container {
+.container-vacinas {
 	display: block;
     padding: 100px;
 }
 
-.texto {
+.texto-1-vacinas {
     padding: 1%;
 	font-family: 'Montserrat', sans-serif;
 }

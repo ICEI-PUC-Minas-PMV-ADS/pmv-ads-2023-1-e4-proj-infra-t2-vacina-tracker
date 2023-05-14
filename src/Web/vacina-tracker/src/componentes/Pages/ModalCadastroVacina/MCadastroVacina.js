@@ -1,8 +1,8 @@
 import './MCadastroVacina.css'
 
-import Input from '../../Layout/Input/Input'
+import Input from '../../Layout/InputRoxo/InputRoxo'
 import { FaSave, FaPlusCircle } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import imagem from '../../../img/tela_cadastro_vacina.svg'
 
 import Container from 'react-bootstrap/Container';
@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 function MCadastroVacina() {  
     return (
-        <section className='cadastro'>
+        <section className='cadastro-vacina'>
 
             <h1>Cadastrar Vacina</h1>
 
@@ -26,11 +26,11 @@ function MCadastroVacina() {
                             <Input type="date" text="Data da Próxima Aplicação " name="data" />
                         </div>
 
-                        <div className='checkbox'>
+                        <div className='checkbox-cadastro-vacina'>
                             <Input type="checkbox" name="caixa-texto" /> Ativar/Desativar Lembrete 
                         </div>
 
-                        <div className='lista-icones'>
+                        <div className='lista-icones-cadastro-vacina'>
                             <FaSave className='icone' />
                             <FaPlusCircle className='icone' />
                         </div>                        

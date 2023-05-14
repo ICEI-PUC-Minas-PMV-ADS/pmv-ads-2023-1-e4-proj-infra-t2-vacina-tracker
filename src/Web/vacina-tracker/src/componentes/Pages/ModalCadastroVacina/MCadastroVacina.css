@@ -1,10 +1,11 @@
-.cadastro {
+.cadastro-vacina {
     width: 100%;        
     padding: 0 32px;    
 }
 
-.cadastro h1 {    
-    font-size: 36px;    
+.cadastro-vacina h1 {    
+    font-size: 36px;  
+    margin-top: 40px;  
 }
 
 .form-img {
@@ -27,17 +28,13 @@
     align-content: space-between;
 }
 
-.form-control input {    
-    background-color: rgba(145, 19, 194, 0.5);    
-}
-
-.checkbox {    
+.checkbox-cadastro-vacina {    
     display: flex;
     width: 31%;
     gap: 8px;              
 }
 
-.lista-icones {
+.lista-icones-cadastro-vacina {
     display: flex;
     padding-bottom: 24px;
     justify-content: space-evenly;   
@@ -45,7 +42,7 @@
     margin-top: 32px;   
 }
 
-.lista-icones svg{
+.lista-icones-cadastro-vacina svg{
     cursor: pointer;
 }
 

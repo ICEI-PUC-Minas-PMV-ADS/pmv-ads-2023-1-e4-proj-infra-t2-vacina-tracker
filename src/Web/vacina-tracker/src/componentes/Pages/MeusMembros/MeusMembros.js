@@ -7,9 +7,9 @@ import TabelaDados from './Tabela';
 function MeusMembros() {
     return (
 
-        <div className='Container'>
+        <div className='container-membros'>
 
-            <h1 className='texto'>Meus Membros</h1>
+            <h1 className='texto-1-membros'>Meus Membros</h1>
 
             <TabelaDados />
 

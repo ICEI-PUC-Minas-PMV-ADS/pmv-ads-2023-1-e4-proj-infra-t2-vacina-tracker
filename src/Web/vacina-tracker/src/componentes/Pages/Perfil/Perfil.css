@@ -5,6 +5,7 @@
 
 .perfil h1 {    
     font-size: 36px;
+    margin-top: 40px;
 }
 
 .form-img {
@@ -27,12 +28,12 @@
     align-content: space-between;
 }
 
-.form-control input {    
-    background-color: rgba(145, 19, 194, 0.5);    
+.botoes-perfil {
+    display: flex;
 }
 
-.btn {    
-    background-color: #8CC20A;
+.btn-perfil {    
+    background-color: #13ADC2;
     color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 10px;
@@ -42,6 +43,27 @@
     text-decoration: none;
     transition: 0.5s;
     cursor: pointer;  
+    width: 240px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 72px;
+    margin: 0 auto;
+}
+
+.btn-perfil-excluir {    
+    background-color: #C29027;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 10px;
+    border: none;    
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;  
+    width: 240px;
+    height: 50px;
     justify-content: center;
     display: flex;
     margin-bottom: 72px;
@@ -49,22 +71,20 @@
 }
 
 .lista-icone-perfil {
-    display: flex;
-    padding-bottom: 24px;
+    display: flex;    
     justify-content: space-evenly;   
     gap: 160px; 
     margin-top: 32px;    
 }
 
-.lista-icones {
+.lista-icones-perfil {
     display: flex;
-    padding-bottom: 24px;
-    justify-content: space-between;   
+    padding-bottom: 24px;       
     gap: 160px; 
     margin-top: 32px;    
 }
 
-.lista-icones svg{
+.lista-icones-perfil svg{
     cursor: pointer;
 }
 

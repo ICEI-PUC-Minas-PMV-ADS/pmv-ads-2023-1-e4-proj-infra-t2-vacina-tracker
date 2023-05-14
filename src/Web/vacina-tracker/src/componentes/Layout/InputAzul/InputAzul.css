@@ -1,0 +1,30 @@
+.form-control-azul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    padding-inline-start: 16px;
+    font-size: 24px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.form-control-azul label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-control-azul input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;    
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: rgba(19, 173, 194, 0.8);
+    margin-bottom: 48px;    
+    width: auto;
+    outline: none;
+}
+
+.form-control-azul input::placeholder {
+    color: #FFFFFF;
+}

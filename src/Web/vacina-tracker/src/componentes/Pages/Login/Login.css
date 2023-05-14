@@ -9,12 +9,13 @@
     color: #9113C2;
 }
 
-.texto-1 {    
+.texto-1-login {    
     align-items: center;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
-    display: flex;    
+    display: flex;   
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .form-img {
@@ -61,7 +62,7 @@
     gap: 8px;                
 }
 
-.btn {    
+.btn-login {    
     background-color: #13ADC2;
     color: #FFFFFF;
     padding: 8px 8px;
@@ -76,7 +77,8 @@
     height: 60px;
     justify-content: center;
     display: flex;  
-    margin: 0 auto;   
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;  
 }
 
 img {
