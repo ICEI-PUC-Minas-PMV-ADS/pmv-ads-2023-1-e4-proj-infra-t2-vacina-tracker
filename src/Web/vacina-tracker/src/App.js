@@ -1,20 +1,28 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
-import Header from './componentes/Layout/Header/Header'
-import Footer from './componentes/Layout/Footer/Footer'
-import Home from './componentes/Pages/Home/Home'
-import Login from './componentes/Pages/Login/Login'
-import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
-import Cadastro from './componentes/Pages/Cadastro/Cadastro'
-import Perfil from './componentes/Pages/Perfil/Perfil'
-import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros'
-import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
-import Sair from './componentes/Pages/Home/Home'
+import Header from './componentes/Layout/Header/Header';
+import Footer from './componentes/Layout/Footer/Footer';
+import Home from './componentes/Pages/Home/Home';
+import Login from './componentes/Pages/Login/Login';
+import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha';
+import Cadastro from './componentes/Pages/Cadastro/Cadastro';
+import Perfil from './componentes/Pages/Perfil/Perfil';
+import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros';
+import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas';
+import Sair from './componentes/Pages/Home/Home';
+
+function HeaderRouter() {
+  const location = useLocation();
+  const shouldRenderHeader = location.pathname !== '/';
+
+  return shouldRenderHeader ? <Header /> : null;
+}
 
 function App() {
+  
   return (
     <Router>
-      <Header />
+      <HeaderRouter />
 
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -37,7 +45,7 @@ function App() {
 
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;
