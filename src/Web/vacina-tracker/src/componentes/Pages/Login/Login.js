@@ -3,6 +3,7 @@ import Input from '../../Layout/InputRoxo/InputRoxo'
 import LinkTextoBotao from '../../Layout/LinkTextoBotao/LinkTextoBotao'
 import React from 'react'
 import imagem from '../../../img/tela_login.svg'
+import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -26,7 +27,9 @@ function Login() {
                         </div>                   
 
                         <div>
-                            <button className='btn-login' type="Submit" text="Acesso" name="Acesso" >Acessar</button>
+                            <Link to="/perfil">
+                                <button className='btn-login' type="Submit" text="Acesso" name="Acesso" >Acessar</button>
+                            </Link>
                         </div>
 
                         <div>

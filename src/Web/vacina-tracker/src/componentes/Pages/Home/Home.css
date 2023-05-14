@@ -26,7 +26,7 @@
 }
 
 .texto-2 {
-    font-size: 36px;    
+    font-size: 36px;
     display: flex;
     margin-bottom: 8px;
     padding: 16px
@@ -34,54 +34,67 @@
 
 .posicao {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.btn-1 {    
+.btn-1-home {
     background-color: #13ADC2;
     color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 50px;
-    border: none;    
+    border: none;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     transition: 0.5s;
-    cursor: pointer; 
+    cursor: pointer;
     width: 166px;
-    height: 50px;    
-    display: flex;     
+    height: 50px;
+    display: flex;
     justify-content: center;
 }
 
-.btn-2 {    
+.btn-2-home {
     background-color: #9113C2;
     color: #FFFFFF;
     padding: 8px 8px;
     border-radius: 50px;
-    border: none;    
+    border: none;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     transition: 0.5s;
-    cursor: pointer;  
+    cursor: pointer;
     width: 166px;
-    height: 50px; 
-    display: flex; 
-    justify-content: center; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;    
+}
+
+a:active {
+    text-decoration: none;
 }
 
 .box-home {
     width: 90vw;
-    height: 50vw;    
+    height: 50vw;
     max-width: 500px;
-    max-height: 550px;    
+    max-height: 550px;
     background: #C29027;
     border-radius: 10px;
-    display: flex;    
+    display: flex;
     flex-direction: column;
-    justify-content: center;  
-    margin: 0 auto;  
+    justify-content: center;
+    margin: 0 auto;
 }

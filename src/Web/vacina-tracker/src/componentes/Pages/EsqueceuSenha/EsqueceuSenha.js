@@ -1,6 +1,7 @@
 import './EsqueceuSenha.css'
 import React from 'react'
 import imagem from '../../../img/tela_esqueceu_senha.svg'
+import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -23,11 +24,13 @@ function EsqueceuSenha() {
                         </div>
 
                         <div>
-                            <button className='btn-esqueceu-senha' Type="Submit" text="Recuperar Senha" name="Recuperar Senha" >Recuperar Senha</button>
+                            <Link to="/login">
+                                <button className='btn-esqueceu-senha' Type="Submit" text="Recuperar Senha" name="Recuperar Senha" >Recuperar Senha</button>
+                            </Link>
                         </div>
 
                         <div>
-                            <LinkTextoBotao to="./Cadastro" text="Não tem Conta? Cadastre-se" />
+                            <LinkTextoBotao to="/Cadastro" text="Não tem Conta? Cadastre-se" />
                         </div>
                     </Col>
 

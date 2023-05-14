@@ -3,6 +3,7 @@ import React from 'react';
 import TabelaDados from './Tabela';
 
 import { FaPlusCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function MeusMembros() {
     return (
@@ -12,8 +13,10 @@ function MeusMembros() {
 
             <TabelaDados />
 
-            <div className='lista-icones-membros'>                
-                <FaPlusCircle className='icone' />
+            <div className='lista-icones-membros'>
+                <Link to='/MCadastroMembro'>
+                    <FaPlusCircle className='icone' />
+                </Link>
             </div>
 
         </div>

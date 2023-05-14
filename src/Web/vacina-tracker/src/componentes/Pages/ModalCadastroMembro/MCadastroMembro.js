@@ -4,6 +4,7 @@ import Input from '../../Layout/InputRoxo/InputRoxo'
 import { FaSave, FaPlusCircle } from "react-icons/fa";
 import React from 'react'
 import imagem from '../../../img/tela_cadastro_membro.svg'
+import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -25,8 +26,8 @@ function MCadastroMembro() {
                         </div>
 
                         <div className='lista-icones-cadastro-membro'>
-                            <FaSave className='icone' />
-                            <FaPlusCircle className='icone' />
+                            <Link to='/meusmembros'><FaSave className='icone' /></Link>
+                            <Link to='/mcadastromembro'><FaPlusCircle className='icone' /></Link>
                         </div>
                     </Col>
 

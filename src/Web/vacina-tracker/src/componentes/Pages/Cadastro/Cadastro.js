@@ -4,6 +4,7 @@ import LinkTextoBotao from '../../Layout/LinkTextoBotao/LinkTextoBotao'
 import './Cadastro.css'
 import React from 'react'
 import imagem from '../../../img/tela_cadastro.svg'
+import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -27,11 +28,13 @@ function CadastroUsuario() {
                         </div>
 
                         <div >
-                            <button className='btn-cadastro' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
+                            <Link to='/perfil'>
+                                <button className='btn-cadastro' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
+                            </Link>
                         </div>
 
                         <div>
-                            <LinkTextoBotao to="./Login" text="Já possui cadastro? Faça Login" />
+                            <LinkTextoBotao to="/Login" text="Já possui cadastro? Faça Login" />
                         </div>
                     </Col>
 

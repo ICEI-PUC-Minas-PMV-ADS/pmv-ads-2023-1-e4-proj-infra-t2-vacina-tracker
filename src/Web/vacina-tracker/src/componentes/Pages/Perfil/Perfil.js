@@ -4,6 +4,7 @@ import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
 import './Perfil.css'
 //import {FontAwesomeIcon} from '@fortawesome/fontawesome-free'
 import { FaUserCircle, FaUserPlus } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 import React from 'react'
 import imagem from '../../../img/tela_perfil.svg'
 
@@ -31,19 +32,19 @@ function Perfil() {
                             <Input type="text" text="Confirme sua Senha " name="senha" placeholder="Confirme sua Nova Senha" />
 
                             <div className='botoes-perfil'>                                
-                                <button className='btn-perfil'>Salvar Alterações</button>   
-                                <button className='btn-perfil-excluir'>Excluir Conta</button>                             
+                                <Link to='/perfil'><button className='btn-perfil'>Salvar Alterações</button></Link>   
+                                <Link to='/'><button className='btn-perfil-excluir'>Excluir Conta</button></Link>                             
                             </div>                            
                         </div>
 
                         <div className='lista-icones-perfil'>
-                            <LinkTexto to="#" text="Membros" />
-                            <FaUserPlus className='icone' />                            
+                            <LinkTexto to="/meusmembros" text="Membros" />
+                            <Link to='/mcadastromembro'><FaUserPlus className='icone' /></Link>                            
                         </div>
 
                         <div className='lista-icones-perfil'>
-                            <LinkTexto to="#" text="Vacinas" />
-                            <FaUserPlus className='icone' />                            
+                            <LinkTexto to="/vacinascadastradas" text="Vacinas" />
+                            <Link to='/mcadastrovacina'><FaUserPlus className='icone' /></Link>                            
                         </div>
                     </Col>
 

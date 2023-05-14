@@ -1,6 +1,7 @@
 import './Home.css'
 import logo from '../../../img/Logo3 dark2.png'
 import imagem from '../../../img/tela_home.svg'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -15,8 +16,12 @@ function Home() {
                 <h2 className='texto-2'>Usuário</h2>
                 
                 <div className='posicao'>
-                    <button className='btn-1'>Acessar</button>
-                    <button className='btn-2'>Cadastrar</button>
+                    <Link to='/login'>
+                        <button className='btn-1-home'>Acessar</button>
+                    </Link>
+                    <Link to='/cadastro'>
+                        <button className='btn-2-home'>Cadastrar</button>
+                    </Link>                    
                 </div>
             </div>
         </section>

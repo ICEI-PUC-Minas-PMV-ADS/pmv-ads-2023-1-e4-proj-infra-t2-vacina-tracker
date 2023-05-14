@@ -30,6 +30,7 @@
 
 .botoes-perfil {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .btn-perfil {    

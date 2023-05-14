@@ -4,6 +4,7 @@ import Input from '../../Layout/InputRoxo/InputRoxo'
 import { FaSave, FaPlusCircle } from "react-icons/fa";
 //import { Link } from 'react-router-dom';
 import imagem from '../../../img/tela_cadastro_vacina.svg'
+import { Link } from 'react-router-dom'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -31,8 +32,8 @@ function MCadastroVacina() {
                         </div>
 
                         <div className='lista-icones-cadastro-vacina'>
-                            <FaSave className='icone' />
-                            <FaPlusCircle className='icone' />
+                            <Link to='/vacinascadastradas'><FaSave className='icone' /></Link>
+                            <Link to='/mcadastrovacina'><FaPlusCircle className='icone' /></Link>
                         </div>                        
                     </Col>
 
