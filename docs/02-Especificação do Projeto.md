@@ -309,7 +309,7 @@ Também conhecido como Gráfico de _Gantt_, é uma ferramenta visual utilizada p
 
 Nessa perspectiva, demonstramos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do _software ProjectLibre_.
 
-Figura 7 - Gráfico de _Gantt_
+Figura 8 - Gráfico de _Gantt_
 
 ![Gráfico de Gantt](https://user-images.githubusercontent.com/91228798/226095453-17b4718e-5cb1-4c7e-b08d-fae589c47ebd.PNG)
 ![Grafico de Gantt 2](https://user-images.githubusercontent.com/91228798/226095471-284ece09-18db-4941-bd4e-8c959f9f3d9a.PNG)
@@ -323,7 +323,7 @@ O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir c
 
 A organização da equipe está apresentada conforme abaixo:
 
-Figura 8 - Gerenciamento de Equipe
+Figura 9 - Gerenciamento de Equipe
 
 ![Gerenciamento de equipe](https://user-images.githubusercontent.com/91228798/226095885-95c60487-7b0b-4465-a9d5-8de05bc6a0ff.PNG)
   
@@ -336,7 +336,7 @@ A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do pr
 
 Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 06 (seis) meses, para a contratação de 04 (quatro) _stakeholders_, 04 (quatro) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
-Figura 9 - Orçamento
+Figura 10 - Orçamento
 
 ![ORÇAMENTO](https://user-images.githubusercontent.com/91228798/226137919-46f7c689-9972-4cee-9a77-da90c754a82f.PNG)
 
