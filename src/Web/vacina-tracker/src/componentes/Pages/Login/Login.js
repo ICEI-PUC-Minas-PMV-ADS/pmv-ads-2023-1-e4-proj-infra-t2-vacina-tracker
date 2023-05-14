@@ -12,8 +12,8 @@ function Login() {
     return (
         <section className='login-usuario'>   
             <Container>
-                <Row className='form-img grid'>
-                    <Col md={4} className='form-login box'>
+                <Row className='form-img-login grid'>
+                    <Col md={4} className='form-login box-login'>
                         <h1 className='texto-1-login'>ACESSO</h1>
                         
                         <div className='altura'>

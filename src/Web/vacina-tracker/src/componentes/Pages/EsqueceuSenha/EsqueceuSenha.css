@@ -17,11 +17,11 @@
     text-align: center;
 }
 
-.form-img {
+.form-img-esqueceu-senha {
     display: flex;
     justify-items: stretch;
     align-items: stretch;
-    justify-content: space-between;   
+    justify-content: space-evenly;   
 }
 
 .form-esqueceu-senha {
@@ -32,7 +32,7 @@
     width: 50%;
 }
 
-.box {
+.box-esqueceu-senha {
     width: 90vw;
     height: 50vw;
     max-width: 500px;
@@ -42,7 +42,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 20px;    
+    margin-top: 56px;
 }
 
 .altura {
@@ -63,7 +64,7 @@
     transition: 0.5s;
     cursor: pointer; 
     width: 240px;
-    height: 60px; 
+    height: 50px; 
     justify-content: center;
     display: flex;
     margin: 0 auto;
