@@ -1,17 +1,15 @@
 .Container {
 	display: block;
     padding: 100px;
-
 }
 
 .texto {
     padding: 1%;
-
+	font-family: 'Montserrat', sans-serif;
 }
 
 .tab {
 	background: #540075;
-	border-radius: 1%;
-	width: 100%;
-	
+	border-radius: 8px;
+	width: 100%;	
 }
