@@ -24,11 +24,12 @@ function CadastroUsuario() {
                         </div>
 
                         <div className='checkbox-cadastro'>
-                            <Input type="checkbox" name="termos" /> Li e Aceito os Termos e Condições de Uso
+                            <Input type="checkbox" name="termos" />
+                            <LinkTextoBotao to="/PoliticaTermos" text="Li e Aceito os Termos e Condições de Uso" />
                         </div>
 
                         <div >
-                            <Link to='/perfil'>
+                            <Link to='/Perfil'>
                                 <button className='btn-cadastro' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
                             </Link>
                         </div>
