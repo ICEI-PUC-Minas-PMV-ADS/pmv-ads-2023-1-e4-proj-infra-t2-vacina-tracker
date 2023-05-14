@@ -13,8 +13,8 @@ function CadastroUsuario() {
     return (
         <section className='cadastro-usuario'>    
             <Container>
-                <Row className='form-img grid'>
-                    <Col md={4} className='form-cadastro box'>
+                <Row className='form-img-cadastro grid'>
+                    <Col md={4} className='form-cadastro box-cadastro'>
                         <h1 className='texto-1-cadastro'>CADASTRAR</h1>
 
                         <div className='altura'>

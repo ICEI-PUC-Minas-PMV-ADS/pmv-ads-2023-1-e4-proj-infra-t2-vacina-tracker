@@ -14,8 +14,8 @@ function EsqueceuSenha() {
         <section className='esqueceu-senha'>
 
             <Container>
-                <Row className='form-img grid'>
-                    <Col md={4} className='form-esqueceu-senha box'>
+                <Row className='form-img-esqueceu-senha grid'>
+                    <Col md={4} className='form-esqueceu-senha box-esqueceu-senha'>
                         <h1 className='texto-1-esqueceu-senha'>ESQUECEU SUA SENHA?</h1>
 
                         <div className='altura'>
