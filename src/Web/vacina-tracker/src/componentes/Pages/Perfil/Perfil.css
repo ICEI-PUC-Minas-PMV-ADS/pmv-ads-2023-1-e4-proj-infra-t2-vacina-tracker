@@ -1,27 +1,67 @@
 .perfil {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 8px;
+    width: 100%;    
+    padding: 0 32px;
 }
 
-.perfil h1 {
-    padding-inline-start: 40px;
+.perfil h1 {    
     font-size: 36px;
 }
 
-.caixa-texto {
-    background-color: #9113C2;
-    width: 40%;
-    margin-bottom: 56px;
-    color: #9113C2;
-    font-size: 24px;
-    border-radius: 20px;
-    padding: 8px;    
+.form-img {
     display: flex;
-    border: none;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-between;    
+}
+
+.form-perfil {    
+    align-content: space-between;
+}
+
+.form-perfil.col-md-4 {
+    width: 50%;
+}
+
+.altura {
+    margin-top: 40px;
+    align-content: space-between;
+}
+
+.btn {    
+    background-color: #8CC20A;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 10px;
+    border: none;    
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;  
+    justify-content: center;
+    display: flex;
+    margin-bottom: 72px;
+    margin: 0 auto;
+}
+
+.lista-icone-perfil {
+    display: flex;
+    padding-bottom: 24px;
+    justify-content: space-evenly;   
+    gap: 160px; 
+    margin-top: 32px;    
+}
+
+.lista-icones {
+    display: flex;
+    padding-bottom: 24px;
+    justify-content: space-between;   
+    gap: 160px; 
+    margin-top: 32px;    
+}
+
+.lista-icones svg{
+    cursor: pointer;
 }
 
 .icone {
@@ -36,12 +76,7 @@
     height: 160px;
 }
 
-.lista-icones {
-    display: flex;
-    padding-bottom: 24px;
-    align-items: flex-end;    
-}
-
-.lista-icones svg{
-    cursor: pointer;
+img {
+    width: 100%;
+    justify-content: end;
 }

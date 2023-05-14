@@ -1,10 +1,20 @@
 import './MeusMembros.css'
+import React from 'react';
+import TabelaDados from './Tabela';
+
+
 
 function MeusMembros() {
     return (
-        <div>
-            <p>Teste para as rotas - Meus Membros</p>
+
+        <div className='Container'>
+
+            <h1 className='texto'>Meus Membros</h1>
+
+            <TabelaDados />
+
         </div>
+
     )
 }
 

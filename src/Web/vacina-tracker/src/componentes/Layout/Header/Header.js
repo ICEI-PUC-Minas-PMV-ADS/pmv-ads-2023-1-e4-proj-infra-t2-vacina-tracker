@@ -1,7 +1,6 @@
 import './Header.css'
 //import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-import Container from '../Container/Container'
 import logo from '../../../img/Logo3 dark2.png'
 
 function Header() {

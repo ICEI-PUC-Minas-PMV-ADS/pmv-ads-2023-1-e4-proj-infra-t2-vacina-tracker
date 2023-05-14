@@ -1,35 +1,46 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import Home from './componentes/Pages/Home/Home'
-import Login from './componentes/Pages/Login/Login'
-import Cadastro from './componentes/Pages/Cadastro/Cadastro'
-import Perfil from './componentes/Pages/Perfil/Perfil'
-import Sair from './componentes/Pages/Home/Home'
-
 import Header from './componentes/Layout/Header/Header'
 import Footer from './componentes/Layout/Footer/Footer'
 
-import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
+import Home from './componentes/Pages/Home/Home'
+import Login from './componentes/Pages/Login/Login'
+import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
+import Cadastro from './componentes/Pages/Cadastro/Cadastro'
+import Perfil from './componentes/Pages/Perfil/Perfil'
+import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros'
+import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
+import Sair from './componentes/Pages/Home/Home'
+
+//import Perfil from './componentes/Pages/Perfil/Perfil'
 
 function App() {
   return (
     <Router>
       <Header />
 
-      <Routes>        
-          <Route exact path='/' element={<Home />} />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
 
-          <Route path='/login' element={<Login />} />
+        <Route path='/login' element={<Login />} />
 
-          <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/EsqueceuSenha' element={<EsqueceuSenha />} />
 
-          <Route path='/perfil' element={<Perfil />} />
+        <Route path='/cadastro' element={<Cadastro />} />
 
-          <Route path='/sair' element={<Sair />} />   
-               
-      </Routes>  
+        <Route path='/perfil' element={<Perfil />} />
 
-      <MCadastroVacina/>   
+        <Route path='/MeusMembros' element={<MeusMembros />} />
+
+        <Route path='/VacinasCadastradas' element={<VacinasCadastradas />} />
+
+        <Route path='/sair' element={<Sair />} />
+
+      </Routes>
+
+      <MCadastroVacina />
+
+      <Perfil />
 
       <Footer />
     </Router>

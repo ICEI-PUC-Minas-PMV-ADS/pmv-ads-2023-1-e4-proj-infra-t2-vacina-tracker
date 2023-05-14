@@ -1,25 +1,49 @@
 .cadastro {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
+    width: 100%;        
+    padding: 0 32px;    
 }
 
-.cadastro h1 {
-    padding-inline-start: 40px;
-    font-size: 36px;
+.cadastro h1 {    
+    font-size: 36px;    
+}
+
+.form-img {
+    display: flex;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-between;    
+}
+
+.form-cadastro-vacina {    
+    align-content: space-between;
+}
+
+.form-cadastro-vacina.col-md-4 {
+    width: 50%;
 }
 
 .altura {
     margin-top: 40px;
+    align-content: space-between;
 }
 
-.checkbox {
+.checkbox {    
     display: flex;
-    gap: 8px;    
-    justify-content: center;
+    width: 31%;
+    gap: 8px; 
+    align-items: start;             
+}
+
+.lista-icones {
+    display: flex;
+    padding-bottom: 24px;
+    justify-content: space-evenly;   
+    gap: 160px; 
+    margin-top: 32px;   
+}
+
+.lista-icones svg{
+    cursor: pointer;
 }
 
 .icone {
@@ -34,14 +58,7 @@
     height: 160px;
 }
 
-.lista-icones {
-    display: flex;
-    padding-bottom: 24px;
-    justify-content: space-evenly;   
-    gap: 160px; 
-    margin-top: 32px;   
-}
-
-.lista-icones svg{
-    cursor: pointer;
+img {
+    width: 100%;
+    justify-content: end;
 }
