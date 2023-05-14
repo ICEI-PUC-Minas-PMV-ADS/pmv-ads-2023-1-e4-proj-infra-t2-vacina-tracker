@@ -32,7 +32,7 @@ function App() {
                
       </Routes>  
 
-      <Perfil/>   
+      
 
       <Footer />
     </Router>

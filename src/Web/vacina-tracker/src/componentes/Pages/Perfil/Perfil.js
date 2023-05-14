@@ -53,7 +53,6 @@ function Perfil() {
                     </Col>
                 </Row>
             </Container>
-
         </section>
     )
 }
