@@ -13,7 +13,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 * CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
 * FOOTER (Rodapé): copyright.
 
-Figura 21 - Layout
+Figura 33 - Layout
 
 ![image](https://user-images.githubusercontent.com/89549220/230427756-e7695933-bb35-4692-8907-2fd1c5259fb0.png)
 
@@ -24,7 +24,7 @@ Fonte: Cellbiol (2022)
 
 ### 6.2.1 Cores da Logo
 
-Figura 22 - Cores da Logo
+Figura 34 - Cores da Logo
 
 ![cores da logo](https://user-images.githubusercontent.com/89549220/233232643-e2b16ded-a8e2-411f-b297-ca62852a47f3.png)
 
@@ -33,7 +33,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.2 Cores Principais
 
-Figura 23 - Cores Principais
+Figura 35 - Cores Principais
 
 ![cores principais](https://user-images.githubusercontent.com/89549220/233232676-c09d3b0f-a027-45f5-9ff6-665ef4b8d2d1.png)
 
@@ -42,7 +42,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.3 Cores Secundárias
 
-Figura 24 - Cores Secundárias
+Figura 36 - Cores Secundárias
 
 ![cores secundárias](https://user-images.githubusercontent.com/89549220/233232700-908c2060-96c0-4ab3-bfb4-6b11b63aad2a.png)
 
@@ -51,7 +51,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.4 Cores Neutras
 
-Figura 25 - Cores Neutras
+Figura 37 - Cores Neutras
 
 ![cores neutras](https://user-images.githubusercontent.com/89549220/233232727-fda48a34-ea79-43c3-8935-3c01683c5d87.png)
 
@@ -83,7 +83,7 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 ### 6.4.1 _Font Size_
 
-Figura 26 - _Font Size_
+Figura 38 - _Font Size_
 
 ![font size](https://user-images.githubusercontent.com/89549220/233232750-044b970c-af59-4164-a8ee-a0847ca20602.png)
 
@@ -92,7 +92,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.4.2 _Font Size Responsive_
 
-Figura 27 - _Font Size Responsive_
+Figura 39 - _Font Size Responsive_
 
 ![font size responsive](https://user-images.githubusercontent.com/89549220/233232775-37cfd617-4e3d-45d0-9970-1d040acab3b0.png)
 
@@ -109,7 +109,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.5.1 Iconografia Geral
 
-Figura 28 - Iconografia Geral
+Figura 40 - Iconografia Geral
 
 ![iconografia geral](https://user-images.githubusercontent.com/89549220/233232800-5fc6961d-6e1b-4c7f-ba72-61c8a20393b6.png)
 
@@ -127,15 +127,64 @@ Os _templates_ das telas da aplicação (_Web e Mobile_) criadas até o momento 
 ### 6.6.1 _Template_ da Aplicação _Web_
 
 #### 6.6.1.1 Tela _Home_
+
+Figura 41 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.2 Tela _Login_
+
+Figura 42 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.3 Tela Cadastro
+
+Figura 43 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.4 Tela Esqueceu Senha
+
+Figura 44 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.5 Tela Perfil
+
+Figura 45 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.6 Tela Cadastro Membro
+
+Figura 46 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.7 Tela Cadastro Vacinas
+
+Figura 47 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.8 Tela Meus Membros
+
+Figura 48 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.9 Tela Vacinas Cadastradas
+
+Figura 49 - 
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.10 Tela Política e Termos
+
+Figura 50 - 
+
+Fonte: Elaborado pelos autores
 
 ### 6.6.2 _Template_ da Aplicação _Mobile_
 
