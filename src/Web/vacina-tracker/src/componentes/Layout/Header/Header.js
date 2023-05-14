@@ -7,7 +7,7 @@ function Header() {
     return (
         <nav className="navbar">
             <section className='grid'>
-                <div className="logo">
+                <div className="logo-header">
                     <Link to="/"><img src={logo} alt='Logo Vacina Tracker' /></Link>
                 </div>
                 

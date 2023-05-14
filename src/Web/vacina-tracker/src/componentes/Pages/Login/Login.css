@@ -58,8 +58,7 @@
 .checkbox-termos {    
     display: flex;
     width: 72%;
-    gap: 8px; 
-    align-items: start;             
+    gap: 8px;                
 }
 
 .btn {    

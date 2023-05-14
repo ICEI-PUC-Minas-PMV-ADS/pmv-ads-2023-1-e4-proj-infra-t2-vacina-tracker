@@ -34,8 +34,7 @@
 .checkbox {    
     display: flex;
     width: 31%;
-    gap: 8px; 
-    align-items: start;             
+    gap: 8px;              
 }
 
 .lista-icones {

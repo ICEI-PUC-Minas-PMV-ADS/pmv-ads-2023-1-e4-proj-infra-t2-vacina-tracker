@@ -1,11 +1,11 @@
-.logo img {
-    max-width: 20%;    
-    padding: 8px;    
+.logo-header img {
+    max-width: 30%;    
+    padding: 8px;   
+    align-content: start; 
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;    
     justify-content: flex-end;   
     align-items: stretch;
     flex-flow: row nowrap;

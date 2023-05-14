@@ -45,8 +45,42 @@
     padding: 20px;
 }
 
+.altura {
+    margin-top: 40px;
+    align-content: space-between;
+    padding-right: 16px;    
+}
+
+.form-control input {    
+    background-color: rgba(19, 173, 194, 0.8);   
+}
+
 .checkbox-termos {    
     display: flex;
-    gap: 8px;    
+    width: 72%;
+    gap: 8px;                
+}
+
+.btn {    
+    background-color: #13ADC2;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 10px;
+    border: none;    
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;  
+    width: 240px;
+    height: 60px;
     justify-content: center;
+    display: flex;  
+    margin: 0 auto;   
+}
+
+img {
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }

@@ -3,16 +3,19 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './componentes/Layout/Header/Header'
 import Footer from './componentes/Layout/Footer/Footer'
 
+import Cadastro from './componentes/Pages/Cadastro/Cadastro'
+import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
 import Home from './componentes/Pages/Home/Home'
 import Login from './componentes/Pages/Login/Login'
-import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
-import Cadastro from './componentes/Pages/Cadastro/Cadastro'
-import Perfil from './componentes/Pages/Perfil/Perfil'
 import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros'
+import MCadastroMembro from './componentes/Pages/ModalCadastroMembro/MCadastroMembro'
+import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
+import Perfil from './componentes/Pages/Perfil/Perfil'
+import PoliticaTermos from './componentes/Pages/PoliticaTermos/PoliticaTermos'
+
 import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
 import Sair from './componentes/Pages/Home/Home'
 
-import MCadastroVacina from './componentes/Pages/MCadastroVacina/MCadastroVacina'
 
 function App() {
   return (
@@ -22,25 +25,27 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
 
-        <Route path='/login' element={<Login />} />
+        <Route path='/Login' element={<Login />} />
 
         <Route path='/EsqueceuSenha' element={<EsqueceuSenha />} />
 
-        <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/Cadastro' element={<Cadastro />} />
 
-        <Route path='/perfil' element={<Perfil />} />
+        <Route path='/Perfil' element={<Perfil />} />
 
         <Route path='/MeusMembros' element={<MeusMembros />} />
 
+        <Route path='/MCadastroMembro' element={<MCadastroMembro />} />
+
+        <Route path='/MCadastroVacina' element={<MCadastroVacina />} />
+
         <Route path='/VacinasCadastradas' element={<VacinasCadastradas />} />
 
-        <Route path='/sair' element={<Sair />} />
+        <Route path='/PoliticaTermos' element={<PoliticaTermos />} />
 
-      </Routes>
+        <Route path='/Sair' element={<Sair />} />
 
-      <MCadastroVacina />
-
-      <Perfil />
+      </Routes>      
 
       <Footer />
     </Router>
