@@ -2,7 +2,7 @@ import './MeusMembros.css'
 import React from 'react';
 import TabelaDados from './Tabela';
 
-
+import { FaPlusCircle } from "react-icons/fa";
 
 function MeusMembros() {
     return (
@@ -10,7 +10,11 @@ function MeusMembros() {
 
             <h1 className='texto-1-membros'>Meus Membros</h1>
 
-            <TabelaDados />            
+            <TabelaDados />
+
+            <div className='lista-icones-membros'>                
+                <FaPlusCircle className='icone' />
+            </div>
 
         </div>
     )
