@@ -23,7 +23,7 @@ Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do pro
 
 Congênere link abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
-(em desenvolvimento)
+https://www.figma.com/proto/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?type=design&node-id=13-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=13%3A2
 
 
 ### 4.2.2 _Wireframe_ Estático
@@ -33,7 +33,16 @@ Com o objetivo de apresentar de forma estática as telas da aplicação criada p
 #### 4.2.2.1 Aplicação _Web_
 
 Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&t=MXp9PMxn8InUWeOQ-0
-<br> (em desenvolvimento)
+<br> 
+
+Figura 14 - Fluxo de Telas Estático
+
+![fluxo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4d85641c-2dd8-48c1-a433-ddcd6283d672)
+![fluxo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4831ed31-b41f-4001-8163-98a9ccd8b020)
+![fluxo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/08ea87ff-89c2-43a9-b9e9-61c53bf4e7f0)
+
+Fonte: Elaborado pelos autores
+
 
 #### 4.2.2.2 Aplicação _Mobile_
 
