@@ -41,7 +41,7 @@ A tarefas estão etiquetadas em função da natureza da atividade e seguem o esq
 - Code Review
 
 
-Figura 10 - Labels
+Figura 11 - Labels
 
 ![image](https://user-images.githubusercontent.com/89549220/226082437-47cc7c26-ee4c-494c-8a07-e54ba17be8a0.png)
 
@@ -56,7 +56,7 @@ Pensando nesse contexto, o grupo optou por utilizar um processo fundamentado no�
 
 O GitFlow é um framework criado em 2010 e considerado um ótimo modelo de branching, além de ser usado para trabalhar em conjunto com o sistema de controle de versão Git (VIETRO, 2015). Assim sendo, as manutenções do código serão efetuadas definindo-se os papéis de cada branch em separado, como eles devem interagir entre si, e com a identificação de Branch Master, Branch Develop, Feature Branch, Release Branch, Maintenance Branch (Hotfix).
 
-Figura 11 - GitFlow Workflow Modelo de Fluxo de Controle do Código Fonte no Repositório Git
+Figura 12 - GitFlow Workflow Modelo de Fluxo de Controle do Código Fonte no Repositório Git
 
 ![Imagem1](https://user-images.githubusercontent.com/89549220/226082748-7891d5be-1822-4a87-a352-003bd21ba72f.png)
 
@@ -105,7 +105,7 @@ Na organização e na distribuição das tarefas do projeto, o grupo utiliza o a
 
 O quadro gerenciado pelo grupo no aplicativo Git Projects está disponível através da URL especificada no Quadro 8 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de Scrum de Schwaber e Sutherland (2020).
 
-Figura 12 - Tela do Git Projects para Gerenciamento do Projeto
+Figura 13 - Tela do Git Projects para Gerenciamento do Projeto
 
 ![image](https://user-images.githubusercontent.com/89549220/230413909-d922c960-aad3-484e-b56a-6727e65d575c.png)
 
