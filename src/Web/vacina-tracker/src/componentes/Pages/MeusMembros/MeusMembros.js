@@ -12,11 +12,11 @@ function MeusMembros() {
                 <h1 className='texto-1-membros'>Meus Membros</h1>
 
                 <TabelaDados />
-                
+
                 <div className='lista-icones-membros'>
-                <Link to='/MCadastroMembro'>
-                    <FaPlusCircle className='icone' />
-                </Link>
+                    <Link to='/MCadastroMembro'>
+                        <FaPlusCircle className='icone' />
+                    </Link>
                 </div>
             </div>
         </section>
