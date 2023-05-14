@@ -13,7 +13,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 * CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
 * FOOTER (Rodapé): copyright.
 
-Figura 21 - Layout
+Figura 33 - Layout
 
 ![image](https://user-images.githubusercontent.com/89549220/230427756-e7695933-bb35-4692-8907-2fd1c5259fb0.png)
 
@@ -24,7 +24,7 @@ Fonte: Cellbiol (2022)
 
 ### 6.2.1 Cores da Logo
 
-Figura 22 - Cores da Logo
+Figura 34 - Cores da Logo
 
 ![cores da logo](https://user-images.githubusercontent.com/89549220/233232643-e2b16ded-a8e2-411f-b297-ca62852a47f3.png)
 
@@ -33,7 +33,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.2 Cores Principais
 
-Figura 23 - Cores Principais
+Figura 35 - Cores Principais
 
 ![cores principais](https://user-images.githubusercontent.com/89549220/233232676-c09d3b0f-a027-45f5-9ff6-665ef4b8d2d1.png)
 
@@ -42,7 +42,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.3 Cores Secundárias
 
-Figura 24 - Cores Secundárias
+Figura 36 - Cores Secundárias
 
 ![cores secundárias](https://user-images.githubusercontent.com/89549220/233232700-908c2060-96c0-4ab3-bfb4-6b11b63aad2a.png)
 
@@ -51,7 +51,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.4 Cores Neutras
 
-Figura 25 - Cores Neutras
+Figura 37 - Cores Neutras
 
 ![cores neutras](https://user-images.githubusercontent.com/89549220/233232727-fda48a34-ea79-43c3-8935-3c01683c5d87.png)
 
@@ -83,7 +83,7 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 ### 6.4.1 _Font Size_
 
-Figura 26 - _Font Size_
+Figura 38 - _Font Size_
 
 ![font size](https://user-images.githubusercontent.com/89549220/233232750-044b970c-af59-4164-a8ee-a0847ca20602.png)
 
@@ -92,7 +92,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.4.2 _Font Size Responsive_
 
-Figura 27 - _Font Size Responsive_
+Figura 39 - _Font Size Responsive_
 
 ![font size responsive](https://user-images.githubusercontent.com/89549220/233232775-37cfd617-4e3d-45d0-9970-1d040acab3b0.png)
 
@@ -109,7 +109,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.5.1 Iconografia Geral
 
-Figura 28 - Iconografia Geral
+Figura 40 - Iconografia Geral
 
 ![iconografia geral](https://user-images.githubusercontent.com/89549220/233232800-5fc6961d-6e1b-4c7f-ba72-61c8a20393b6.png)
 
@@ -127,15 +127,82 @@ Os _templates_ das telas da aplicação (_Web e Mobile_) criadas até o momento 
 ### 6.6.1 _Template_ da Aplicação _Web_
 
 #### 6.6.1.1 Tela _Home_
+
+Figura 41
+
+![home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/0d9691e2-419c-4b22-ab2a-ef5ef5fcc247)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.2 Tela _Login_
+
+Figura 42
+
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/c4bdde9f-54aa-4b34-a3ad-9621ace270a4)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.3 Tela Cadastro
+
+Figura 43
+
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/0edc53f5-9e06-438f-8209-e4404db30f47)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.4 Tela Esqueceu Senha
+
+Figura 44
+
+![EsqueceuSenha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/6f8e843f-c475-436b-9f6b-e6615a11f73e)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.5 Tela Perfil
+
+Figura 45
+
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/f0fbf80e-91fb-448e-b267-0c5373e14f71)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.6 Tela Cadastro Membro
+
+Figura 46 
+
+![cadastroMembro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/963b8885-14aa-4d51-b717-2c62c99c7937)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.7 Tela Cadastro Vacinas
+
+Figura 47 
+
+![CadastroVacina](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/cc1e7974-fae5-429f-b58b-d65e63d59a15)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.8 Tela Meus Membros
+
+Figura 48 
+
+![MeusMembros](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/c536d94d-66ee-4c78-9c13-fe725374c772)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.9 Tela Vacinas Cadastradas
+
+Figura 49  
+
+![VacinasCadastradas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/864133ec-1b4b-4000-b0a5-b129a44a2930)
+
+Fonte: Elaborado pelos autores
+
 #### 6.6.1.10 Tela Política e Termos
+
+Figura 50 
+
+Fonte: Elaborado pelos autores
 
 ### 6.6.2 _Template_ da Aplicação _Mobile_
 
