@@ -1,15 +1,33 @@
 .container-membros {
 	display: block;
-    padding: 100px;
+	padding: 100px;
 }
 
 .texto-1-membros {
-    padding: 1%;
+	padding: 1%;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .tab {
 	background: #540075;
 	border-radius: 8px;
-	width: 100%;	
+	width: 100%;
+}
+
+.lista-icones-membros {
+	display: flex;
+	padding-bottom: 24px;
+	gap: 160px;
+	margin-top: 32px;
+	justify-content: flex-end;
+}
+
+.lista-icones-membros svg {
+	cursor: pointer;
+}
+
+.icone {
+	color: #13adc2;
+	width: 48px;
+	height: 48px;
 }
