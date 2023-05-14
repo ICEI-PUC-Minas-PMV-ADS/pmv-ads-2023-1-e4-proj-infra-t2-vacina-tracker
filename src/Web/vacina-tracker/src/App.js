@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Header from './componentes/Layout/Header/Header'
 import Footer from './componentes/Layout/Footer/Footer'
-
 import Home from './componentes/Pages/Home/Home'
 import Login from './componentes/Pages/Login/Login'
 import EsqueceuSenha from './componentes/Pages/EsqueceuSenha/EsqueceuSenha'
@@ -11,8 +10,6 @@ import Perfil from './componentes/Pages/Perfil/Perfil'
 import MeusMembros from './componentes/Pages/MeusMembros/MeusMembros'
 import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
 import Sair from './componentes/Pages/Home/Home'
-
-import MCadastroVacina from './componentes/Pages/MCadastroVacina/MCadastroVacina'
 
 function App() {
   return (
@@ -37,8 +34,6 @@ function App() {
         <Route path='/sair' element={<Sair />} />
 
       </Routes>
-
-      <MCadastroVacina />
 
       <Perfil />
 
