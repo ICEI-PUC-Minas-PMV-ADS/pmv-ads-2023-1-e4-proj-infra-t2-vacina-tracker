@@ -56,7 +56,7 @@ Fonte: Elaborado pelos autores
 
 Figura 16
 
-![LOGIN](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/bc41ad47-04e3-4bad-a983-c6ee405ca100)
+![LOGIN](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/680affa6-9707-40d7-92bc-ddcfd5e39f7b)
 
 Fonte: Elaborado pelos autores
 
@@ -64,7 +64,7 @@ Fonte: Elaborado pelos autores
 
 Figura 17
 
-![CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/e9b38f58-8436-4a9f-b1d7-70ad4eafaf5d)
+![CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/7f3d7e7a-71ab-486e-9047-ddecc97d6860)
 
 Fonte: Elaborado pelos autores
 
@@ -72,7 +72,7 @@ Fonte: Elaborado pelos autores
 
 Figura 18
 
-![ESQUECEU SENHA](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/9327097b-0be3-4b2f-b75f-94d83c7515ed)
+![ESQUECEU SENHA](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/b2a5805e-7b36-463e-ae4b-ad2af37ae89c)
 
 Fonte: Elaborado pelos autores
 
@@ -80,7 +80,7 @@ Fonte: Elaborado pelos autores
 
 Figura 19
 
-![PERFIL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/d1f893a7-e47b-499d-9d19-c5ab36823225)
+![PERFIL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/0749f6c0-ac3c-42fc-8876-14a313edd49a)
 
 Fonte: Elaborado pelos autores
 
