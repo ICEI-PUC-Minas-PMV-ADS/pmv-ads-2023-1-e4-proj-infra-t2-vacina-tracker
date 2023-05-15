@@ -3,18 +3,19 @@
     padding: 0 32px;
 }
 
-.titulo {
+.titulo-politica {
     color: #F5F5F5;
     padding: 8px 8px;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
     display: flex;
     margin-bottom: 16px;
+    margin-top: 40px;
 }
 
-.sub-titulo {
+.sub-titulo-politica {
     color: #F5F5F5;
     font-size: 16px;
     font-family: 'Open-Sans', sans-serif;
