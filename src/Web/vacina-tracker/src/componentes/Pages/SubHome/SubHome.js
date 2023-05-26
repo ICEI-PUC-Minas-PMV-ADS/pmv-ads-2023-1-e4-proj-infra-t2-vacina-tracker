@@ -2,7 +2,15 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
 
-import { FaUser, FaUsers, FaUserPlus, FaSyringe, FaLock } from "react-icons/fa";
+import MeuPerfil from '../../../img/meu-perfil.png'
+import AdicionarMembro from '../../../img/adicionar-membro.png'
+import AdicionarVacina from '../../../img/adicionar-vacina.png'
+import Privacidade from '../../../img/dashicons_privacy.png'
+import CatalogoVacina from '../../../img/favicon-32x32.png'
+import MembrosCadastrados from '../../../img/meus-membros.png'
+import VacinasCadastradas from '../../../img/minhas-vacinas.png'
+import Noticias from '../../../img/bx_news.png'
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,54 +22,61 @@ function SubHome() {
         <section className='sub-home'>
             <h1>Seja Bem-vindo!</h1>
             <Container>
-                <Row className='form-sub grid'>
+                <Row className='form-sub'>
                     <Col md={3} className="form-subhome">
                         <div className="lista-icones-subhome">
                             <Link to='/Perfil'>
-                                <FaUser className='icone' />
-                                <h3>Meu perfil</h3>
+                                <img src={MeuPerfil} alt="Meu Perfil" />
+                                <p>Meu Perfil</p>
                             </Link>
                         </div>
 
                         <div className="lista-icones-subhome">
                             <Link to='/MCadastroMembro'>
-                                <FaUserPlus className='icone' />
-                                <h3>Adicionar membro</h3>
+                                <img src={AdicionarMembro} alt="Adicionar Membro" />
+                                <p>Adicionar Membro</p>
                             </Link>
                         </div>
 
                         <div className="lista-icones-subhome">
                             <Link to='/MCadastroVacina'>
-                                <FaSyringe className='icone' />
-                                <h3>Adicionar vacina</h3>
+                                <img src={AdicionarVacina} alt="Adicionar Vacina" />
+                                <p>Adicionar Vacina</p>
                             </Link>
                         </div>
 
                         <div className="lista-icones-subhome">
                             <Link to='/PoliticaTermos'>
-                                <FaLock className='icone' />
-                                <h3>Politica e termos</h3>
+                                <img src={Privacidade} alt="Privacidade" />
+                                <p>Politica e Termos</p>
+                            </Link>
+                        </div>
+
+                        <div className="lista-icones-subhome">
+                            <Link to='/VacinasCadastradas'>
+                                <img src={CatalogoVacina} alt="Catálogo de Vacina" />
+                                <p>Catálogo de Vacinas</p>
+                            </Link>
+                        </div>
+
+                        <div className="lista-icones-subhome">
+                            <Link to='/MeusMembros'>
+                                <img src={MembrosCadastrados} alt="Membros Cadastrados" />
+                                <p>Membros Cadastrados</p>
+                            </Link>
+                        </div>
+
+                        <div className="lista-icones-subhome">
+                            <Link to='/VacinasCadastradas'>
+                                <img src={VacinasCadastradas} alt="Vacinas Cadastradas" />
+                                <p>Vacinas Cadastradas</p>
                             </Link>
                         </div>
 
                         <div className="lista-icones-subhome">
                             <Link to='/PoliticaTermos'>
-                                <FaUserPlus className='icone' />
-                                <h3>Catálago de vacinas</h3>
-                            </Link>
-                        </div>
-
-                        <div className="lista-icones-subhome">
-                            <Link to='/PoliticaTermos'>
-                                <FaUsers className='icone' />
-                                <h3>Membros cadastrados</h3>
-                            </Link>
-                        </div>
-
-                        <div className="lista-icones-subhome">
-                            <Link to='/PoliticaTermos'>
-                                <FaSyringe className='icone' />
-                                <h3>Vacinas cadastradas</h3>
+                                <img src={Noticias} alt="Noticias" />
+                                <p>Notícias</p>
                             </Link>
                         </div>
 

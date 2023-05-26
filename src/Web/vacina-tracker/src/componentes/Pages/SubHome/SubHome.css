@@ -7,25 +7,20 @@
     margin-top: 40px;
 }
 .form-subhome{
-    align-content: space-between;
+    display: flex;
+    justify-content: center;
 }
-.form-subhome.col-md-4 {
-    width: 50%;
+.form-subhome.col-md-3 {
+    width: 70%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .lista-icones-subhome {
-    display: flex;
-    padding-bottom: 24px;       
-    gap: 10px 30px; 
-    margin-top: 32px;    
+    padding-right: 80px;       
+    margin-top: 60px;    
 }
 
 .lista-icones-subhome svg{
     cursor: pointer;
-}
-
-.icone {
-    color: #13adc2;
-    width: 48px;
-    height: 48px;
 }
 
