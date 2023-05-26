@@ -1,24 +1,27 @@
-import React from 'react';
-import { StyleSheet, SafeAreaView, Text, View } from 'react-native';
-import { Appbar } from 'react-native-paper';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
 
-export default function App() {
+import Header from './src/Componentes/Layout/Header/Header';
+
+const Stack = createStackNavigator();
+
+function App() {
 
   return (
-    <SafeAreaView style={styles.container}>              
-        <Appbar.Header>
-          <Appbar.Content title="Vacina Tracker" />
-        </Appbar.Header>      
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName={Home}
+        headerMode="none"
+        screenOptions={{
+          gestureEnabled: true,
+        }}
+      >        
+        <Stack.Screen name="Home" component={Home} />
+        
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1005AD',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontFamily: 'Montserrat',
-  },
-});
+export default App;
