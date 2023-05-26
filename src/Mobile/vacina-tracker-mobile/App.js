@@ -1,13 +1,15 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, SafeAreaView, Text, View } from 'react-native';
+import { Appbar } from 'react-native-paper';
 
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.container}>              
+        <Appbar.Header>
+          <Appbar.Content title="Vacina Tracker" />
+        </Appbar.Header>      
+    </SafeAreaView>
   );
 }
 
@@ -17,5 +19,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#1005AD',
     alignItems: 'center',
     justifyContent: 'center',
+    fontFamily: 'Montserrat',
   },
 });
