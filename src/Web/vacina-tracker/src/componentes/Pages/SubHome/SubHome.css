@@ -11,16 +11,36 @@
     justify-content: center;
 }
 .form-subhome.col-md-3 {
-    width: 70%;
+    width: 60%;
     flex-wrap: wrap;
     align-items: center;
 }
 .lista-icones-subhome {
-    padding-right: 80px;       
+    padding: 48px;       
     margin-top: 60px;    
 }
 
 .lista-icones-subhome svg{
     cursor: pointer;
+}
+
+.txt-subhome {
+    text-decoration: none;
+    color: #F5F5F5;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-family: sans-serif, 'montserrat';
+    text-align: center;
+    justify-content: space-evenly;
+    word-wrap:break-word;
+    width: 150px; 
+}
+
+.img-subhome {
+    width: 128px;
+    height: 128px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
