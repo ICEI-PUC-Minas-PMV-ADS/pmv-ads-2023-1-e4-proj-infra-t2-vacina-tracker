@@ -7,25 +7,40 @@
     margin-top: 40px;
 }
 .form-subhome{
-    align-content: space-between;
+    display: flex;
+    justify-content: center;
 }
-.form-subhome.col-md-4 {
-    width: 50%;
+.form-subhome.col-md-3 {
+    width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .lista-icones-subhome {
-    display: flex;
-    padding-bottom: 24px;       
-    gap: 10px 30px; 
-    margin-top: 32px;    
+    padding: 48px;       
+    margin-top: 60px;    
 }
 
 .lista-icones-subhome svg{
     cursor: pointer;
 }
 
-.icone {
-    color: #13adc2;
-    width: 48px;
-    height: 48px;
+.txt-subhome {
+    text-decoration: none;
+    color: #F5F5F5;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-family: sans-serif, 'montserrat';
+    text-align: center;
+    justify-content: space-evenly;
+    word-wrap:break-word;
+    width: 150px; 
+}
+
+.img-subhome {
+    width: 128px;
+    height: 128px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
