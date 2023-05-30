@@ -14,7 +14,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Perfil"       
+        initialRouteName="Login"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
