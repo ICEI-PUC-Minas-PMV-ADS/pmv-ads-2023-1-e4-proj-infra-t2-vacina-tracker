@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     inputRoxo: {
         backgroundColor: "#9113C2",  
         fontSize: 24,  
-        marginTop: 32,    
+        marginTop: 32,
+        margin: 40,    
     },
 });

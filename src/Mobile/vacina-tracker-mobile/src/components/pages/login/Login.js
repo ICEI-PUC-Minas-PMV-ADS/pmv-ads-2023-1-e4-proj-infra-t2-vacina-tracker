@@ -13,7 +13,7 @@ export default function Login() {
 
     return (
         <View style={styles.containerLogin}>
-            <Header />
+            <Header />        
 
             <Text style={styles.loginText1}>ACESSO</Text>
 
@@ -43,7 +43,7 @@ export default function Login() {
 
 const styles = StyleSheet.create({
     containerLogin: {
-        backgroundColor: "#1005AD",
+        backgroundColor: "#1005AD",        
     },
     loginText1: {
         backgroundColor: "#1005AD",
@@ -56,12 +56,14 @@ const styles = StyleSheet.create({
     input1: {
         backgroundColor: "#1005AD",
         color: "#FFFFFF",
-        marginTop: 16,
+        marginTop: 24,
+        margin: 16,
     },
     loginText2: {
         fontSize: 16,
         color: "#FFFFFF",
         textAlign: "center",
         marginTop: 32,
+        padding: 24,
     },
 });
