@@ -8,21 +8,8 @@ import {
   View,
   Alert,
 } from "react-native";
-//import { clsButton } from 'react-native-paper';
 import { Ionicons } from "@expo/vector-icons";
 
-
-// import { HeaderIcons } from "../../shared/components/header/header-icons";
-// import { HeaderLogo } from "../../shared/components/header/header-logo";
-// import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
-// import { FooterIcons } from "../../shared/components/footer/footer-icons";
-// import { FooterText } from "../../shared/components/footer/footer-text";
-// import BtnBlue from "../../shared/components/visuais/BtnBlue";
-// import H1 from "../../shared/components/visuais/H1";
-// import * as SQLExecutor from "../../database/services/SQLExecutor";
-//import FlashMessage from "react-native-flash-message";
-// import { showMessage, hideMessage } from "react-native-flash-message";
-//import "../../../global";
 
 export default function Perfil({ navigation }) {
   const btnEditarLabel = "EDITAR";
@@ -245,12 +232,14 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: "center",
     padding: 5,
+    color: "#FFFFFF"
   },
   text2: {
     fontWeight: "bold",
     fontSize: 16,
     textAlign: "justify",
     padding: 8,
+    color: "#FFFFFF"
   },
   container: {
     flex: 1,
@@ -258,13 +247,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "100%",
     padding: 20,
-    backgroundColor: "#F1ECE9",
+    backgroundColor: "#1005AD",
   },
   scrollView: {
-    backgroundColor: "#F1ECE9",
+    backgroundColor: "#1005AD",
   },
   textInput: {
-    backgroundColor: "#FBCB2B",
+    backgroundColor: "#FFFFFF",
     width: "100%",
     marginBottom: 15,
     color: "#222",
