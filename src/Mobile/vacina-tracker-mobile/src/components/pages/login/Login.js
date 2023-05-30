@@ -12,8 +12,7 @@ export default function Login() {
     const [senha, setSenha] = React.useState("");
 
     return (
-        <View style={styles.containerLogin}>
-            <Header />        
+        <View style={styles.containerLogin}>                  
 
             <Text style={styles.loginText1}>ACESSO</Text>
 
