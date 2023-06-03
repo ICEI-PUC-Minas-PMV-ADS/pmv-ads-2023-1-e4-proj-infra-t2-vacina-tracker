@@ -2,9 +2,9 @@ import React from 'react';
 import { Text, StyleSheet, View } from "react-native";
 import { TextInput, Button } from 'react-native-paper';
 
-import Header from '../../layout/header/Header';
+//import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
-
+import {Footer} from '../../layout/footer/Footer';
 
 export default function Login() {
 
@@ -19,6 +19,7 @@ export default function Login() {
             <TextInput
                 label="E-mail"
                 value={email}
+                keyboardType="email-address"
                 onChangeText={text => setEmail(text)}
                 style={styles.input1}
             />
@@ -33,9 +34,11 @@ export default function Login() {
 
             <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
 
-            <InputAzul />
+            <InputAzul label="Conectar" />
 
             <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
+
+            <Footer />
         </View>
     );
 }
@@ -62,7 +65,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: "#FFFFFF",
         textAlign: "center",
-        marginTop: 32,
-        padding: 24,
+        marginTop: 24,
+        padding: 8,
     },
 });

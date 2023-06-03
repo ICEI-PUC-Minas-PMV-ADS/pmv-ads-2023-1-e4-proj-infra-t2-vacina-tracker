@@ -7,7 +7,7 @@ export default function InputAzul() {
     return (
         <>
             <Button
-                style={styles.inputRoxo}
+                style={styles.inputAzul}
                 mode="contained"
                 onPress={() => console.log('Pressed')}>
                 Conectar
@@ -17,9 +17,9 @@ export default function InputAzul() {
 }
 
 const styles = StyleSheet.create({
-    inputRoxo: {
+    inputAzul: {
         backgroundColor: "#13ADC2",
-        fontSize: 24,
+        textSize: 24,
         marginTop: 32,
         margin: 40,
     },
