@@ -33,8 +33,7 @@ export default function Login() {
                 style={styles.input1}
             />
 
-            <Checkbox.Item label="Li e Aceito os Termos e Condições de Uso" status="unchecked" style={styles.checkbox}/>
-            <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
+            <Checkbox.Item label="Li e Aceito os Termos e Condições de Uso" status="unchecked" style={styles.checkbox}/>            
 
             <InputRoxo label="Conectar" />
 

@@ -9,6 +9,8 @@ import Perfil from "./src/components/pages/perfil/Perfil";
 import SubHome from "./src/components/pages/sub-home/SubHome";
 import EsqueceuSenha from "./src/components/pages/esqueceu-senha/EsqueceuSenha";
 import Cadastro from "./src/components/pages/cadastro/Cadastro";
+import ModalMeusMembros from "./src/components/pages/modal-meus-membros/ModalMeusMembros";
+import ModalVacinasCadastradas from "./src/components/pages/modal-vacinas-cadastradas/ModalVacinasCadastradas";
 
 const Stack = createStackNavigator();
 
@@ -17,7 +19,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Cadastro"       
+        initialRouteName="ModalVacinasCadastradas"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
@@ -30,6 +32,8 @@ function App() {
         <Stack.Screen name="SubHome" component={SubHome} />
         <Stack.Screen name="EsqueceuSenha" component={EsqueceuSenha} />
         <Stack.Screen name="Cadastro" component={Cadastro} />
+        <Stack.Screen name="ModalMeusMembros" component={ModalMeusMembros} /> 
+        <Stack.Screen name="ModalVacinasCadastradas" component={ModalVacinasCadastradas} />        
         
       </Stack.Navigator>
     </NavigationContainer>
