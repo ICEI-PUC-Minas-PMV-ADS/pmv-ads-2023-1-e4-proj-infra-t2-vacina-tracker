@@ -4,7 +4,6 @@ import { Avatar } from "react-native-paper";
 
 export default function Perfil1({ navigation }) {
   const [id, setId] = useState("");
-  const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
@@ -14,9 +13,8 @@ export default function Perfil1({ navigation }) {
     // Por exemplo, utilizando a biblioteca 'axios':
     axios.get("/api/usuarios/meuperfil")
       .then(response => {
-        const { id, nome, email } = response.data;
+        const { id, email } = response.data;
         setId(id);
-        setNome(nome);
         setEmail(email);
       })
       .catch(error => {
@@ -26,10 +24,10 @@ export default function Perfil1({ navigation }) {
 
   const atualizarUsuario = () => {
     // Aqui você pode fazer uma requisição PUT para atualizar os dados do usuário
-    // Utilize os valores dos estados 'id', 'nome', 'email' e 'senha'
+    // Utilize os valores dos estados 'id', 'email' e 'senha'
     // para enviar a requisição de atualização para a API
     // Por exemplo, utilizando a biblioteca 'axios':
-    const usuario = { nome, email, senha };
+    const usuario = { email, senha };
     axios.put(`/api/usuarios/${id}`, usuario)
       .then(response => {
         showMessage({
@@ -78,7 +76,6 @@ export default function Perfil1({ navigation }) {
   const logoff = () => {
     // Limpe os valores dos estados
     setId("");
-    setNome("");
     setEmail("");
     setSenha("");
 
@@ -93,14 +90,6 @@ export default function Perfil1({ navigation }) {
           source={require("../../../../src/assets/meu-perfil.png")}
           size={80}
           style={styles.avatar}
-        />
-
-        <Text style={styles.text}>Nome Usuário</Text>
-        <TextInput
-          style={styles.textInput}
-          value={nome}
-          onChangeText={setNome}
-          editable={false} // Ou deixe como true para permitir a edição
         />
 
         <Text style={styles.text}>Email</Text>
@@ -124,7 +113,7 @@ export default function Perfil1({ navigation }) {
           <Button
             title="Atualizar"
             onPress={atualizarUsuario}
-            disabled={!nome || !email || !senha}
+            disabled={!email || !senha}
           />
           <Button title="Excluir" onPress={excluirUsuario} />
           <Button title="Desconectar" onPress={logoff} />

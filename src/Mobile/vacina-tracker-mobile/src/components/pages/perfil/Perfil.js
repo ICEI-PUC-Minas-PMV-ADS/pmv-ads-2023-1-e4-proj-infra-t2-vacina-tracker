@@ -12,7 +12,6 @@ export default function Perfil({ navigation }) {
   // const btnExcluirLabel = "EXCLUIR";
 
   const [id, setId] = useState(global.id || "");
-  const [nome, setNome] = useState(global.nome || "");
   const [email, setEmail] = useState(global.email || "");
   const [senha, setSenha] = useState(global.senha || "");
 
@@ -21,7 +20,6 @@ export default function Perfil({ navigation }) {
 
   useEffect(() => {
     setId(global.id);
-    setNome(global.nome);
     setEmail(global.email);
     setSenha(global.senha);
 
@@ -99,7 +97,6 @@ export default function Perfil({ navigation }) {
     if (dados === true) {
       let usuario = {
         id: id,
-        nome: nome,
         email: email,
         senha: senha,
       };
@@ -119,14 +116,12 @@ export default function Perfil({ navigation }) {
 
   const limparTela = () => {
     setId("");
-    setNome("");
     setEmail("");
     setSenha("");
   };
 
   const limparGlobais = () => {
     global.id = "";
-    global.nome = "";
     global.email = "";
     global.senha = "";
     global.usuarioLogado = false;
@@ -162,18 +157,7 @@ export default function Perfil({ navigation }) {
           style={styles.avatar}
         />
 
-        {/* <Text style={styles.text}>{global.nome}</Text>
-
-        <Text style={styles.text}>{global.email}</Text> */}
-
-
-        <Text style={styles.text2}>Nome Usuário </Text>
-        <TextInput
-          style={styles.textInput}
-          value={nome !== null ? nome : ""}
-          onChangeText={setNome}
-          editable={edicaoInputs}
-        />
+        {/*<Text style={styles.text}>{global.email}</Text> */}
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
