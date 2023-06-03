@@ -7,6 +7,7 @@ import Login from './src/components/pages/login/Login';
 import Header from "./src/components/layout/header/Header";
 import Perfil from "./src/components/pages/perfil/Perfil";
 import SubHome from "./src/components/pages/sub-home/SubHome";
+import EsqueceuSenha from "./src/components/pages/esqueceu-senha/EsqueceuSenha";
 
 const Stack = createStackNavigator();
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="SubHome"       
+        initialRouteName="EsqueceuSenha"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
@@ -26,6 +27,7 @@ function App() {
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Perfil" component={Perfil} />
         <Stack.Screen name="SubHome" component={SubHome} />
+        <Stack.Screen name="EsqueceuSenha" component={EsqueceuSenha} />
         
       </Stack.Navigator>
     </NavigationContainer>
