@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, View, Text, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
-import { Footer } from '../layout/footer/Footer';
+import { Footer } from '../../layout/footer/Footer';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 
 export default function MCadastroMembro() {
