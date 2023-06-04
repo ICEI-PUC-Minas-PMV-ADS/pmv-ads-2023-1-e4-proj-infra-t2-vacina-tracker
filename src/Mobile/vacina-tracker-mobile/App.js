@@ -1,7 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-
 import Home from './src/components/pages/home/Home';
 import Login from './src/components/pages/login/Login';
 import Header from "./src/components/layout/header/Header";
