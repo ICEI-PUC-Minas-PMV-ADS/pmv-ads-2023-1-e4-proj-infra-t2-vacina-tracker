@@ -1,27 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, StyleSheet, View } from "react-native";
 import { TextInput, Button } from 'react-native-paper';
 
 //import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
-import {Footer} from '../../layout/footer/Footer';
+import { Footer } from '../../layout/footer/Footer';
 
-export default function EsqueceuSEnha() {
+export default function EsqueceuSenha() {
 
-    const [email, setEmail] = React.useState("");    
+    const [email, setEmail] = useState("");
 
     return (
-        <View style={styles.containerLogin}>                  
+        <View style={styles.containerLogin}>
 
             <Text style={styles.loginText1}>ESQUECEU SUA SENHA?</Text>
 
-            <TextInput
-                label="E-mail"
-                value={email}
-                keyboardType="email-address"
-                onChangeText={text => setEmail(text)}
-                style={styles.input1}
-            />         
+            <View>
+                <TextInput
+                    style={styles.input1}
+                    placeholder="E-mail"
+                    value={email}
+                    keyboardType="email-address"
+                    placeholderTextColor={"#FFFFFF"}
+                    textColor={"#FFFFFF"}
+                    onChangeText={text => setEmail(text)}
+                />
+            </View>
 
             <InputAzul text="Recuperar Senha" />
 
@@ -34,7 +38,8 @@ export default function EsqueceuSEnha() {
 
 const styles = StyleSheet.create({
     containerLogin: {
-        backgroundColor: "#1005AD",        
+        backgroundColor: "#1005AD",
+        flex: 1,
     },
     loginText1: {
         backgroundColor: "#1005AD",
@@ -43,18 +48,20 @@ const styles = StyleSheet.create({
         color: "#9113C2",
         textAlign: "center",
         marginTop: 72,
+        marginBottom: 40,
     },
     input1: {
+        widht: "100%",
+        height: 48, 
+        fontSize: 16,
+        marginStart: 32,
         backgroundColor: "#1005AD",
-        color: "#FFFFFF",
-        marginTop: 24,
-        margin: 16,
     },
     loginText2: {
         fontSize: 16,
         color: "#FFFFFF",
         textAlign: "center",
         marginTop: 24,
-        padding: 8,
+        padding: 16,
     },
 });

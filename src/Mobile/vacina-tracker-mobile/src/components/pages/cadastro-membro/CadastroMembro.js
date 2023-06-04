@@ -1,54 +1,57 @@
-import React from 'react';
-import { SafeAreaView, View, Text, StyleSheet, ScrollView } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { Footer } from '../../layout/footer/Footer';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 
 export default function CadastroMembro() {
 
-    const [membro, setMembro] = React.useState("");
-    const [idade, setIdade] = React.useState("");
+    const [membro, setMembro] = useState("");
+    const [idade, setIdade] = useState("");
 
     return (
-        <SafeAreaView>
-            <ScrollView>
-            <View style={styles.containerCadastroMembro}>
-                <Text style={styles.cadastroMembro}>Cadastrar Membro</Text>
+        <View style={styles.containerCadastroMembro}>
 
-                <View style={styles.boxCadastroMembro}>
+            <Text style={styles.cadastroMembro}>Cadastrar Membro</Text>
+
+            <View style={styles.boxCadastroMembro}>
+                <View>
                     <TextInput
-                        label="Nome do Membro"
+                        style={styles.input1}
+                        placeholder="Nome do Membro"
                         value={membro}
                         onChangeText={text => setMembro(text)}
-                        style={styles.input1}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
                     />
 
                     <TextInput
-                        label="Idade"
-                        value={idade}
-                        mode="flat"
-                        onChangeText={text => setIdade(text)}
                         style={styles.input1}
+                        placeholder="Idade"
+                        value={idade}
+                        onChangeText={text => setIdade(text)}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
+                        mode="flat"                       
                     />
-
-                    <View style={styles.iconesCadastroM}>
-                        <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
-                        <AntDesign name="pluscircle" size={32} color="#13ADC2" />
-                    </View>
                 </View>
 
-                <Footer />
+                <View style={styles.iconesCadastroM}>
+                    <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
+                    <AntDesign name="pluscircle" size={32} color="#13ADC2" />
+                </View>
             </View>
-            </ScrollView>
-        </SafeAreaView>
 
+            <Footer />
+
+        </View>
     );
-
 }
 
 const styles = StyleSheet.create({
     containerCadastroMembro: {
         backgroundColor: "#1005AD",
+        flex: 1,
     },
     cadastroMembro: {
         backgroundColor: "#1005AD",
@@ -59,23 +62,29 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16,
         marginTop: 24,
         marginBottom: 8,
-
+    },
+    boxCadastroMembro: {
+        backgroundColor: "#9113C2",
+        maxWidth: 500,
+        maxHeight: 500,
+        borderRadius: 10,
+        flex: 1,
+        flexDirection: "column",
+        justifyContent: "center",
+        margin: 8,
     },
     input1: {
         backgroundColor: "#9113C2",
-        color: "#FFFFFF",
         marginTop: 24,
         margin: 16,
-        
+        widht: "100%",
+        height: 48,
+        fontSize: 16,
     },
     iconesCadastroM: {
         flex: 1,
         flexDirection: "row",
         justifyContent: "space-around",
-    },
-    boxCadastroMembro: {
-        backgroundColor: "#9113C2",
-        opacity: 0.5,  
-    }
-
-})
+        marginTop: 40,
+    },    
+});

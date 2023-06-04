@@ -12,6 +12,7 @@ import Cadastro from "./src/components/pages/cadastro/Cadastro";
 import ModalMeusMembros from "./src/components/pages/modal-meus-membros/ModalMeusMembros";
 import ModalVacinasCadastradas from "./src/components/pages/modal-vacinas-cadastradas/ModalVacinasCadastradas";
 import CadastroVacina from "./src/components/pages/cadastro-vacina/CadastroVacina";
+import CadastroMembro from "./src/components/pages/cadastro-membro/CadastroMembro";
 
 const Stack = createStackNavigator();
 
@@ -20,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="CadastroVacina"       
+        initialRouteName="Header"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
@@ -35,7 +36,8 @@ function App() {
         <Stack.Screen name="Cadastro" component={Cadastro} />
         <Stack.Screen name="ModalMeusMembros" component={ModalMeusMembros} /> 
         <Stack.Screen name="ModalVacinasCadastradas" component={ModalVacinasCadastradas} /> 
-        <Stack.Screen name="CadastroVacina" component={CadastroVacina} />        
+        <Stack.Screen name="CadastroVacina" component={CadastroVacina} /> 
+        <Stack.Screen name="CadastroMembro" component={CadastroMembro} />        
         
       </Stack.Navigator>
     </NavigationContainer>
