@@ -21,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="PoliticaTermos"       
+        initialRouteName="Login"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,

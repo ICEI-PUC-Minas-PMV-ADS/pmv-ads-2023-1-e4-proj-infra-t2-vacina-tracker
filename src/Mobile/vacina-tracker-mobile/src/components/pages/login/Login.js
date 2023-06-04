@@ -66,6 +66,7 @@ export default function Login() {
 const styles = StyleSheet.create({
     containerLogin: {
         backgroundColor: "#1005AD",
+        flex: 1,
     },
     loginText1: {
         fontWeight: "bold",
@@ -83,7 +84,7 @@ const styles = StyleSheet.create({
     },
     inputArea2: {
         flexDirection: "row",
-        width: "90%",        
+        width: "80%",        
         borderRadius: 8,
         height: 48,        
     },

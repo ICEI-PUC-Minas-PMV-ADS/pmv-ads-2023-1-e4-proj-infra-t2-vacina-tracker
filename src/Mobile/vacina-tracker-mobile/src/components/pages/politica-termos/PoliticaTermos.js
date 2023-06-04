@@ -230,9 +230,8 @@ const styles = StyleSheet.create({
   textTitulo1: {
     backgroundColor: "#1005AD",
     fontWeight: "bold",
-    fontSize: 16,
-    color: "#9113C2",
-    textAlign: "start",
+    fontSize: 24,
+    color: "#9113C2",    
     paddingHorizontal: 8,
     marginTop: 24,
     marginBottom: 8,
@@ -240,9 +239,8 @@ const styles = StyleSheet.create({
   textTitulo2: {
     backgroundColor: "#1005AD",
     fontWeight: "bold",
-    fontSize: 16,
-    color: "#13ADC2",
-    textAlign: "start",
+    fontSize: 24,
+    color: "#13ADC2",    
     paddingHorizontal: 8,
     marginTop: 24,
     marginBottom: 8,
