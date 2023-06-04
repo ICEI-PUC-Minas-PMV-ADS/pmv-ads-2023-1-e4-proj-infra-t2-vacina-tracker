@@ -1,24 +1,15 @@
-import { StyleSheet, SafeAreaView, ScrollView, Text, View, Alert, } from "react-native";
+import React from 'react';
+import { View } from "react-native";
+
+import { Footer } from '../../layout/footer/Footer';
 
 export default function PoliticaTermos() {
 
-return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
+  return (
+    <View>
 
-        <Text style={styles.text}>PERFIL</Text>
-
-        <Text style={styles.text}>PERFIL</Text>
-
-        <Text style={styles.text}>PERFIL</Text>
-
-        <Text style={styles.text}>PERFIL</Text>
-
-      </ScrollView>
       <Footer />
-    </SafeAreaView>
 
-);
-
-
+    </View>
+  );
 }

@@ -1,15 +1,7 @@
 import React from 'react';
+import { SafeAreaView, View, StyleSheet, Image, Text, TouchableOpacity } from "react-native";
+
 import { Footer } from '../../layout/footer/Footer';
-
-import {
-    SafeAreaView,
-    View,
-    StyleSheet,
-    Image,
-    Text,
-    TouchableOpacity,
-} from "react-native";
-
 
 export default function Home() {
 
@@ -17,24 +9,24 @@ export default function Home() {
         <SafeAreaView>
             <View style={styles.containerHome}>
                 <Image
-                 source={require("../../../assets/logo-dark-600px.png")}
-                 style={{ width: 330, height: 92, marginTop: 60 }}
+                    source={require("../../../assets/logo-dark-600px.png")}
+                    style={{ width: 330, height: 92, marginTop: 60 }}
                 />
 
                 <Text style={styles.homeText1}>Seu cartão de vacinas onde você estiver</Text>
 
                 <View>
-
                     <TouchableOpacity style={styles.btnConectar} onPress={() => console.log('Pressed')}>
-                        <Text style={styles.homeText2}>Conectar</Text>
+                        <Text style={styles.homeText2}>Acessar</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.btnCadastrar} onPress={() => console.log('Pressed')}>
                         <Text style={styles.homeText2}>Cadastrar</Text>
                     </TouchableOpacity>
-
                 </View>
+
                 <Footer />
+
             </View>
         </SafeAreaView>
     );
@@ -45,17 +37,17 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#1005AD",
         alignItems: "center",
-        padding: 56,
+        padding: 16,
     },
     homeText1: {
-        fontSize: 16,
+        fontSize: 24,
         color: "#FFFFFF",
         textAlign: "center",
         margin: 8,
     },
-	btnConectar: {
+    btnConectar: {
         backgroundColor: "#13ADC2",
-        marginTop: 250,
+        marginTop: 128,
         margin: 40,
         textAlign: "center",
         borderRadius: 10,
@@ -64,12 +56,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         marginBottom: 15,
     },
-	btnCadastrar: {
+    btnCadastrar: {
         backgroundColor: "#9113C2",
         marginTop: 32,
-        margin: 40, 
+        margin: 40,
         textAlign: "center",
-        borderRadius: 10, 
+        borderRadius: 10,
         width: 240,
         height: 60,
         justifyContent: "center",
