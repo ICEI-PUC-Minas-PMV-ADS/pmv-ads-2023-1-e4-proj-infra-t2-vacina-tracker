@@ -17,7 +17,7 @@ export default function Home() {
 
                 <View>
                     <TouchableOpacity style={styles.btnConectar} onPress={() => console.log('Pressed')}>
-                        <Text style={styles.homeText2}>Conectar</Text>
+                        <Text style={styles.homeText2}>Acessar</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.btnCadastrar} onPress={() => console.log('Pressed')}>
