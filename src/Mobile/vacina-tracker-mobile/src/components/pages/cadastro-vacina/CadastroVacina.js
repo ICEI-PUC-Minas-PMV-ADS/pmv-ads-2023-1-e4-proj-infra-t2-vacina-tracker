@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
@@ -7,10 +7,10 @@ import { Footer } from '../../layout/footer/Footer';
 
 export default function CadastroVacina() {
 
-    const [nome, setNome] = React.useState("");
-    const [dataAplicacao, setDataAplicacao] = React.useState("");
-    const [dose, setDose] = React.useState("");
-    const [dataProxAplicacao, setDataProxAplicacao] = React.useState("");
+    const [nome, setNome] = useState("");
+    const [dataAplicacao, setDataAplicacao] = useState("");
+    const [dose, setDose] = useState("");
+    const [dataProxAplicacao, setDataProxAplicacao] = useState("");
 
     return (
         <View style={styles.containerCadastroVacina}>
@@ -18,36 +18,46 @@ export default function CadastroVacina() {
             <Text style={styles.cadastroVacinaText1}>Cadastrar Vacina</Text>
 
             <View style={styles.boxCadastroVacina}>
-                <TextInput
-                    label="Nome da Vacina"
-                    value={nome}
-                    onChangeText={text => setNome(text)}
-                    style={styles.input1}
-                />
+                <View>
+                    <TextInput
+                        style={styles.input1}
+                        placeholder="Nome da Vacina"
+                        value={nome}
+                        onChangeText={text => setNome(text)}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
+                    />
 
-                <TextInput
-                    label="Data da Aplicação"
-                    value={dataAplicacao}
-                    keyboardType="date"
-                    onChangeText={text => setDataAplicacao(text)}
-                    style={styles.input1}
-                />
+                    <TextInput
+                        style={styles.input1}
+                        placeholder="Data da Aplicação"
+                        value={dataAplicacao}
+                        keyboardType="date"
+                        onChangeText={text => setDataAplicacao(text)}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
+                    />
 
-                <TextInput
-                    label="Dose"
-                    value={dose}
-                    onChangeText={text => setDose(text)}
-                    style={styles.input1}
-                />
+                    <TextInput
+                        style={styles.input1}
+                        placeholder="Dose"
+                        value={dose}
+                        onChangeText={text => setDose(text)}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
+                    />
 
-                <TextInput
-                    label="Data da Próxima Aplicação"
-                    value={dataProxAplicacao}
-                    keyboardType="date"
-                    dataDetectorTypes="calendarEvent"
-                    onChangeText={text => setDataProxAplicacao(text)}
-                    style={styles.input1}
-                />
+                    <TextInput
+                        style={styles.input1}
+                        placeholder="Data da Próxima Aplicação"
+                        value={dataProxAplicacao}
+                        keyboardType="date"
+                        dataDetectorTypes="calendarEvent"
+                        onChangeText={text => setDataProxAplicacao(text)}
+                        placeholderTextColor={"#FFFFFF"}
+                        textColor={"#FFFFFF"}
+                    />
+                </View>
 
                 <View style={styles.iconesCadastroV}>
                     <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
@@ -64,6 +74,7 @@ export default function CadastroVacina() {
 const styles = StyleSheet.create({
     containerCadastroVacina: {
         backgroundColor: "#1005AD",
+        flex: 1,
     },
     cadastroVacinaText1: {
         backgroundColor: "#1005AD",
@@ -75,9 +86,8 @@ const styles = StyleSheet.create({
         marginTop: 24,
         marginBottom: 8,
     },
-    boxCadastroVacina: {        
+    boxCadastroVacina: {
         backgroundColor: "#9113C2",
-        opacity: 0.5,
         maxWidth: 500,
         maxHeight: 500,
         borderRadius: 10,
@@ -88,10 +98,11 @@ const styles = StyleSheet.create({
     },
     input1: {
         backgroundColor: "#9113C2",
-        fontWeight: "bold",
-        fontColor: "#FFFFFF",
         marginTop: 24,
         margin: 16,
+        widht: "100%",
+        height: 48,
+        fontSize: 16,
     },
     iconesCadastroV: {
         flex: 1,

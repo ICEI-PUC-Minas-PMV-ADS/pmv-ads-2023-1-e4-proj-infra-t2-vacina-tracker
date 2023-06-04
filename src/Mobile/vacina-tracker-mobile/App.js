@@ -20,7 +20,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="CadastroVacina"       
+        initialRouteName="Cadastro"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
