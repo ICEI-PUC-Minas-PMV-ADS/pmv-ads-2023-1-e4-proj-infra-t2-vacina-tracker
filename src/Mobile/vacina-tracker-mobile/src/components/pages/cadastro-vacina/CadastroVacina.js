@@ -64,6 +64,7 @@ export default function CadastroVacina() {
 const styles = StyleSheet.create({
     containerCadastroVacina: {
         backgroundColor: "#1005AD",
+        flex: 1,
     },
     cadastroVacinaText1: {
         backgroundColor: "#1005AD",
