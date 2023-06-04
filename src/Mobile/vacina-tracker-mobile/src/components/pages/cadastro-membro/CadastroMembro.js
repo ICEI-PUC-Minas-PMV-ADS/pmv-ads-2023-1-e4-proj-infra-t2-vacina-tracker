@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, View, Text, StyleSheet } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet, ScrollView } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { Footer } from '../../layout/footer/Footer';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
@@ -11,10 +11,11 @@ export default function CadastroMembro() {
 
     return (
         <SafeAreaView>
+            <ScrollView>
             <View style={styles.containerCadastroMembro}>
                 <Text style={styles.cadastroMembro}>Cadastrar Membro</Text>
 
-                <View>
+                <View style={styles.boxCadastroMembro}>
                     <TextInput
                         label="Nome do Membro"
                         value={membro}
@@ -25,18 +26,20 @@ export default function CadastroMembro() {
                     <TextInput
                         label="Idade"
                         value={idade}
+                        mode="flat"
                         onChangeText={text => setIdade(text)}
                         style={styles.input1}
                     />
-                </View>
 
-                <View style={styles.iconesCadastroM }>
-                    <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
-                    <AntDesign name="pluscircle" size={32} color="#13ADC2" />
+                    <View style={styles.iconesCadastroM}>
+                        <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
+                        <AntDesign name="pluscircle" size={32} color="#13ADC2" />
+                    </View>
                 </View>
 
                 <Footer />
             </View>
+            </ScrollView>
         </SafeAreaView>
 
     );
@@ -48,20 +51,31 @@ const styles = StyleSheet.create({
         backgroundColor: "#1005AD",
     },
     cadastroMembro: {
+        backgroundColor: "#1005AD",
+        fontWeight: "bold",
         fontSize: 16,
         color: "#FFFFFF",
-        margin: 8,
+        textAlign: "start",
+        paddingHorizontal: 16,
+        marginTop: 24,
+        marginBottom: 8,
+
     },
     input1: {
-        backgroundColor: "#1005AD",
+        backgroundColor: "#9113C2",
         color: "#FFFFFF",
         marginTop: 24,
         margin: 16,
+        
     },
     iconesCadastroM: {
         flex: 1,
         flexDirection: "row",
         justifyContent: "space-around",
     },
+    boxCadastroMembro: {
+        backgroundColor: "#9113C2",
+        opacity: 0.5,  
+    }
 
 })
