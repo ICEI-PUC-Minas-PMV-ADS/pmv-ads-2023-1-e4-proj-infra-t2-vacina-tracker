@@ -1,36 +1,25 @@
 import React, { useEffect, useState } from "react";
-import {
-  StyleSheet,
-  SafeAreaView,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
-  Alert,
-} from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { StyleSheet, SafeAreaView, ScrollView, Text, TextInput, View, Alert, } from "react-native";
+import { Avatar } from "react-native-paper";
+
 
 
 export default function Perfil({ navigation }) {
-  const btnEditarLabel = "EDITAR";
-  const btnSairLabel = "SAIR";
-  const btnSalvarLabel = "SALVAR";
-  const btnCancelarLabel = "CANCELAR";
-  const btnExcluirLabel = "EXCLUIR";
+  // const btnEditarLabel = "EDITAR";
+  // const btnSairLabel = "SAIR";
+  // const btnSalvarLabel = "SALVAR";
+  // const btnCancelarLabel = "CANCELAR";
+  // const btnExcluirLabel = "EXCLUIR";
 
-  const [id, setId] = useState("");
-  const [nome, setNome] = useState("");
-  const [cpf, setCpf] = useState("");
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
+  const [id, setId] = useState(global.id || "");
+  const [email, setEmail] = useState(global.email || "");
+  const [senha, setSenha] = useState(global.senha || "");
 
   const [layoutEdicao, setLayoutEdicao] = useState("");
   const [edicaoInputs, setEdicaoInputs] = useState(false);
 
   useEffect(() => {
     setId(global.id);
-    setNome(global.nome);
-    setCpf(global.cpf);
     setEmail(global.email);
     setSenha(global.senha);
 
@@ -50,7 +39,7 @@ export default function Perfil({ navigation }) {
       [
         {
           text: "CANCELAR",
-          onPress: () => {},
+          onPress: () => { },
           style: "cancel",
         },
         {
@@ -70,7 +59,7 @@ export default function Perfil({ navigation }) {
       [
         {
           text: "CANCELAR",
-          onPress: () => {},
+          onPress: () => { },
           style: "cancel",
         },
         {
@@ -108,8 +97,6 @@ export default function Perfil({ navigation }) {
     if (dados === true) {
       let usuario = {
         id: id,
-        nome: nome,
-        cpf: cpf,
         email: email,
         senha: senha,
       };
@@ -129,16 +116,12 @@ export default function Perfil({ navigation }) {
 
   const limparTela = () => {
     setId("");
-    setNome("");
-    setCpf("");
     setEmail("");
     setSenha("");
   };
 
   const limparGlobais = () => {
     global.id = "";
-    global.nome = "";
-    global.cpf = "";
     global.email = "";
     global.senha = "";
     global.usuarioLogado = false;
@@ -167,36 +150,14 @@ export default function Perfil({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-      
 
-        <Ionicons
-          name="person-circle"
+        <Avatar.Image
+          source={require("../../../../src/assets/meu-perfil.png")}
           size={80}
-          color="#2C9196"
-          style={{ textAlign: "center" }}
+          style={styles.avatar}
         />
 
- 
-        <Text style={styles.text}>{global.nome}</Text>
-
-        <Text style={styles.text}>{global.email}</Text>
-
-
-        <Text style={styles.text2}>Nome Usuário </Text>
-        <TextInput
-          style={styles.textInput}
-          value={nome !== null ? nome : ""}
-          onChangeText={setNome}
-          editable={edicaoInputs}
-        />
-
-        <Text style={styles.text2}>CPF </Text>
-        <TextInput
-          style={styles.textInput}
-          value={cpf !== null ? cpf : ""}
-          onChangeText={setCpf}
-          editable={edicaoInputs}
-        />
+        {/*<Text style={styles.text}>{global.email}</Text> */}
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
@@ -214,15 +175,9 @@ export default function Perfil({ navigation }) {
           editable={edicaoInputs}
         />
 
-      
 
-    
-
-        
-
-     
       </ScrollView>
-     
+
     </SafeAreaView>
   );
 }
@@ -261,5 +216,9 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 7,
     margin: "auto",
+  },
+  avatar: {
+    backgroundColor: "#FFFFFF",
+    alignSelf: 'center'
   },
 });
