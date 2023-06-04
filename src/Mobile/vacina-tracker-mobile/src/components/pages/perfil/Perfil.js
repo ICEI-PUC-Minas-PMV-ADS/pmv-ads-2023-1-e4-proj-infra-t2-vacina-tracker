@@ -4,6 +4,7 @@ import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
 import * as Keychain from 'react-native-keychain';
 import InputRoxo from "../../layout/input/InputRoxo";
+import InputLaranja from "../../layout/input/InputLaranja";
 
 export default function Perfil({ navigation }) {
 
@@ -14,7 +15,7 @@ export default function Perfil({ navigation }) {
   const handleSalvarModificacoes = async () => {
     try {
       const token = await Keychain.getInternetCredentials('jwt_token');
-    
+
       if (!token) {
         // Redirecionar para a tela de login ou realizar outra ação adequada
         return;
@@ -44,7 +45,7 @@ export default function Perfil({ navigation }) {
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
 
-        <Text style={styles.text}>PERFIL</Text>
+        <Text style={styles.text}>Perfil do Usuário</Text>
 
         <Avatar.Image
           source={require("../../../../src/assets/meu-perfil.png")}
@@ -53,22 +54,37 @@ export default function Perfil({ navigation }) {
         />
 
         <TextInput
-          label="E-mail"
+          placeholder="E-mail"
           value={email !== null ? email : ""}
           keyboardType="email-address"
           onChangeText={text => setEmail(text)}
           style={styles.inputText}
+          placeholderTextColor={"#FFFFFF"}
+          textColor={"#FFFFFF"}
         />
 
         <TextInput
-          label="Senha"
+          placeholder="Nova Senha"
           value={senha !== null ? senha : ""}
           keyboardType="senha"
           onChangeText={text => setSenha(text)}
           style={styles.inputText}
+          placeholderTextColor={"#FFFFFF"}
+          textColor={"#FFFFFF"}
+        />
+        <TextInput
+          placeholder="Confirmar Senha"
+          value={senha !== null ? senha : ""}
+          keyboardType="confirmarsenha"
+          onChangeText={text => setSenha(text)}
+          style={styles.inputText}
+          placeholderTextColor={"#FFFFFF"}
+          textColor={"#FFFFFF"}
         />
 
-        <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes}/>
+        <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes} />
+
+        <InputLaranja text="Excluir Conta" onPress={""} />
 
 
       </ScrollView>
@@ -81,14 +97,15 @@ const styles = StyleSheet.create({
   text: {
     backgroundColor: "#1005AD",
     fontWeight: "bold",
-    fontSize: 36,
-    color: "#9113C2",
-    textAlign: "center",
-    marginTop: 30,
+    fontSize: 16,
+    color: "#FFFFFF",
+    textAlign: "start",
+    paddingHorizontal: 16,
+    marginTop: 24,
+    marginBottom: 8,
   },
 
   container: {
-    flex: 1,
     alignItems: "center",
     justifyContent: "center",
     width: "100%",
@@ -108,6 +125,6 @@ const styles = StyleSheet.create({
   avatar: {
     backgroundColor: "#FFFFFF",
     alignSelf: 'center',
-    marginVertical: 50
+    marginVertical: 30
   },
 });

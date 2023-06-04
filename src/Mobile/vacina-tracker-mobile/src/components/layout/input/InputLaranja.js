@@ -16,7 +16,7 @@ export default function InputLaranja({text}) {
 }
 
 const styles = StyleSheet.create({
-    inputRoxo: {
+    inputLaranja: {
         backgroundColor: "#C25F13",  
         fontSize: 24,  
         marginTop: 32,
