@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, Text, View, Alert, } from "react-native";
 import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
-import InputAzul from '../../layout/input/InputAzul';
 import * as Keychain from 'react-native-keychain';
+import InputRoxo from "../../layout/input/InputRoxo";
 
 export default function Perfil({ navigation }) {
 
@@ -68,7 +68,8 @@ export default function Perfil({ navigation }) {
           style={styles.inputText}
         />
 
-        <InputAzul text="Salvar Modificações" onPress={handleSalvarModificacoes}/>
+        <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes}/>
+
 
       </ScrollView>
       <Footer />
