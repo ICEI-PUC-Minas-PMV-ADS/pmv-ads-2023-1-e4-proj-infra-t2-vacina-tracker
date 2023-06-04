@@ -43,7 +43,6 @@ export default function CadastroMembro() {
         </SafeAreaView>
 
     );
-
 }
 
 const styles = StyleSheet.create({
@@ -59,14 +58,12 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16,
         marginTop: 24,
         marginBottom: 8,
-
     },
     input1: {
         backgroundColor: "#9113C2",
         color: "#FFFFFF",
         marginTop: 24,
-        margin: 16,
-        
+        margin: 16,        
     },
     iconesCadastroM: {
         flex: 1,
@@ -76,6 +73,5 @@ const styles = StyleSheet.create({
     boxCadastroMembro: {
         backgroundColor: "#9113C2",
         opacity: 0.5,  
-    }
-
-})
+    },
+});
