@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, Text, TextInput, View, Button, Alert } from "react-native";
 import { Avatar } from "react-native-paper";
+import { API_URL } from 'react-native-dotenv';
 
 export default function Perfil1({ navigation }) {
   const [id, setId] = useState("");
@@ -8,6 +9,17 @@ export default function Perfil1({ navigation }) {
   const [senha, setSenha] = useState("");
 
   useEffect(() => {
+    // Use a variável API_URL para fazer as requisições para a API
+    fetch(API_URL + '/endpoint')
+      .then(response => response.json())
+      .then(data => {
+        // Faça algo com os dados retornados pela API
+        console.log(data);
+      })
+      .catch(error => {
+        // Trate erros da requisição
+        console.error(error);
+      });
     // Aqui você pode fazer uma requisição para obter os dados do usuário
     // e preencher os estados com esses dados
     // Por exemplo, utilizando a biblioteca 'axios':
@@ -47,7 +59,7 @@ export default function Perfil1({ navigation }) {
       [
         {
           text: "CANCELAR",
-          onPress: () => {},
+          onPress: () => { },
           style: "cancel",
         },
         {
