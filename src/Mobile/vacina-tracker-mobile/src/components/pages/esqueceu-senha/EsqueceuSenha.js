@@ -6,7 +6,7 @@ import { TextInput, Button } from 'react-native-paper';
 import InputAzul from '../../layout/input/InputAzul';
 import {Footer} from '../../layout/footer/Footer';
 
-export default function Login() {
+export default function EsqueceuSEnha() {
 
     const [email, setEmail] = React.useState("");    
 
