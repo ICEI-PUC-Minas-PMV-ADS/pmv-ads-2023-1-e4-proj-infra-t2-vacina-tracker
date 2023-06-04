@@ -28,6 +28,7 @@ export default function Login() {
             <TextInput
                 label="Senha"
                 value={senha}
+                secureTextEntry
                 onChangeText={text => setSenha(text)}
                 right={<TextInput.Icon icon="eye" />}
                 style={styles.input1}
@@ -35,7 +36,7 @@ export default function Login() {
 
             <Checkbox.Item label="Li e Aceito os Termos e Condições de Uso" status="unchecked" style={styles.checkbox}/>            
 
-            <InputRoxo label="Conectar" />
+            <InputRoxo text="Cadastre-se" />
 
             <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
 

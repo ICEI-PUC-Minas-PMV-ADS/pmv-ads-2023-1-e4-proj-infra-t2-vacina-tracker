@@ -27,14 +27,15 @@ export default function Login() {
             <TextInput
                 label="Senha"
                 value={senha}
+                secureTextEntry
                 onChangeText={text => setSenha(text)}
                 right={<TextInput.Icon icon="eye" />}
                 style={styles.input1}
-            />
+            />            
 
             <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
 
-            <InputAzul label="Conectar" />
+            <InputAzul text="Conectar" />
 
             <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
 
@@ -57,7 +58,11 @@ const styles = StyleSheet.create({
     },
     input1: {
         backgroundColor: "#1005AD",
-        color: "#FFFFFF",
+        underlineColor: "#ffa000",
+        selectionColor: "#ffa000",
+        activeUnderlineColor: "#ffa000",
+        outlineColor: "#ffa000",
+        textColor: "#ffa000",
         marginTop: 24,
         margin: 16,
     },

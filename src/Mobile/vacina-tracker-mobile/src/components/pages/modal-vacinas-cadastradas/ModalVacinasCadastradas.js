@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View } from "react-native";
 import { Avatar, Card, IconButton } from 'react-native-paper';
 
-import {Footer} from '../../layout/footer/Footer';
+import { Footer } from '../../layout/footer/Footer';
 
 export default function ModalVacinasCadastradas() {    
 

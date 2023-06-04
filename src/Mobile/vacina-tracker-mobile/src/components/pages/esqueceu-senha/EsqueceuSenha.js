@@ -23,7 +23,7 @@ export default function Login() {
                 style={styles.input1}
             />         
 
-            <InputAzul label="Recuperar Senha" />
+            <InputAzul text="Recuperar Senha" />
 
             <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
 
