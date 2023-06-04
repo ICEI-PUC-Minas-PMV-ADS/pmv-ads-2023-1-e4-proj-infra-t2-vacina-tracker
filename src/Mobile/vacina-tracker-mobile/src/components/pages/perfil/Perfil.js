@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, Text, TextInput, View, Alert, } from "react-native";
 import { Avatar } from "react-native-paper";
-
+import { Footer } from '../../layout/footer/Footer';
+import InputAzul from '../../layout/input/InputAzul';
 
 
 export default function Perfil({ navigation }) {
@@ -15,137 +16,137 @@ export default function Perfil({ navigation }) {
   const [email, setEmail] = useState(global.email || "");
   const [senha, setSenha] = useState(global.senha || "");
 
-  const [layoutEdicao, setLayoutEdicao] = useState("");
+  // const [layoutEdicao, setLayoutEdicao] = useState("");
   const [edicaoInputs, setEdicaoInputs] = useState(false);
 
-  useEffect(() => {
-    setId(global.id);
-    setEmail(global.email);
-    setSenha(global.senha);
+  // useEffect(() => {
+  //   setId(global.id);
+  //   setEmail(global.email);
+  //   setSenha(global.senha);
 
-    setLayoutEdicao(modoEdicao);
-  }, []);
+  //   setLayoutEdicao(modoEdicao);
+  // }, []);
 
-  const modoEdicao = (modoEdicao) => {
-    setLayoutEdicao(modoEdicao);
-    setEdicaoInputs(modoEdicao);
-    Botoes();
-  };
+  // const modoEdicao = (modoEdicao) => {
+  //   setLayoutEdicao(modoEdicao);
+  //   setEdicaoInputs(modoEdicao);
+  //   Botoes();
+  // };
 
-  const desejaSair = () => {
-    Alert.alert(
-      "LOGOFF",
-      "Tem certeza de que deseja desconectar da sua conta?",
-      [
-        {
-          text: "CANCELAR",
-          onPress: () => { },
-          style: "cancel",
-        },
-        {
-          text: "DESCONECTAR",
-          onPress: () => {
-            logoff();
-          },
-        },
-      ]
-    );
-  };
+  // const desejaSair = () => {
+  //   Alert.alert(
+  //     "LOGOFF",
+  //     "Tem certeza de que deseja desconectar da sua conta?",
+  //     [
+  //       {
+  //         text: "CANCELAR",
+  //         onPress: () => { },
+  //         style: "cancel",
+  //       },
+  //       {
+  //         text: "DESCONECTAR",
+  //         onPress: () => {
+  //           logoff();
+  //         },
+  //       },
+  //     ]
+  //   );
+  // };
 
-  const desejaExcluir = (dados) => {
-    Alert.alert(
-      "EXCLUIR USUÁRIO",
-      "Tem certeza de que deseja apagar o seu usuário ? A exclusão será permanente!",
-      [
-        {
-          text: "CANCELAR",
-          onPress: () => { },
-          style: "cancel",
-        },
-        {
-          text: "EXCLUIR",
-          onPress: () => {
-            excluirUsuario(dados);
-            sucessoDelete();
-            setTimeout(logoff, 500);
-          },
-        },
-      ]
-    );
-  };
+  // const desejaExcluir = (dados) => {
+  //   Alert.alert(
+  //     "EXCLUIR USUÁRIO",
+  //     "Tem certeza de que deseja apagar o seu usuário ? A exclusão será permanente!",
+  //     [
+  //       {
+  //         text: "CANCELAR",
+  //         onPress: () => { },
+  //         style: "cancel",
+  //       },
+  //       {
+  //         text: "EXCLUIR",
+  //         onPress: () => {
+  //           excluirUsuario(dados);
+  //           sucessoDelete();
+  //           setTimeout(logoff, 500);
+  //         },
+  //       },
+  //     ]
+  //   );
+  // };
 
-  const excluirUsuario = (dados) => {
-    if (dados === true) {
-      SQLExecutor.deleteUsuario(id);
-    }
-  };
+  // const excluirUsuario = (dados) => {
+  //   if (dados === true) {
+  //     SQLExecutor.deleteUsuario(id);
+  //   }
+  // };
 
-  const sucessoDelete = () => {
-    showMessage({
-      message: "Usuário excluido com sucesso!",
-      type: "success",
-    });
-  };
+  // const sucessoDelete = () => {
+  //   showMessage({
+  //     message: "Usuário excluido com sucesso!",
+  //     type: "success",
+  //   });
+  // };
 
-  function logoff() {
-    limparTela();
-    limparGlobais();
-    redirecionaTela();
-  }
+  // function logoff() {
+  //   limparTela();
+  //   limparGlobais();
+  //   redirecionaTela();
+  // }
 
-  const atualizarUsuario = (dados) => {
-    if (dados === true) {
-      let usuario = {
-        id: id,
-        email: email,
-        senha: senha,
-      };
+  // const atualizarUsuario = (dados) => {
+  //   if (dados === true) {
+  //     let usuario = {
+  //       id: id,
+  //       email: email,
+  //       senha: senha,
+  //     };
 
-      SQLExecutor.updateUsuario(usuario);
+  //     SQLExecutor.updateUsuario(usuario);
 
-      sucessoUpdate();
-    }
-  };
+  //     sucessoUpdate();
+  //   }
+  // };
 
-  const sucessoUpdate = () => {
-    showMessage({
-      message: "Usuário atualizado com sucesso!",
-      type: "success",
-    });
-  };
+  // const sucessoUpdate = () => {
+  //   showMessage({
+  //     message: "Usuário atualizado com sucesso!",
+  //     type: "success",
+  //   });
+  // };
 
-  const limparTela = () => {
-    setId("");
-    setEmail("");
-    setSenha("");
-  };
+  // const limparTela = () => {
+  //   setId("");
+  //   setEmail("");
+  //   setSenha("");
+  // };
 
-  const limparGlobais = () => {
-    global.id = "";
-    global.email = "";
-    global.senha = "";
-    global.usuarioLogado = false;
-  };
+  // const limparGlobais = () => {
+  //   global.id = "";
+  //   global.email = "";
+  //   global.senha = "";
+  //   global.usuarioLogado = false;
+  // };
 
-  const redirecionaTela = () => {
-    navigation.push("Login");
-  };
+  // const redirecionaTela = () => {
+  //   navigation.push("Login");
+  // };
 
-  const Botoes = () => {
-    return (
-      <View>
-        {layoutEdicao ? (
-          <View>
+  // const Botoes = () => {
+  //   return (
+  //     <View>
+  //       {layoutEdicao ? (
+  //         <View>
 
-          </View>
-        ) : (
-          <View>
+  //         </View>
+  //       ) : (
+  //         <View>
 
-          </View>
-        )}
-      </View>
-    );
-  };
+  //         </View>
+  //       )}
+  //     </View>
+  //   );
+  // };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -156,8 +157,6 @@ export default function Perfil({ navigation }) {
           size={80}
           style={styles.avatar}
         />
-
-        {/*<Text style={styles.text}>{global.email}</Text> */}
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
@@ -174,10 +173,10 @@ export default function Perfil({ navigation }) {
           onChangeText={setSenha}
           editable={edicaoInputs}
         />
-
+        <InputAzul text="Salvar Modificações" />
 
       </ScrollView>
-
+      <Footer />
     </SafeAreaView>
   );
 }
@@ -219,6 +218,7 @@ const styles = StyleSheet.create({
   },
   avatar: {
     backgroundColor: "#FFFFFF",
-    alignSelf: 'center'
+    alignSelf: 'center',
+    marginVertical: 50
   },
 });

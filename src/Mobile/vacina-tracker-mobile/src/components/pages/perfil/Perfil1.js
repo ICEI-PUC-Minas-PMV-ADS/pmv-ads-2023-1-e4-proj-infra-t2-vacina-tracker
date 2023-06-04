@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { StyleSheet, SafeAreaView, ScrollView, Text, TextInput, View, Button, Alert } from "react-native";
 import { Avatar } from "react-native-paper";
 import { API_URL } from 'react-native-dotenv';
+import { Footer } from '../../layout/footer/Footer';
 
 export default function Perfil1({ navigation }) {
   const [id, setId] = useState("");
@@ -131,6 +132,7 @@ export default function Perfil1({ navigation }) {
           <Button title="Desconectar" onPress={logoff} />
         </View> */}
       </ScrollView>
+      <Footer />
     </SafeAreaView>
   );
 }
