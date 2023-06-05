@@ -129,11 +129,12 @@ export default function Perfil({ navigation }) {
           }
         </TouchableOpacity>
       </View>
-
-      <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes} />
-
-      <InputLaranja text="Excluir Conta" onPress={handleExcluirUsuario} />
-
+      <View style={styles.botao}>
+      <InputRoxo style={styles.botao} text="Salvar Alterações" onPress={handleSalvarModificacoes} />
+      </View>
+      <View style={styles.botao}>
+      <InputLaranja style={styles.botao} text="Excluir Conta" onPress={handleExcluirUsuario} />
+      </View>
       <Footer />
     </View>
   );
@@ -155,8 +156,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
 
+  botao: {
+    marginVertical: -25,   
+  },
+
   container: {
-    alignItems: "center",
     justifyContent: "center",
     width: "100%",
     padding: 20,
@@ -164,7 +168,7 @@ const styles = StyleSheet.create({
   },
 
   icon: {
-    width: "15%",
+    width: "5%",
     height: 48,
     justifyContent: "center",
     alignItems: "flex-end",
@@ -173,8 +177,8 @@ const styles = StyleSheet.create({
   inputText: {
     backgroundColor: "#1005AD",
     color: "#FFFFFF",
-    marginTop: 24,
-    margin: 16,
+    marginTop: 10,
+    margin: 10,
   },
 
   avatar: {
