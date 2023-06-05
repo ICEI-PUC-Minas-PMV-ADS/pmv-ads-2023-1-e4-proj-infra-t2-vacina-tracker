@@ -200,13 +200,17 @@ Fonte: Elaborado pelos autores
 
 #### 6.6.1.10 Tela Política e Termos
 
-Figura 50 
+Figura 50
+
+![PoliticaTermos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/cde809fe-8d77-4426-bce9-9489ea1456c4)
 
 Fonte: Elaborado pelos autores
 
 #### 6.6.1.11 Tela Sub-Home
 
 Figura 51
+
+![Subhome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/f11a1593-5291-439e-8720-20274a69c761)
 
 Fonte: Elaborado pelos autores
 
