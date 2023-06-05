@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { StyleSheet, SafeAreaView, ScrollView, Text, View, Alert, TouchableOpacity } from "react-native";
+import React, { useState } from "react";
+import { StyleSheet, Text, View, Alert, TouchableOpacity } from "react-native";
 import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
 import * as Keychain from 'react-native-keychain';
