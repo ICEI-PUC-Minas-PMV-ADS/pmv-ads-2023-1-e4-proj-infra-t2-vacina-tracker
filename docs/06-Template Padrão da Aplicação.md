@@ -261,6 +261,7 @@ Fonte: Elaborado pelos autores
 
 Figura 57
 
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/9ab69e6d-d114-4601-a68b-f11f509b9fd8)
 
 Fonte: Elaborado pelos autores
 
