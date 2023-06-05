@@ -6,12 +6,16 @@ import { Ionicons } from '@expo/vector-icons';
 import InputRoxo from '../../layout/input/InputRoxo';
 import { Footer } from '../../layout/footer/Footer';
 
-export default function Cadastro() {
+export default function Cadastro({ navigation }) {
 
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [hidePass, setHidePass] = useState(true);
   const [aceitoTermos, setAceitoTermos] = useState(false);
+
+  const redirecionaTela = (tela) => {
+    navigation.navigate(tela);
+  };
 
   return (
     <View style={styles.containerCadastro}>
@@ -56,13 +60,19 @@ export default function Cadastro() {
         status={aceitoTermos ? 'checked' : 'unchecked'}
         onPress={() => setAceitoTermos(!aceitoTermos)}
         style={styles.checkbox}
-        color="#FFFFFF"        
+        color="#FFFFFF"
         labelStyle={styles.checkboxLabel}
       />
 
       <InputRoxo text="Cadastre-se" />
 
-      <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
+      <TouchableOpacity
+        onPress={() => {
+          redirecionaTela("EsqueceuSenha");
+        }}
+      >
+        <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
+      </TouchableOpacity>
 
       <Footer />
 
@@ -119,7 +129,7 @@ const styles = StyleSheet.create({
   checkbox: {
     flexDirection: 'row-reverse',
     alignItems: 'center',
-    marginTop: 16,    
+    marginTop: 16,
   },
   checkboxLabel: {
     color: '#FFFFFF',

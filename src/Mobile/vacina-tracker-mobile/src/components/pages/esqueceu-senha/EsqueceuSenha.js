@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
-import { Text, StyleSheet, View } from "react-native";
+import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput, Button } from 'react-native-paper';
 
 //import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
-export default function EsqueceuSenha() {
+export default function EsqueceuSenha({ navigation }) {
 
     const [email, setEmail] = useState("");
+
+    const redirecionaTela = (tela) => {
+        navigation.navigate(tela);
+    };
 
     return (
         <View style={styles.containerLogin}>
@@ -29,7 +33,13 @@ export default function EsqueceuSenha() {
 
             <InputAzul text="Recuperar Senha" />
 
-            <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
+            <TouchableOpacity
+                onPress={() => {
+                    redirecionaTela("Cadastro");
+                }}
+            >
+                <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
+            </TouchableOpacity>
 
             <Footer />
         </View>
@@ -52,7 +62,7 @@ const styles = StyleSheet.create({
     },
     input1: {
         widht: "100%",
-        height: 48, 
+        height: 48,
         fontSize: 16,
         marginStart: 32,
         backgroundColor: "#1005AD",

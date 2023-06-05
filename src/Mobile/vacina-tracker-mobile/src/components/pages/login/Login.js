@@ -7,11 +7,15 @@ import { Ionicons } from '@expo/vector-icons'
 import InputAzul from '../../layout/input/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
-export default function Login() {
+export default function Login({ navigation }) {
 
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
     const [hidePass, setHidePass] = useState(true);
+
+    const redirecionaTela = (tela) => {
+        navigation.navigate(tela);
+    };
 
     return (
         <View style={styles.containerLogin}>
@@ -52,11 +56,23 @@ export default function Login() {
                 </View>
             </View>
 
-            <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
+            <TouchableOpacity
+                onPress={() => {
+                    redirecionaTela("EsqueceuSenha");
+                }}
+            >
+                <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
+            </TouchableOpacity>
 
             <InputAzul text="Conectar" />
 
-            <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
+            <TouchableOpacity
+                onPress={() => {
+                    redirecionaTela("Cadastro");
+                }}
+            >
+                <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
+            </TouchableOpacity>
 
             <Footer />
         </View>
@@ -78,26 +94,26 @@ const styles = StyleSheet.create({
     },
     inputArea1: {
         flexDirection: "column",
-        width: "90%",        
+        width: "90%",
         borderRadius: 8,
-        height: 48,      
+        height: 48,
     },
     inputArea2: {
         flexDirection: "row",
-        width: "80%",        
+        width: "80%",
         borderRadius: 8,
-        height: 48,        
+        height: 48,
     },
     input1: {
         widht: "100%",
-        height: 48, 
+        height: 48,
         fontSize: 16,
         marginStart: 32,
         backgroundColor: "#1005AD",
     },
     input2: {
         widht: "85%",
-        height: 48,               
+        height: 48,
         fontSize: 16,
         marginStart: 32,
         backgroundColor: "#1005AD",
@@ -106,12 +122,12 @@ const styles = StyleSheet.create({
         width: "15%",
         height: 48,
         justifyContent: "center",
-        alignItems: "flex-end",        
+        alignItems: "flex-end",
     },
     loginText2: {
         fontSize: 16,
         color: "#FFFFFF",
-        textAlign: "center",        
+        textAlign: "center",
         paddingVertical: 24,
     },
 });

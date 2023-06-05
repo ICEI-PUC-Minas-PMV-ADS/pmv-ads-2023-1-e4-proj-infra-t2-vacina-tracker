@@ -3,7 +3,12 @@ import { SafeAreaView, View, StyleSheet, Image, Text, TouchableOpacity } from "r
 
 import { Footer } from '../../layout/footer/Footer';
 
-export default function Home() {
+export default function Home({ navigation }) {
+
+    const redirecionaTela = (tela) => {
+        navigation.navigate(tela);
+    };
+
 
     return (
         <SafeAreaView>
@@ -16,11 +21,19 @@ export default function Home() {
                 <Text style={styles.homeText1}>Seu cartão de vacinas onde você estiver</Text>
 
                 <View>
-                    <TouchableOpacity style={styles.btnConectar} onPress={() => console.log('Pressed')}>
+                    <TouchableOpacity style={styles.btnConectar}
+                        onPress={() => {
+                            redirecionaTela("Login");
+                        }}
+                    >
                         <Text style={styles.homeText2}>Acessar</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.btnCadastrar} onPress={() => console.log('Pressed')}>
+                    <TouchableOpacity style={styles.btnCadastrar}
+                        onPress={() => {
+                            redirecionaTela("Cadastro");
+                        }}
+                    >
                         <Text style={styles.homeText2}>Cadastrar</Text>
                     </TouchableOpacity>
                 </View>
