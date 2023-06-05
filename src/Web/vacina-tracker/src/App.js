@@ -12,6 +12,7 @@ import MCadastroMembro from './componentes/Pages/ModalCadastroMembro/MCadastroMe
 import MCadastroVacina from './componentes/Pages/ModalCadastroVacina/MCadastroVacina'
 import Perfil from './componentes/Pages/Perfil/Perfil'
 import PoliticaTermos from './componentes/Pages/PoliticaTermos/PoliticaTermos'
+import SubHome from './componentes/Pages/SubHome/SubHome'
 
 import VacinasCadastradas from './componentes/Pages/VacinasCadastradas/VacinasCadastradas'
 import Sair from './componentes/Pages/Home/Home'
@@ -49,6 +50,8 @@ function App() {
         <Route path='/VacinasCadastradas' element={<VacinasCadastradas />} />
 
         <Route path='/PoliticaTermos' element={<PoliticaTermos />} />
+
+        <Route path='/SubHome' element={<SubHome />} />
 
         <Route path='/Sair' element={<Sair />} />
 
