@@ -22,6 +22,14 @@ Figura 15 - Fluxo de Telas Estático (_Web_)
 ![fluxo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/78875ed0-917c-44de-ba04-4751dd4ea891)
 
 Fonte: Elaborado pelos autores
+<br> <br>
+
+Figura 16 - Fluxo de Telas Estático (_Mobile_)
+
+![fluxo-mobile1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/71dc04e2-7f9c-4600-ac32-621eca361d77)
+![fluxo-mobile2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/8f555cef-cc00-49aa-9766-4722fd869319)
+
+Fonte: Elaborado pelos autores
 
 
 ## 4.2 Wireframes
@@ -32,11 +40,11 @@ Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do pro
 
 Congênere link abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
-*Web
+*Web <br>
 https://www.figma.com/proto/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?type=design&node-id=13-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=13%3A2
 
-*Mobile
-(em desenvolvimento)
+*Mobile <br>
+https://www.figma.com/proto/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?type=design&node-id=2-13&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A13
 
 
 ### 4.2.2 _Wireframe_ Estático
@@ -50,7 +58,7 @@ Web: https://www.figma.com/file/ru3bhVXv6GM2N7Z0HaHhvq/Template-Web?node-id=0-1&
 
 #### Tela _Home_
 
-Figura 16
+Figura 17
 
 ![HOME](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/16ccdcb8-e8bf-4758-bf0a-90b8da933102)
 
@@ -58,7 +66,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela _Sub-Home_
 
-Figura 17
+Figura 18
 
 ![SUB-HOME (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/cd4a0bb1-673e-40e6-a525-0cecf049c3f6)
 
@@ -66,7 +74,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela _Login_
 
-Figura 18
+Figura 19
 
 ![LOGIN](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/680affa6-9707-40d7-92bc-ddcfd5e39f7b)
 
@@ -74,7 +82,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro
 
-Figura 19
+Figura 20
 
 ![CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/7f3d7e7a-71ab-486e-9047-ddecc97d6860)
 
@@ -82,7 +90,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Esqueceu Senha
 
-Figura 20
+Figura 21
 
 ![ESQUECEU SENHA](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/b2a5805e-7b36-463e-ae4b-ad2af37ae89c)
 
@@ -90,7 +98,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Perfil
 
-Figura 21
+Figura 22
 
 ![PERFIL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/91228798/598b7d44-621c-4203-b896-8e193378ee7d)
 
@@ -98,7 +106,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro Membro
 
-Figura 22
+Figura 23
 
 ![CADASTRO MEMBRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/7f970b2b-1f41-489f-98a8-5b92f3511478)
 
@@ -106,7 +114,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro Vacinas
 
-Figura 23
+Figura 24
 
 ![CADASTRO VACINAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/fb7e59fd-214e-4eda-b890-028d64c30225)
 
@@ -114,7 +122,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Meus Membros
 
-Figura 24
+Figura 25
 
 ![MEUS MEMBROS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/2867c2d8-d033-4295-b9e4-f0589071e5f8)
 
@@ -122,7 +130,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Vacinas Cadastradas
 
-Figura 25
+Figura 26
 
 ![VACINAS CADASTRADAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/d6a2049b-b59e-4985-af66-1d1e7d1b2b3e)
 
@@ -130,7 +138,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Política e Termos
 
-Figura 26
+Figura 27
 
 ![POLÍTICA E TERMOS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4cc27a5e-02a6-46aa-b1aa-dc01ec988544)
 
@@ -140,11 +148,11 @@ Fonte: Elaborado pelos autores
 #### 4.2.2.2 Aplicação _Mobile_
 
 Mobile: https://www.figma.com/file/ixeBUXHYrHZ7N2B52eaBUe/Template-Mobile?node-id=0-1&t=RjID30ZUc0UAVvXG-0
-<br> (em desenvolvimento)
+<br> 
 
 #### Tela _Home_
 
-Figura 27
+Figura 28
 
 ![HOME](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/aa529c68-5362-4132-89e1-8119cc4654af)
 
@@ -152,7 +160,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela _Sub-Home_
 
-Figura 28
+Figura 29
 
 ![SUB-HOME](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/ffafaa2c-1555-46d2-afbb-c04e4e2d8f5f)
 
@@ -160,7 +168,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela _Login_
 
-Figura 29
+Figura 30
 
 ![LOGIN](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/83958971-727c-4277-a7dd-c3e889d5674d)
 
@@ -168,7 +176,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro
 
-Figura 30
+Figura 31
 
 ![CADASTRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4b227cc6-def4-475d-a9d4-da558ec6be05)
 
@@ -176,7 +184,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Esqueceu Senha
 
-Figura 31
+Figura 32
 
 ![ESQUECEU SENHA](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/e1934544-561e-439a-a106-19c9cb285424)
 
@@ -184,7 +192,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Perfil
 
-Figura 32
+Figura 33
 
 ![PERFIL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/61b8701e-70a9-4587-ac8e-10ced49ea6ff)
 
@@ -192,7 +200,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro Membro
 
-Figura 33
+Figura 34
 
 ![CADASTRO MEMBRO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/16e067ed-11cf-4610-8312-99ce4b856a59)
 
@@ -200,7 +208,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Cadastro Vacinas
 
-Figura 34
+Figura 35
 
 ![CADASTRO VACINA](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/0059322a-6498-4c7a-b19b-a7e96f7db885)
 
@@ -208,7 +216,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Meus Membros
 
-Figura 35
+Figura 36
 
 ![MEUS MEMBROS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/d21523f7-dbc0-4478-9cef-d534641ac7c4)
 
@@ -216,7 +224,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Vacinas Cadastradas
 
-Figura 36
+Figura 37
 
 ![VACINAS CADASTRADAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/5ab83810-2789-465e-a979-e1127e4d891c)
 
@@ -224,7 +232,7 @@ Fonte: Elaborado pelos autores
 
 #### Tela Política e Termos
 
-Figura 37
+Figura 38
 
 ![POLÍTICA E TERMOS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/da9e2336-4833-41ae-8754-35b57d4461ba)
 
