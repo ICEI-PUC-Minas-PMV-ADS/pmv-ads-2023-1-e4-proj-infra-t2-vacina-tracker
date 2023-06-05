@@ -1,29 +1,39 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, SafeAreaView, ScrollView, Text, View, Alert, } from "react-native";
+import { StyleSheet, SafeAreaView, ScrollView, Text, View, Alert, TouchableOpacity } from "react-native";
 import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
 import * as Keychain from 'react-native-keychain';
 import InputRoxo from "../../layout/input/InputRoxo";
 import InputLaranja from "../../layout/input/InputLaranja";
+import { Ionicons } from '@expo/vector-icons'
 
 export default function Perfil({ navigation }) {
 
   const [id, setId] = useState(global.id || "");
   const [email, setEmail] = useState(global.email || "");
   const [senha, setSenha] = useState(global.senha || "");
+  const [confirmarSenha, setConfirmarSenha] = useState("");
+  const [hidePass1, setHidePass1] = useState(true);
+  const [hidePass2, setHidePass2] = useState(true);
 
   const handleSalvarModificacoes = async () => {
+
     try {
       const token = await Keychain.getInternetCredentials('jwt_token');
 
       if (!token) {
-        // Redirecionar para a tela de login ou realizar outra ação adequada
+        // Redirecionar para a tela de login
+        return;
+      }
+      if (senha !== confirmarSenha) {
+        Alert.alert("Erro", "As senhas não coincidem. Por favor, tente novamente.");
         return;
       }
       const response = await fetch(`https://localhost:7134/api/usuarios/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
+          "Authorization": `Bearer ${token.password}`
         },
         body: JSON.stringify({
           email: email,
@@ -41,28 +51,47 @@ export default function Perfil({ navigation }) {
     }
   };
 
+  const handleExcluirUsuario = async () => {
+    try {
+      const response = await fetch(`https://localhost:7134/api/usuarios/${id}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token.password}`
+        },
+      });
+
+      if (response.ok) {
+        Alert.alert("Sucesso", "O usuário foi excluído com sucesso.");
+        // Redirecionar para a tela de login
+      } else {
+        Alert.alert("Erro", "Não foi possível excluir o usuário.");
+      }
+    } catch (error) {
+      Alert.alert("Erro", "Ocorreu um erro ao excluir o usuário.");
+    }
+  };
+
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
 
-        <Text style={styles.text}>Perfil do Usuário</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>Perfil do Usuário</Text>
 
-        <Avatar.Image
-          source={require("../../../../src/assets/meu-perfil.png")}
-          size={80}
-          style={styles.avatar}
-        />
-
-        <TextInput
-          placeholder="E-mail"
-          value={email !== null ? email : ""}
-          keyboardType="email-address"
-          onChangeText={text => setEmail(text)}
-          style={styles.inputText}
-          placeholderTextColor={"#FFFFFF"}
-          textColor={"#FFFFFF"}
-        />
-
+      <Avatar.Image
+        source={require("../../../../src/assets/meu-perfil.png")}
+        size={80}
+        style={styles.avatar}
+      />
+      <TextInput
+        placeholder="E-mail"
+        value={email !== null ? email : ""}
+        keyboardType="email-address"
+        onChangeText={text => setEmail(text)}
+        style={styles.inputText}
+        placeholderTextColor={"#FFFFFF"}
+        textColor={"#FFFFFF"}
+      />
+      <View style={styles.inputSenha} >
         <TextInput
           placeholder="Nova Senha"
           value={senha !== null ? senha : ""}
@@ -71,25 +100,42 @@ export default function Perfil({ navigation }) {
           style={styles.inputText}
           placeholderTextColor={"#FFFFFF"}
           textColor={"#FFFFFF"}
+          secureTextEntry={hidePass1}
         />
+        <TouchableOpacity style={styles.icon} onPress={() => setHidePass1(!hidePass1)}>
+          {hidePass1 ?
+            <Ionicons name="eye" color="#FFF" size={25} />
+            :
+            <Ionicons name="eye-off" color="#FFF" size={25} />
+          }
+        </TouchableOpacity>
+      </View>
+      <View style={styles.inputSenha}>
         <TextInput
           placeholder="Confirmar Senha"
-          value={senha !== null ? senha : ""}
+          value={confirmarSenha !== null ? confirmarSenha : ""}
           keyboardType="confirmarsenha"
-          onChangeText={text => setSenha(text)}
+          onChangeText={text => setConfirmarSenha(text)}
           style={styles.inputText}
           placeholderTextColor={"#FFFFFF"}
           textColor={"#FFFFFF"}
+          secureTextEntry={hidePass2}
         />
+        <TouchableOpacity style={styles.icon} onPress={() => setHidePass2(!hidePass2)}>
+          {hidePass2 ?
+            <Ionicons name="eye" color="#FFF" size={25} />
+            :
+            <Ionicons name="eye-off" color="#FFF" size={25} />
+          }
+        </TouchableOpacity>
+      </View>
 
-        <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes} />
+      <InputRoxo text="Salvar Alterações" onPress={handleSalvarModificacoes} />
 
-        <InputLaranja text="Excluir Conta" onPress={""} />
+      <InputLaranja text="Excluir Conta" onPress={handleExcluirUsuario} />
 
-
-      </ScrollView>
       <Footer />
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -105,6 +151,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 
+  inputSenha: {
+    flexDirection: "row",
+  },
+
   container: {
     alignItems: "center",
     justifyContent: "center",
@@ -112,9 +162,14 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#1005AD",
   },
-  scrollView: {
-    backgroundColor: "#1005AD",
+
+  icon: {
+    width: "15%",
+    height: 48,
+    justifyContent: "center",
+    alignItems: "flex-end",
   },
+
   inputText: {
     backgroundColor: "#1005AD",
     color: "#FFFFFF",
