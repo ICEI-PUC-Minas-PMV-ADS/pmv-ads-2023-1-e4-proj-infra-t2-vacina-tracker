@@ -34,7 +34,7 @@ function SubHome() {
                         <div className="lista-icones-subhome">
                             <Link to='/MCadastroMembro'>
                                 <img className="img-subhome" src={AdicionarMembro} alt="Adicionar Membro" />
-                                <p>Adicionar Membro</p>
+                                <p className="txt-subhome">Adicionar Membro</p>
                             </Link>
                         </div>
 
@@ -48,7 +48,7 @@ function SubHome() {
                         <div className="lista-icones-subhome">
                             <Link to='/PoliticaTermos'>
                                 <img className="img-subhome" src={Privacidade} alt="Privacidade" />
-                                <p className="txt-subhome">Politica e Termos</p>
+                                <p className="txt-subhome">Política e Termos</p>
                             </Link>
                         </div>
                     </Col>

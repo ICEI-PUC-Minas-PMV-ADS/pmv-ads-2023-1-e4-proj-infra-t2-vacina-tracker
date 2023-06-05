@@ -15,8 +15,7 @@ function PoliticaTermos() {
                         1. Quais dados coletamos sobre você e para qual finalidade?<br></br>
                         Nosso site coleta e utiliza alguns dados pessoais seus, de forma a viabilizar a prestação de serviços e aprimorar a experiência de uso.<br></br>
 
-                        1.1. Dados pessoais fornecidos pelo titular<br></br>
-                        -Nome Completo<br></br>
+                        1.1. Dados pessoais fornecidos pelo titular<br></br>                        
                         -E-mail<br></br>
                         -Senha<br></br><br></br>
 
