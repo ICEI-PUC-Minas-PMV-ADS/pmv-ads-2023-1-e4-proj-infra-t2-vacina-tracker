@@ -21,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="ModalVacinasCadastradas"       
+        initialRouteName="Perfil"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
