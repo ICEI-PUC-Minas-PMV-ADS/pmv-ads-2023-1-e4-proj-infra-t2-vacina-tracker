@@ -89,7 +89,7 @@ export default function Perfil({ navigation }) {
         onChangeText={text => setEmail(text)}
         style={styles.inputText}
         placeholderTextColor={"#FFFFFF"}
-        textColor={"#FFFFFF"}
+        textColor={"#FFFFFF"}        
       />
       <View style={styles.inputSenha} >
         <TextInput
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
   },
 
   botao: {
-    marginVertical: -25,   
+    marginVertical: -25,
   },
 
   container: {

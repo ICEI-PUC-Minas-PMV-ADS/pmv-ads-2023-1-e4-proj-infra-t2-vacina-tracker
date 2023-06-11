@@ -13,6 +13,15 @@ export default function Cadastro({ navigation }) {
   const [hidePass, setHidePass] = useState(true);
   const [aceitoTermos, setAceitoTermos] = useState(false);
 
+  const [isValid, setIsValid] = useState(true);
+
+  const validateEmail = (text) => {
+    // Expressão regular para validar o formato do e-mail
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+    setEmail(text);
+    setIsValid(emailRegex.test(text));
+  };
+
   const redirecionaTela = (tela) => {
     navigation.navigate(tela);
   };
@@ -31,8 +40,9 @@ export default function Cadastro({ navigation }) {
             keyboardType="email-address"
             placeholderTextColor={"#FFFFFF"}
             textColor={"#FFFFFF"}
-            onChangeText={text => setEmail(text)}
+            onChangeText={validateEmail}
           />
+          {!isValid && <Text style={{ color: 'red', marginStart: 8 }}>E-mail inválido</Text>}
         </View>
 
         <View style={styles.inputArea2}>
@@ -99,6 +109,7 @@ const styles = StyleSheet.create({
     width: "90%",
     borderRadius: 8,
     height: 48,
+    paddingBottom: 80,
   },
   inputArea2: {
     flexDirection: "row",
