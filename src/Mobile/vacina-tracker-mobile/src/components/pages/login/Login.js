@@ -1,17 +1,25 @@
 import React, { useState } from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput } from 'react-native-paper';
-import { Ionicons } from '@expo/vector-icons'
+import { Ionicons } from '@expo/vector-icons';
 
 //import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
 export default function Login({ navigation }) {
-
-    const [email, setEmail] = useState("");
+    
     const [senha, setSenha] = useState("");
     const [hidePass, setHidePass] = useState(true);
+    const [email, setEmail] = useState("");
+    const [isValid, setIsValid] = useState(true);
+
+    const validateEmail = (text) => {
+        // Expressão regular para validar o formato do e-mail
+        const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        setEmail(text);
+        setIsValid(emailRegex.test(text));
+    };
 
     const redirecionaTela = (tela) => {
         navigation.navigate(tela);
@@ -31,8 +39,9 @@ export default function Login({ navigation }) {
                         keyboardType="email-address"
                         placeholderTextColor={"#FFFFFF"}
                         textColor={"#FFFFFF"}
-                        onChangeText={text => setEmail(text)}
-                    />
+                        onChangeText={validateEmail}
+                />
+                {/*{!isValid && <Text style={{ color: 'red', marginStart: 8 }}>E-mail inválido</Text>}*/}
                 </View>
 
                 <View style={styles.inputArea2}>
@@ -97,6 +106,7 @@ const styles = StyleSheet.create({
         width: "90%",
         borderRadius: 8,
         height: 48,
+        paddingBottom: 80,
     },
     inputArea2: {
         flexDirection: "row",

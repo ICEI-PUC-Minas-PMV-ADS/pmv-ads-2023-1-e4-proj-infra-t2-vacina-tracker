@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
-import { TextInput, Button } from 'react-native-paper';
+import { TextInput } from 'react-native-paper';
+//import { TextInputMask } from "react-native-masked-text";
 
 //import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
@@ -9,6 +10,14 @@ import { Footer } from '../../layout/footer/Footer';
 export default function EsqueceuSenha({ navigation }) {
 
     const [email, setEmail] = useState("");
+    const [isValid, setIsValid] = useState(true);
+
+    const validateEmail = (text) => {
+        // Expressão regular para validar o formato do e-mail
+        const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        setEmail(text);
+        setIsValid(emailRegex.test(text));
+    };
 
     const redirecionaTela = (tela) => {
         navigation.navigate(tela);
@@ -27,8 +36,9 @@ export default function EsqueceuSenha({ navigation }) {
                     keyboardType="email-address"
                     placeholderTextColor={"#FFFFFF"}
                     textColor={"#FFFFFF"}
-                    onChangeText={text => setEmail(text)}
+                    onChangeText={validateEmail}
                 />
+                {!isValid && <Text style={{ color: 'red', marginStart: 8 }}>E-mail inválido</Text>}
             </View>
 
             <InputAzul text="Recuperar Senha" />

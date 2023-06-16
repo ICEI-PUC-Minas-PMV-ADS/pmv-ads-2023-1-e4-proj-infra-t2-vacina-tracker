@@ -1,9 +1,9 @@
 import Input from '../../Layout/InputRoxo/InputRoxo'
-import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
+//import LinkTexto from '../../Layout/LinkTexto/LinkTexto'
 
 import './Perfil.css'
 //import {FontAwesomeIcon} from '@fortawesome/fontawesome-free'
-import { FaUserCircle, FaUserPlus } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 import React from 'react'
 import imagem from '../../../img/tela_perfil.svg'
@@ -36,7 +36,7 @@ function Perfil() {
                                 <Link to='/'><button className='btn-perfil-excluir'>Excluir Conta</button></Link>                             
                             </div>                            
                         </div>
-
+{/*
                         <div className='lista-icones-perfil'>
                             <LinkTexto to="/meusmembros" text="Membros" />
                             <Link to='/mcadastromembro'><FaUserPlus className='icone' /></Link>                            
@@ -46,6 +46,7 @@ function Perfil() {
                             <LinkTexto to="/vacinascadastradas" text="Vacinas" />
                             <Link to='/mcadastrovacina'><FaUserPlus className='icone' /></Link>                            
                         </div>
+*/}
                     </Col>
 
                     <Col md={{ span: 4, offset: 4 }}>

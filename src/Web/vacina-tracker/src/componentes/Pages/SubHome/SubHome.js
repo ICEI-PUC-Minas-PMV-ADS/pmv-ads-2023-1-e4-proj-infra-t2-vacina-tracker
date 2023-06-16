@@ -27,7 +27,7 @@ function SubHome() {
                         <div className="lista-icones-subhome">
                             <Link to='/Perfil'>
                                 <img className="img-subhome" src={MeuPerfil} alt="Meu Perfil" />
-                                <p className="txt-subhome">Meu Perfil</p>
+                                <p className="txt-subhome">Editar Meu Perfil</p>
                             </Link>
                         </div>
 

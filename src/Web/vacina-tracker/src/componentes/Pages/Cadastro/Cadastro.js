@@ -29,7 +29,7 @@ function CadastroUsuario() {
                         </div>
 
                         <div >
-                            <Link to='/Perfil'>
+                            <Link to='/SubHome'>
                                 <button className='btn-cadastro' Type="Submit" text="Cadastre-se" name="Cadastrar" >Cadastre-se</button>
                             </Link>
                         </div>
