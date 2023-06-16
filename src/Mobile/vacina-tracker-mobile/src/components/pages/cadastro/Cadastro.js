@@ -2,19 +2,49 @@ import React, { useState } from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput, Checkbox } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
-
 import InputRoxo from '../../layout/input/InputRoxo';
 import { Footer } from '../../layout/footer/Footer';
 
 export default function Cadastro({ navigation }) {
 
-  const [email, setEmail] = useState('');
-  const [senha, setSenha] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Senha, setSenha] = useState('');
   const [hidePass, setHidePass] = useState(true);
-  const [aceitoTermos, setAceitoTermos] = useState(false);
+  const [AceitoTermos, setAceitoTermos] = useState(false);
 
   const redirecionaTela = (tela) => {
     navigation.navigate(tela);
+  };
+
+  const cadastrarUsuario = () => {
+    console.log('cadastrarUsuario foi invocado')
+    // Cria um objeto com os dados do usuário
+    const Usuario = {
+      // id: Id,
+      Email: Email,
+      Senha: Senha
+    };
+
+    // Faz a chamada POST para a API
+    fetch('https://localhost:7134/api/Usuarios', {
+      method: 'POST',
+      headers: {
+        'accept': '*/*',
+        'Content-Type': 'application/json',
+        // 'Authorization': 'Bearer {d4505d03454c4be749c87458a2a3846d0287bce5}',
+      },
+      body: JSON.stringify(Usuario)
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Processa a resposta da API, se necessário
+        console.log(data);
+        redirecionaTela("Login");
+      })
+      .catch(error => {
+        // Trata erros na chamada à API
+        console.error(error);
+      });
   };
 
   return (
@@ -27,7 +57,7 @@ export default function Cadastro({ navigation }) {
           <TextInput
             style={styles.input1}
             placeholder="E-mail"
-            value={email}
+            value={Email}
             keyboardType="email-address"
             placeholderTextColor={"#FFFFFF"}
             textColor={"#FFFFFF"}
@@ -39,7 +69,7 @@ export default function Cadastro({ navigation }) {
           <TextInput
             style={styles.input2}
             placeholder="Senha"
-            value={senha}
+            value={Senha}
             secureTextEntry={hidePass}
             placeholderTextColor={"#FFFFFF"}
             textColor={"#FFFFFF"}
@@ -57,14 +87,22 @@ export default function Cadastro({ navigation }) {
 
       <Checkbox.Item
         label="Li e Aceito os Termos e Condições de Uso"
-        status={aceitoTermos ? 'checked' : 'unchecked'}
-        onPress={() => setAceitoTermos(!aceitoTermos)}
+        status={AceitoTermos ? 'checked' : 'unchecked'}
+        onPress={() => setAceitoTermos(!AceitoTermos)}
         style={styles.checkbox}
         color="#FFFFFF"
         labelStyle={styles.checkboxLabel}
       />
 
-      <InputRoxo text="Cadastre-se" />
+      <InputRoxo text="Cadastre-se"
+        onPress={() => {
+
+          if (AceitoTermos) {
+            cadastrarUsuario();
+          } else {
+            console.log("Você precisa aceitar os termos e condições.");
+          }
+        }} />
 
       <TouchableOpacity
         onPress={() => {
