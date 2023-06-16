@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LBC515\\Documents\\GitHub\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {}
+    "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LBC515\\Documents\\GitHub\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {
+    "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LBC515\\Documents\\GitHub\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+        "projectUniqueName": "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
         "projectName": "vacina-tracker-v4",
-        "projectPath": "C:\\Users\\LBC515\\Documents\\GitHub\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
-        "packagesPath": "C:\\Users\\LBC515\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LBC515\\Documents\\GitHub\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\obj\\",
+        "projectPath": "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LBC515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
