@@ -30,6 +30,7 @@ namespace vacina_tracker_v4.Controllers
             return Ok(model);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {
@@ -37,8 +38,8 @@ namespace vacina_tracker_v4.Controllers
             {
                 Email = model.Email,
                 Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha),
-            }; 
-            
+            };
+
             _context.Usuarios.Add(novo);
             await _context.SaveChangesAsync();
 
@@ -120,14 +121,14 @@ namespace vacina_tracker_v4.Controllers
         [HttpPost("Authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
-            var usuarioDb = await _context.Usuarios.FindAsync(model.Id);                      
+            var usuarioDb = await _context.Usuarios.FindAsync(model.Id);
 
-            if (usuarioDb == null || !BCrypt.Net.BCrypt.Verify(model.Senha, usuarioDb.Senha)) 
+            if (usuarioDb == null || !BCrypt.Net.BCrypt.Verify(model.Senha, usuarioDb.Senha))
                 return Unauthorized();
 
             var jwt = GenerateJwtToken(usuarioDb);
 
-            return Ok(new {jwtToken = jwt});
+            return Ok(new { jwtToken = jwt });
         }
 
         private string GenerateJwtToken(Usuario model)
@@ -136,7 +137,7 @@ namespace vacina_tracker_v4.Controllers
             var key = Encoding.ASCII.GetBytes("d4505d03454c4be749c87458a2a3846d0287bce5");
             var claims = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString())                
+                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString())
             });
 
             var tokenDescriptor = new SecurityTokenDescriptor
