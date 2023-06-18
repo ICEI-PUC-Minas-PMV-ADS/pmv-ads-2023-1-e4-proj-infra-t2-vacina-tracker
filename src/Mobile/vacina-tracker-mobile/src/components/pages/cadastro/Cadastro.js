@@ -11,7 +11,6 @@ export default function Cadastro({ navigation }) {
   const [Senha, setSenha] = useState('');
   const [hidePass, setHidePass] = useState(true);
   const [AceitoTermos, setAceitoTermos] = useState(false);
-
   const [isValid, setIsValid] = useState(true);
 
   const validateEmail = (text) => {
@@ -26,15 +25,13 @@ export default function Cadastro({ navigation }) {
   };
 
   const cadastrarUsuario = () => {
-    console.log('cadastrarUsuario foi invocado')
-    // Cria um objeto com os dados do usuário
+
     const Usuario = {
       // id: Id,
       Email: Email,
       Senha: Senha
     };
 
-    // Faz a chamada POST para a API
     fetch('https://localhost:7134/api/Usuarios', {
       method: 'POST',
       headers: {
@@ -46,12 +43,10 @@ export default function Cadastro({ navigation }) {
     })
       .then(response => response.json())
       .then(data => {
-        // Processa a resposta da API, se necessário
         console.log(data);
         redirecionaTela("Login");
       })
       .catch(error => {
-        // Trata erros na chamada à API
         console.error(error);
       });
   };
