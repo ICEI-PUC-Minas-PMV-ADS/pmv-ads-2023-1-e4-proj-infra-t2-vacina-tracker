@@ -5,9 +5,10 @@ import { Ionicons } from '@expo/vector-icons';
 import InputAzul from '../login/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
-export default function Login({ navigation }) {
+export default function Login({ navigation , route }) {
 
     const [Senha, setSenha] = useState("");
+    //const {Id} = route.params;
     const [hidePass, setHidePass] = useState(true);
     const [Email, setEmail] = useState("");
     const [isValid, setIsValid] = useState(true);
@@ -29,6 +30,7 @@ export default function Login({ navigation }) {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json",
+
             },
             body: JSON.stringify({
                 Email: Email,
@@ -37,12 +39,14 @@ export default function Login({ navigation }) {
         })
             .then((response) => response.json())
             .then((data) => {
+                console.log(data);
 
                 if (data.jwtToken) {
-                    const Id = decodeJwtToken(data.jwtToken).sub;
+                    const Id = data.idUsuario.toString();
                     const Token = data.jwtToken;
                     console.log("Id do usuário:", Id);
                     console.log("Token do usuário:", Token);
+                    navigation.navigate("SubHome",{Id : Id})
                 }
                 else {
                     console.log("Credenciais inválidas");
@@ -72,7 +76,6 @@ export default function Login({ navigation }) {
         <View style={styles.containerLogin}>
 
             <Text style={styles.loginText1}>ACESSO</Text>
-
             <View>
                 <View style={styles.inputArea1}>
                     <TextInput

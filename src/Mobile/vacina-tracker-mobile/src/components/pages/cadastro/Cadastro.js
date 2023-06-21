@@ -8,6 +8,7 @@ import { Footer } from '../../layout/footer/Footer';
 export default function Cadastro({ navigation }) {
 
   const [Email, setEmail] = useState('');
+  const [UsuarioId, setUsuarioId] = useState('');
   const [Senha, setSenha] = useState('');
   const [hidePass, setHidePass] = useState(true);
   const [AceitoTermos, setAceitoTermos] = useState(false);
@@ -20,9 +21,9 @@ export default function Cadastro({ navigation }) {
     setIsValid(emailRegex.test(text));
   };
 
-  const redirecionaTela = (tela) => {
-    navigation.navigate(tela);
-  };
+  // const redirecionaTela = (tela) => {
+  //   navigation.navigate(tela , {Id : UsuarioId} );
+  // };
 
   const cadastrarUsuario = () => {
 
@@ -32,23 +33,20 @@ export default function Cadastro({ navigation }) {
       Senha: Senha
     };
 
-    fetch('https://localhost:7134/api/Usuarios', {
-      method: 'POST',
-      headers: {
-        'accept': '*/*',
-        'Content-Type': 'application/json',
-        // 'Authorization': 'Bearer {d4505d03454c4be749c87458a2a3846d0287bce5}',
-      },
-      body: JSON.stringify(Usuario)
-    })
+    fetch('https://localhost:7134/api/Usuarios',
+      {
+        method: 'POST', headers:
+        {
+          'accept': '*/*',
+          'Content-Type': 'application/json',
+          // 'Authorization': 'Bearer {Token}',
+        }, body: JSON.stringify(Usuario)
+      })
       .then(response => response.json())
       .then(data => {
-        console.log(data);
-        redirecionaTela("Login");
+        navigation.navigate("Login" , {Id : data.id.toString()} );
       })
-      .catch(error => {
-        console.error(error);
-      });
+      .catch(error => { console.error(error); });
   };
 
   return (
