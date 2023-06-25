@@ -76,6 +76,7 @@ export default function Login({ navigation, route }) {
             />
 
             <Text style={styles.loginText1}>ACESSO</Text>
+            
             <View>
                 <View style={styles.inputArea1}>
                     <TextInput

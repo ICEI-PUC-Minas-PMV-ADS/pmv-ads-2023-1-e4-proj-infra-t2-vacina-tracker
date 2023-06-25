@@ -4016,11 +4016,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\eduar\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Fabiana\\.nuget\\packages\\": {}
+>>>>>>> 1cde6d42f09e59c4bd4734b432110d24317ce090
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
       "projectName": "vacina-tracker-v4",
       "projectPath": "D:\\projeto4\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
@@ -4029,6 +4034,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+      "projectName": "vacina-tracker-v4",
+      "projectPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\vacina-tracker-v4.csproj",
+      "packagesPath": "C:\\Users\\Fabiana\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1cde6d42f09e59c4bd4734b432110d24317ce090
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4103,5 +4118,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker\\src\\API\\vacina-tracker-v4\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
