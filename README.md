@@ -11,7 +11,9 @@
 `SEMESTRE 01/2023`
 
 Um dos maiores avanços da ciência é o desenvolvimento de vacinas, pois elas objetivam fortalecer o sistema imunológico através da produção de anticorpos que combatem os agentes infecciosos (vírus e bactérias) e evitam a enfermidade. Sendo assim, torna-se uma estratégia imprescindível para a saúde pública, a adoção de políticas públicas de combate e prevenção à disseminação de doenças, evitando as epidemias e pandemias. O Programa Nacional de Imunizações do Brasil tem avançado ano após ano visando proporcionar uma melhor qualidade de vida para a população com a prevenção de doenças (MS, 2023).
+
 Consideramos imprescindível e impossível falar sobre a saúde do cidadão sem citar as vacinas e o controle delas. Torna-se uma ação coletiva que provê pelo pacto da saúde de toda a comunidade. Precisamos nos atentar para a importância da imunização de crianças, adolescentes, adultos, idosos, gestantes e puérperas, e povos indígenas.
+
 Diante desse contexto, surge a necessidade de uma plataforma focada no serviço online de cadastro, controle e registro da trajetória de vacinação de quem busca atendimento no SUS, visando a facilitação no monitoramento das cadernetas de vacinação de toda a família. Assim, oferecemos também, em formato digital, na palma da mão e em tempo real, o registro do tipo de vacina aplicada, a data em que a dose foi tomada e a data de uma possível próxima dose, para todas as vacinas aplicadas nas redes pública e privada, deixando para trás a necessidade de carregar as antigas carteirinhas de vacinação de papel (que podem sofrer rasuras ou até serem perdidas com o tempo).
 
 ## Integrantes
