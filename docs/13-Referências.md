@@ -36,6 +36,12 @@ Significados.com.br. **Cores e seus significados**. Disponível em: <https://www
 
 Taysser-Ghergal et al. **How Visual Studio makes version control easy with Git**. Fevereiro de 2022. Disponível em: <https://docs.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022>. Acessado em 21/02/2023.
 
+TEIXEIRA, Fabricio. **O que é o SUS (System Usability Scale) e como usá-lo em seu site**. Agosto de 2015. Disponível em: <https://brasil.uxdesign.cc/o-que-%C3%A9-o-sus-system-usability-scale-e-como-us%C3%A1-lo-em-seu-site-6d63224481c8>. Acessado em 05/06/2023.
+
+Usability.gov. **System Usability Scale (SUS)**. Abril de 2022. Disponível em: <https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html>. Acessado em 09/06/2023.
+
 VIETRO, Ítalo Lelis. **Fluxo de Desenvolvimento com GitFlow**. Abril de 2015. Disponível em: <https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow>. Acessado em 12/03/2023.
 
 Wikepédia. **Diagrama de caso de uso**. Junho de 2020. Disponível em: <https://pt.wikipedia.org/wiki/Diagrama_de_caso_de_uso>. Acessado em 09/03/2023.
+
+Wikipédia. **System Usability Scale**. Abril de 2022. Disponível em: <https://en.wikipedia.org/wiki/System_usability_scale>. Acessado em 09/06/2023.
