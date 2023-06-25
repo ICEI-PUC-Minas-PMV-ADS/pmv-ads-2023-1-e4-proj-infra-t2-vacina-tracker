@@ -18,31 +18,31 @@ export default function ModalMeusMembros({ navigation }) {
 
             <View>
                 <Card.Title
-                    title="Membro 1"
+                    title="Eduardo"
                     titleStyle={{ color: 'rgba(255,255,255,1)' }}
                     left={(props) => <Avatar.Icon {...props} icon="card-account-details" />}
                     right={(props) => <IconButton {...props} icon="dots-vertical" onPress={() => { }} />}
                 />
                 <Card.Title
-                    title="Membro 2"
+                    title="Fabiana"
                     titleStyle={{ color: 'rgba(255,255,255,1)' }}
                     left={(props) => <Avatar.Icon {...props} icon="card-account-details" />}
                     right={(props) => <IconButton {...props} icon="dots-vertical" onPress={() => { }} />}
                 />
                 <Card.Title
-                    title="Membro 3"
+                    title="Felipe"
                     titleStyle={{ color: 'rgba(255,255,255,1)' }}
                     left={(props) => <Avatar.Icon {...props} icon="card-account-details" />}
                     right={(props) => <IconButton {...props} icon="dots-vertical" onPress={() => { }} />}
                 />
                 <Card.Title
-                    title="Membro 4"
+                    title="Nayara"
                     titleStyle={{ color: 'rgba(255,255,255,1)' }}
                     left={(props) => <Avatar.Icon {...props} icon="card-account-details" />}
                     right={(props) => <IconButton {...props} icon="dots-vertical" onPress={() => { }} />}
                 />
                 <Card.Title
-                    title="Membro 5"
+                    title="Pedro"
                     titleStyle={{ color: 'rgba(255,255,255,1)' }}
                     left={(props) => <Avatar.Icon {...props} icon="card-account-details" />}
                     right={(props) => <IconButton {...props} icon="dots-vertical" onPress={() => { }} />}

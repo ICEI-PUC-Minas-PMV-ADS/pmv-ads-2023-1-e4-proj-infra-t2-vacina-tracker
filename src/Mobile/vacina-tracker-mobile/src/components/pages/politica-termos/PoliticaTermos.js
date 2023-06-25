@@ -5,7 +5,7 @@ import { Footer } from '../../layout/footer/Footer';
 import Header from '../../layout/header/Header';
 
 
-export default function PoliticaTermos() {
+export default function PoliticaTermos({navigation}) {
 
   return (
     <View style={styles.containerPolitica}>

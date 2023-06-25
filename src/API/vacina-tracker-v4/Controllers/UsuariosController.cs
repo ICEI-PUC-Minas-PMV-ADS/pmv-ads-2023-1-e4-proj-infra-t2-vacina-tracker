@@ -11,7 +11,7 @@ using BCrypt.Net;
 
 namespace vacina_tracker_v4.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
