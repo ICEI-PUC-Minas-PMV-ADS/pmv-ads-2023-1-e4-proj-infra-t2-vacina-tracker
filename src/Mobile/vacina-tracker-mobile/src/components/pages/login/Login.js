@@ -19,10 +19,6 @@ export default function Login({ navigation , route }) {
         setIsValid(emailRegex.test(text));
     };
 
-    const redirecionaTela = (tela) => {
-        navigation.navigate(tela);
-    };
-
     const fazerLogin = () => {
 
         fetch('https://localhost:7134/api/Usuarios/Authenticate', {
@@ -112,9 +108,7 @@ export default function Login({ navigation , route }) {
             </View>
 
             <TouchableOpacity
-                onPress={() => {
-                    redirecionaTela("EsqueceuSenha");
-                }}
+                onPress={() => navigation.navigate('EsqueceuSenha')}
             >
                 <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
             </TouchableOpacity>
@@ -122,9 +116,7 @@ export default function Login({ navigation , route }) {
             <InputAzul text="Conectar" onPress={fazerLogin} />
 
             <TouchableOpacity
-                onPress={() => {
-                    redirecionaTela("Cadastro");
-                }}
+                onPress={() => navigation.navigate('Cadastro')}
             >
                 <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
             </TouchableOpacity>

@@ -19,10 +19,6 @@ export default function EsqueceuSenha({ navigation }) {
         setIsValid(emailRegex.test(text));
     };
 
-    const redirecionaTela = (tela) => {
-        navigation.navigate(tela);
-    };
-
     return (
         <View style={styles.containerLogin}>
 
@@ -44,9 +40,7 @@ export default function EsqueceuSenha({ navigation }) {
             <InputAzul text="Recuperar Senha" />
 
             <TouchableOpacity
-                onPress={() => {
-                    redirecionaTela("Cadastro");
-                }}
+                onPress={() => navigation.navigate('Cadastro')}
             >
                 <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
             </TouchableOpacity>

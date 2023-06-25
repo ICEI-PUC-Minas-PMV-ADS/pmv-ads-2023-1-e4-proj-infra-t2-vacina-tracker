@@ -6,9 +6,6 @@ import { Footer } from '../../layout/footer/Footer';
 
 export default function SubHome({ navigation }) {
 
-    const redirecionaTela = (tela) => {
-        navigation.navigate(tela);
-    };
 
     return (
         <View style={styles.containerSubhome}>
@@ -16,56 +13,56 @@ export default function SubHome({ navigation }) {
             <Text style={styles.subhomeText1}>Seja Bem-Vindo!</Text>
 
             <View style={styles.flexbox1} cold-md-4>
-                <TouchableHighlight onPress={() => redirecionaTela("Perfil")}>
+                <TouchableHighlight onPress={() => navigation.navigate('Perfil')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/meu-perfil.png")} style={{ width: 56, height: 68, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Meu Perfil</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("CadastroMembro")}>
+                <TouchableHighlight onPress={() => navigation.navigate('CadastroMembro')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/adicionar-membro.png")} style={{ width: 56, height: 68, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Adicionar Membro</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("ModalMeusMembros")}>
+                <TouchableHighlight onPress={() => navigation.navigate('ModalMeusMembros')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/meus-membros.png")} style={{ width: 78, height: 70, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Membros Cadastrados</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("ModalVacinasCadastradas")}>
+                <TouchableHighlight onPress={() => navigation.navigate('ModalVacinasCadastradas')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/logo-dark.png")} style={{ width: 78, height: 70, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Catálogo de Vacinas</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("CadastroVacina")}>
+                <TouchableHighlight onPress={() => navigation.navigate('CadastroVacina')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/adicionar-vacina.png")} style={{ width: 78, height: 70, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Adicionar Vacina</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("ModalVacinasCadastradas")}>
+                <TouchableHighlight onPress={() => navigation.navigate('ModalVacinasCadastradas')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/minhas-vacinas.png")} style={{ width: 78, height: 70, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Vacinas Cadastradas</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("PoliticaTermos")}>
+                <TouchableHighlight onPress={() => navigation.navigate('PoliticaTermos')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/politica-termos.png")} style={{ width: 78, height: 70, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Política e Termos</Text>
                     </View>
                 </TouchableHighlight>
 
-                <TouchableHighlight onPress={() => redirecionaTela("PoliticaTermos")}>
+                <TouchableHighlight onPress={() => navigation.navigate('PoliticaTermos')}>
                     <View style={styles.flexbox2}>
                         <Image source={require("../../../assets/noticias.png")} style={{ width: 56, height: 68, alignItems: 'center' }} />
                         <Text style={styles.subhomeText2}>Notícias</Text>

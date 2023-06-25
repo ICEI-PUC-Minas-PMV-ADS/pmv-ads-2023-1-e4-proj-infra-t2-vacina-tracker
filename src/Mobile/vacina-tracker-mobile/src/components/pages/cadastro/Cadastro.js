@@ -108,9 +108,7 @@ export default function Cadastro({ navigation }) {
         }} />
 
       <TouchableOpacity
-        onPress={() => {
-          redirecionaTela("EsqueceuSenha");
-        }}
+        onPress={() => navigation.navigate('EsqueceuSenha')}
       >
         <Text style={styles.loginText2}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
