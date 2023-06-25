@@ -4,8 +4,9 @@ import { TextInput } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
 import InputAzul from '../login/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 
-export default function Login({ navigation , route }) {
+export default function Login({ navigation, route }) {
 
     const [Senha, setSenha] = useState("");
     //const {Id} = route.params;
@@ -42,7 +43,7 @@ export default function Login({ navigation , route }) {
                     const Token = data.jwtToken;
                     console.log("Id do usuário:", Id);
                     console.log("Token do usuário:", Token);
-                    navigation.navigate("SubHome",{Id : Id})
+                    navigation.navigate("SubHome", { Id: Id })
                 }
                 else {
                     console.log("Credenciais inválidas");
@@ -70,6 +71,9 @@ export default function Login({ navigation , route }) {
 
     return (
         <View style={styles.containerLogin}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.loginText1}>ACESSO</Text>
             <View>
@@ -130,6 +134,7 @@ const styles = StyleSheet.create({
     containerLogin: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     loginText1: {
         fontWeight: "bold",

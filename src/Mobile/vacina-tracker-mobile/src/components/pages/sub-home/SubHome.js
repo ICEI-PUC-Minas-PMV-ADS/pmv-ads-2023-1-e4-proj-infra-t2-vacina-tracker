@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View, Image, TouchableHighlight } from "react-native";
 //import { Link } from '@react-navigation/native';
 
+import Header from '../../layout/header/Header';
 import { Footer } from '../../layout/footer/Footer';
 
 export default function SubHome({ navigation }) {
@@ -9,6 +10,9 @@ export default function SubHome({ navigation }) {
 
     return (
         <View style={styles.containerSubhome}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.subhomeText1}>Seja Bem-Vindo!</Text>
 
@@ -79,6 +83,7 @@ const styles = StyleSheet.create({
     containerSubhome: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     subhomeText1: {
         backgroundColor: "#1005AD",

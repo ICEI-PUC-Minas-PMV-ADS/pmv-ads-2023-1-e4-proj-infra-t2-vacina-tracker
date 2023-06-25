@@ -3,7 +3,7 @@ import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput } from 'react-native-paper';
 //import { TextInputMask } from "react-native-masked-text";
 
-//import Header from '../../layout/header/Header';
+import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
@@ -21,6 +21,9 @@ export default function EsqueceuSenha({ navigation }) {
 
     return (
         <View style={styles.containerLogin}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.loginText1}>ESQUECEU SUA SENHA?</Text>
 

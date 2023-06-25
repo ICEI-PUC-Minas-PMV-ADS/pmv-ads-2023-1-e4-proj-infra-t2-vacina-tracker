@@ -4,6 +4,7 @@ import { TextInput, Checkbox } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
 import InputRoxo from '../../layout/input/InputRoxo';
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 
 export default function Cadastro({ navigation }) {
 
@@ -44,13 +45,16 @@ export default function Cadastro({ navigation }) {
       })
       .then(response => response.json())
       .then(data => {
-        navigation.navigate("Login" , {Id : data.id.toString()} );
+        navigation.navigate("Login", { Id: data.id.toString() });
       })
       .catch(error => { console.error(error); });
   };
 
   return (
     <View style={styles.containerCadastro}>
+      <Header
+        goBack={() => navigation.goBack()}
+      />
 
       <Text style={styles.loginText1}>CADASTRAR</Text>
 
@@ -123,6 +127,7 @@ const styles = StyleSheet.create({
   containerCadastro: {
     backgroundColor: '#1005AD',
     flex: 1,
+    padding: 12,
   },
   loginText1: {
     backgroundColor: '#1005AD',

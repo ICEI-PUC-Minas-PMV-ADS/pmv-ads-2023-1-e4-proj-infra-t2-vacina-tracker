@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View, Alert, TouchableOpacity } from "react-native";
 import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 import * as Keychain from 'react-native-keychain';
 import InputRoxo from "../../layout/input/InputRoxo";
 import InputLaranja from "../../layout/input/InputLaranja";
@@ -75,6 +76,9 @@ export default function Perfil({ navigation }) {
   return (
 
     <View style={styles.container}>
+      <Header
+                goBack={() => navigation.goBack()}
+            />
       <Text style={styles.text}>Perfil do Usuário</Text>
 
       <Avatar.Image
@@ -162,8 +166,8 @@ const styles = StyleSheet.create({
 
   container: {
     justifyContent: "center",
-    width: "100%",
-    padding: 20,
+    flex: 1,
+    padding: 12,
     backgroundColor: "#1005AD",
   },
 
