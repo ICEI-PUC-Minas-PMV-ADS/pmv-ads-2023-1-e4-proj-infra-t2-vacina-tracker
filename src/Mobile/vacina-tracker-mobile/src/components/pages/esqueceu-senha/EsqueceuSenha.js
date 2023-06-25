@@ -1,22 +1,29 @@
 import React, { useState } from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput } from 'react-native-paper';
-//import { TextInputMask } from "react-native-masked-text";
-
 import Header from '../../layout/header/Header';
-import InputAzul from '../../layout/input/InputAzul';
+import InputAzul from '../esqueceu-senha/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
 export default function EsqueceuSenha({ navigation }) {
 
     const [email, setEmail] = useState("");
     const [isValid, setIsValid] = useState(true);
+    const [showMessage, setShowMessage] = useState(false);
 
     const validateEmail = (text) => {
         // Expressão regular para validar o formato do e-mail
         const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
         setEmail(text);
         setIsValid(emailRegex.test(text));
+    };
+
+    const onPressRecuperarSenha = () => {
+        setShowMessage(true);
+        setTimeout(() => {
+            setShowMessage(false);
+            navigation.navigate('Cadastro');
+        }, 4000);
     };
 
     return (
@@ -40,8 +47,14 @@ export default function EsqueceuSenha({ navigation }) {
                 {!isValid && <Text style={{ color: 'red', marginStart: 8 }}>E-mail inválido</Text>}
             </View>
 
-            <InputAzul text="Recuperar Senha" />
-
+            <InputAzul text="Recuperar Senha"
+                onPress={onPressRecuperarSenha}
+            />
+            {showMessage && (
+            <View style={styles.messageContainer}>
+            <Text style={styles.messageText}>Sua requisição de redefinição de senha foi enviada ao email.</Text>
+            </View>
+            )}
             <TouchableOpacity
                 onPress={() => navigation.navigate('Cadastro')}
             >
@@ -57,6 +70,7 @@ const styles = StyleSheet.create({
     containerLogin: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     loginText1: {
         backgroundColor: "#1005AD",
@@ -81,4 +95,20 @@ const styles = StyleSheet.create({
         marginTop: 24,
         padding: 16,
     },
+
+    messageContainer: {
+        backgroundColor: "#13ADC2",
+        borderRadius: 8,
+        marginVertical: 24,
+        padding: 16,
+      },
+
+    messageText: {
+        fontSize: 20,
+        color: "#FFFFFF",
+        textAlign: "center",
+
+    },
+
+
 });
