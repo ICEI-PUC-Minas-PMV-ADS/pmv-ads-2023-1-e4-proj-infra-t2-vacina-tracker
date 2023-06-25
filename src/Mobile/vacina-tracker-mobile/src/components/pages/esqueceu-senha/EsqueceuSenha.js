@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
     containerLogin: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     loginText1: {
         backgroundColor: "#1005AD",
