@@ -1,6 +1,16 @@
-# Plano de Testes de Usabilidade
+# 10. Plano de Testes de Usabilidade
 
 O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+
+
+## 10.1 Objetivo
+
+Avaliar a experiência do usuário com o sistema, identificando problemas e inconsistências com possibilidade de melhorias.
+
+
+## 10.2 Perfil do voluntário participante do teste
+
+Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 06 (seis) pessoas voluntárias, com perfis semelhantes às Personas apresentadas na "Especificação do Projeto".
 
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
