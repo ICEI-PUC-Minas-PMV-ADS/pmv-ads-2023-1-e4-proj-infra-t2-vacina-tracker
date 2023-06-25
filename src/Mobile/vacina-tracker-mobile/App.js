@@ -21,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Perfil"       
+        initialRouteName="Home"       
         screenOptions={{
           header: () => <Header />,
           gestureEnabled: true,
