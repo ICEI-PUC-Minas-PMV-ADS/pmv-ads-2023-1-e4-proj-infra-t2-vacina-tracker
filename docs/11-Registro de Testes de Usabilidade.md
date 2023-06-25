@@ -24,40 +24,40 @@ c) Tempo necessário para se concluir. <br>
 
 Quadro xx - Testes de Usabilidade
 
-|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
-|--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 01 |Cadastro de novo usuário                |  |  |  |
-|Voluntário 01 |Logar no Sistema                        |  |  |  | 
-|Voluntário 01 |Editar o Cadastro                       |  |  |  |
-|Voluntário 01 |Utilizar o Fale Conosco                 |  |  |  |
+|IDENTIFICAÇÃO |TESTE                                           |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|------------------------------------------------|--------------|---------------------|--------------------|
+|Voluntário 01 |Cadastro de novo usuário                        |  |  |  |
+|Voluntário 01 |Logar no Sistema                                |  |  |  | 
+|Voluntário 01 |Realizar o Cadastro de Membro                   |  |  |  |
+|Voluntário 01 |Realizar gerenciamento de cadastro das vacinas  |  |  |  |
 
-|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
-|--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 02 |Cadastro de novo usuário                |  |  |  |
-|Voluntário 02 |Logar no Sistema                        |  |  |  |
-|Voluntário 02 |Editar o Cadastro                       |  |  |  |
-|Voluntário 02 |Utilizar o Fale Conosco                 |  |  |  |
+|IDENTIFICAÇÃO |TESTE                                           |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|------------------------------------------------|--------------|---------------------|--------------------|
+|Voluntário 02 |Cadastro de novo usuário                        |  |  |  |
+|Voluntário 02 |Logar no Sistema                                |  |  |  | 
+|Voluntário 02 |Realizar o Cadastro de Membro                   |  |  |  |
+|Voluntário 02 |Realizar gerenciamento de cadastro das vacinas  |  |  |  |
 
-|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
-|--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 03 |Cadastro de novo usuário                |  |  |  |
-|Voluntário 03 |Logar no Sistema                        |  |  |  |
-|Voluntário 03 |Editar o Cadastro                       |  |  |  |
-|Voluntário 03 |Utilizar o Fale Conosco                 |  |  |  |
+|IDENTIFICAÇÃO |TESTE                                           |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|------------------------------------------------|--------------|---------------------|--------------------|
+|Voluntário 03 |Cadastro de novo usuário                        |  |  |  |
+|Voluntário 03 |Logar no Sistema                                |  |  |  | 
+|Voluntário 03 |Realizar o Cadastro de Membro                   |  |  |  |
+|Voluntário 03 |Realizar gerenciamento de cadastro das vacinas  |  |  |  |
 
-|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
-|--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 04 |Cadastro de novo usuário                |  |  |  |
-|Voluntário 04 |Logar no Sistema                        |  |  |  |
-|Voluntário 04 |Editar o Cadastro                       |  |  |  |
-|Voluntário 04 |Utilizar o Fale Conosco                 |  |  |  |
+|IDENTIFICAÇÃO |TESTE                                           |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|------------------------------------------------|--------------|---------------------|--------------------|
+|Voluntário 04 |Cadastro de novo usuário                        |  |  |  |
+|Voluntário 04 |Logar no Sistema                                |  |  |  | 
+|Voluntário 04 |Realizar o Cadastro de Membro                   |  |  |  |
+|Voluntário 04 |Realizar gerenciamento de cadastro das vacinas  |  |  |  |
 
-|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
-|--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 05 |Cadastro de novo usuário                |  |  |  |
-|Voluntário 05 |Logar no Sistema                        |  |  |  |
-|Voluntário 05 |Editar o Cadastro                       |  |  |  |
-|Voluntário 05 |Utilizar o Fale Conosco                 |  |  |  |
+|IDENTIFICAÇÃO |TESTE                                           |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|------------------------------------------------|--------------|---------------------|--------------------|
+|Voluntário 05 |Cadastro de novo usuário                        |  |  |  |
+|Voluntário 05 |Logar no Sistema                                |  |  |  | 
+|Voluntário 05 |Realizar o Cadastro de Membro                   |  |  |  |
+|Voluntário 05 |Realizar gerenciamento de cadastro das vacinas  |  |  |  |
 
 Fonte: Elaborado pelos autores
 <br>
@@ -67,12 +67,12 @@ Fonte: Elaborado pelos autores
 
 Quadro xx - Resultado
 
-|TAREFA |TESTE REALIZADO                         |AVALIAÇÃO DO TESTE                    |
-|-------|----------------------------------------|--------------------------------------|
-|1      |Cadastro de novo usuário                | |
-|2      |Logar no sistema                        | |
-|3      |Editar o Cadastro                       | |
-|4      |Utilizar o Fale Conosco                 | |
+|TAREFA |TESTE REALIZADO                                 |AVALIAÇÃO DO TESTE                    |
+|-------|------------------------------------------------|--------------------------------------|
+|1      |Cadastro de novo usuário                        | |
+|2      |Logar no sistema                                | |
+|3      |Realizar o Cadastro de Membro                   | |
+|4      |Realizar gerenciamento de cadastro das vacinas  | |
 
 Fonte: Elaborado pelos autores
 <br>
