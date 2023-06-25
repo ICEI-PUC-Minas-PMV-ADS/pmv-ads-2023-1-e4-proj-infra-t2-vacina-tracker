@@ -1,6 +1,6 @@
 # 
 
-![Logo3](https://user-images.githubusercontent.com/89549220/226081348-f40d00c1-edb0-4ff6-a2a5-044b424c70c9.png)
+![Logo3 dark2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t2-vacina-tracker/assets/89549220/4b26e992-9503-49e9-9df1-ccf11faf86ab)
 
 <br>
 
