@@ -1,18 +1,13 @@
 import React from 'react';
-import { SafeAreaView, View, StyleSheet, Image, Text, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Image, Text, TouchableOpacity } from "react-native";
 
 import { Footer } from '../../layout/footer/Footer';
 
 export default function Home({ navigation }) {
 
-    const redirecionaTela = (tela) => {
-        navigation.navigate(tela);
-    };
-
-
     return (
-        <SafeAreaView>
             <View style={styles.containerHome}>
+            
                 <Image
                     source={require("../../../assets/logo-dark-600px.png")}
                     style={{ width: 330, height: 92, marginTop: 60 }}
@@ -22,17 +17,13 @@ export default function Home({ navigation }) {
 
                 <View>
                     <TouchableOpacity style={styles.btnConectar}
-                        onPress={() => {
-                            redirecionaTela("Login");
-                        }}
+                        onPress={() => navigation.navigate('Login')}
                     >
                         <Text style={styles.homeText2}>Acessar</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.btnCadastrar}
-                        onPress={() => {
-                            redirecionaTela("Cadastro");
-                        }}
+                        onPress={() => navigation.navigate('Cadastro')}
                     >
                         <Text style={styles.homeText2}>Cadastrar</Text>
                     </TouchableOpacity>
@@ -41,7 +32,6 @@ export default function Home({ navigation }) {
                 <Footer />
 
             </View>
-        </SafeAreaView>
     );
 }
 
@@ -50,7 +40,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#1005AD",
         alignItems: "center",
-        padding: 16,
+        //padding: 16,
     },
     homeText1: {
         fontSize: 24,
