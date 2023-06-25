@@ -3,7 +3,7 @@ import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { TextInput } from 'react-native-paper';
 //import { TextInputMask } from "react-native-masked-text";
 
-//import Header from '../../layout/header/Header';
+import Header from '../../layout/header/Header';
 import InputAzul from '../../layout/input/InputAzul';
 import { Footer } from '../../layout/footer/Footer';
 
@@ -19,12 +19,11 @@ export default function EsqueceuSenha({ navigation }) {
         setIsValid(emailRegex.test(text));
     };
 
-    const redirecionaTela = (tela) => {
-        navigation.navigate(tela);
-    };
-
     return (
         <View style={styles.containerLogin}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.loginText1}>ESQUECEU SUA SENHA?</Text>
 
@@ -44,9 +43,7 @@ export default function EsqueceuSenha({ navigation }) {
             <InputAzul text="Recuperar Senha" />
 
             <TouchableOpacity
-                onPress={() => {
-                    redirecionaTela("Cadastro");
-                }}
+                onPress={() => navigation.navigate('Cadastro')}
             >
                 <Text style={styles.loginText2}>Não tem conta? Cadastre-se</Text>
             </TouchableOpacity>

@@ -7,6 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using vacina_tracker_v4.Models;
+using BCrypt.Net;
 
 namespace vacina_tracker_v4.Controllers
 {
@@ -30,6 +31,7 @@ namespace vacina_tracker_v4.Controllers
             return Ok(model);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {
@@ -37,8 +39,8 @@ namespace vacina_tracker_v4.Controllers
             {
                 Email = model.Email,
                 Senha = BCrypt.Net.BCrypt.HashPassword(model.Senha),
-            }; 
-            
+            };
+
             _context.Usuarios.Add(novo);
             await _context.SaveChangesAsync();
 
@@ -118,16 +120,17 @@ namespace vacina_tracker_v4.Controllers
 
         [AllowAnonymous]
         [HttpPost("Authenticate")]
-        public async Task<ActionResult> Authenticate(AuthenticateDto model)
+        public async Task<ActionResult> Authenticate(UsuarioDto model)
         {
-            var usuarioDb = await _context.Usuarios.FindAsync(model.Id);                      
+            //var usuarioDb = await _context.Usuarios.FindAsync(model.Id);
+            var usuarioDb = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == model.Email);
 
-            if (usuarioDb == null || !BCrypt.Net.BCrypt.Verify(model.Senha, usuarioDb.Senha)) 
+            if (usuarioDb == null || !BCrypt.Net.BCrypt.Verify(model.Senha, usuarioDb.Senha))
                 return Unauthorized();
 
             var jwt = GenerateJwtToken(usuarioDb);
 
-            return Ok(new {jwtToken = jwt});
+            return Ok(new { jwtToken = jwt , IdUsuario = usuarioDb.Id });
         }
 
         private string GenerateJwtToken(Usuario model)
@@ -136,7 +139,7 @@ namespace vacina_tracker_v4.Controllers
             var key = Encoding.ASCII.GetBytes("d4505d03454c4be749c87458a2a3846d0287bce5");
             var claims = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString())                
+                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString())
             });
 
             var tokenDescriptor = new SecurityTokenDescriptor

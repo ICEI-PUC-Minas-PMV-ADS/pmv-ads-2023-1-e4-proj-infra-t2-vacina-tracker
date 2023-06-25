@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
-
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 
-export default function CadastroVacina() {
+export default function CadastroVacina({ navigation }) {
 
     const [nome, setNome] = useState("");
     const [dataAplicacao, setDataAplicacao] = useState("");
@@ -14,6 +14,9 @@ export default function CadastroVacina() {
 
     return (
         <View style={styles.containerCadastroVacina}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.cadastroVacinaText1}>Cadastrar Vacina</Text>
 
@@ -75,6 +78,7 @@ const styles = StyleSheet.create({
     containerCadastroVacina: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     cadastroVacinaText1: {
         backgroundColor: "#1005AD",

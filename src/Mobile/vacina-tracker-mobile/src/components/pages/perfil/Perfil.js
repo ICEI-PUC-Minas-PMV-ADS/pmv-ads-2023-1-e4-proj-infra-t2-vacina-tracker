@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View, Alert, TouchableOpacity } from "react-native";
 import { Avatar, TextInput } from "react-native-paper";
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 import * as Keychain from 'react-native-keychain';
 import InputRoxo from "../../layout/input/InputRoxo";
 import InputLaranja from "../../layout/input/InputLaranja";
@@ -9,9 +10,9 @@ import { Ionicons } from '@expo/vector-icons'
 
 export default function Perfil({ navigation }) {
 
-  const [id, setId] = useState(global.id || "");
-  const [email, setEmail] = useState(global.email || "");
-  const [senha, setSenha] = useState(global.senha || "");
+  const [id, setId] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Senha, setSenha] = useState("");
   const [confirmarSenha, setConfirmarSenha] = useState("");
   const [hidePass1, setHidePass1] = useState(true);
   const [hidePass2, setHidePass2] = useState(true);
@@ -25,7 +26,7 @@ export default function Perfil({ navigation }) {
         // Redirecionar para a tela de login
         return;
       }
-      if (senha !== confirmarSenha) {
+      if (Senha !== confirmarSenha) {
         Alert.alert("Erro", "As senhas não coincidem. Por favor, tente novamente.");
         return;
       }
@@ -36,8 +37,8 @@ export default function Perfil({ navigation }) {
           "Authorization": `Bearer ${token.password}`
         },
         body: JSON.stringify({
-          email: email,
-          senha: senha
+          Email: Email,
+          Senha: Senha
         }),
       });
 
@@ -75,6 +76,9 @@ export default function Perfil({ navigation }) {
   return (
 
     <View style={styles.container}>
+      <Header
+                goBack={() => navigation.goBack()}
+            />
       <Text style={styles.text}>Perfil do Usuário</Text>
 
       <Avatar.Image
@@ -84,7 +88,7 @@ export default function Perfil({ navigation }) {
       />
       <TextInput
         placeholder="E-mail"
-        value={email !== null ? email : ""}
+        value={Email !== null ? Email : ""}
         keyboardType="email-address"
         onChangeText={text => setEmail(text)}
         style={styles.inputText}
@@ -94,7 +98,7 @@ export default function Perfil({ navigation }) {
       <View style={styles.inputSenha} >
         <TextInput
           placeholder="Nova Senha"
-          value={senha !== null ? senha : ""}
+          value={Senha !== null ? Senha : ""}
           keyboardType="senha"
           onChangeText={text => setSenha(text)}
           style={styles.inputText}
@@ -162,8 +166,8 @@ const styles = StyleSheet.create({
 
   container: {
     justifyContent: "center",
-    width: "100%",
-    padding: 20,
+    flex: 1,
+    padding: 12,
     backgroundColor: "#1005AD",
   },
 

@@ -3,14 +3,18 @@ import { View, Text, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { Footer } from '../../layout/footer/Footer';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
+import Header from '../../layout/header/Header';
 
-export default function CadastroMembro() {
+export default function CadastroMembro({ navigation }) {
 
     const [membro, setMembro] = useState("");
     const [idade, setIdade] = useState("");
 
     return (
         <View style={styles.containerCadastroMembro}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.cadastroMembro}>Cadastrar Membro</Text>
 
@@ -32,7 +36,7 @@ export default function CadastroMembro() {
                         onChangeText={text => setIdade(text)}
                         placeholderTextColor={"#FFFFFF"}
                         textColor={"#FFFFFF"}
-                        mode="flat"                       
+                        mode="flat"
                     />
                 </View>
 
@@ -52,6 +56,7 @@ const styles = StyleSheet.create({
     containerCadastroMembro: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     cadastroMembro: {
         backgroundColor: "#1005AD",
@@ -86,5 +91,5 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-around",
         marginTop: 40,
-    },    
+    },
 });

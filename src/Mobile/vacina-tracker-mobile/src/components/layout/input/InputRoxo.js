@@ -2,14 +2,14 @@ import React from 'react';
 import { StyleSheet } from "react-native";
 import { Button } from 'react-native-paper';
 
-export default function InputRoxo({text}) {
+export default function InputRoxo({text, onPress}) {
 
     return (
         <>
             <Button
                 style={styles.inputRoxo}
-                mode="contained"
-                onPress={() => console.log('Pressed')}> {text}
+                mode="contained"  
+                onPress={onPress}> {text}
             </Button>
         </>
     );

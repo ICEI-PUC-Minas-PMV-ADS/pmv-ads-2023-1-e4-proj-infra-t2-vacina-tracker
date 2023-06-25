@@ -406,3 +406,22 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+src/API/vacina-tracker-v4/bin/Debug/net6.0/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/bin/Debug/net6.0/vacina-tracker-v4.pdb
+src/API/vacina-tracker-v4/obj/project.assets.json
+src/API/vacina-tracker-v4/obj/project.nuget.cache
+src/API/vacina-tracker-v4/obj/vacina-tracker-v4.csproj.nuget.dgspec.json
+src/API/vacina-tracker-v4/obj/vacina-tracker-v4.csproj.nuget.g.props
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.assets.cache
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.pdb
+src/API/vacina-tracker-v4/obj/Debug/net6.0/ref/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/obj/Debug/net6.0/refint/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/bin/Debug/net6.0/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/bin/Debug/net6.0/vacina-tracker-v4.pdb
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.assets.cache
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.GeneratedMSBuildEditorConfig.editorconfig
+src/API/vacina-tracker-v4/obj/Debug/net6.0/vacina-tracker-v4.pdb
+src/API/vacina-tracker-v4/obj/Debug/net6.0/ref/vacina-tracker-v4.dll
+src/API/vacina-tracker-v4/obj/Debug/net6.0/refint/vacina-tracker-v4.dll

@@ -3,11 +3,16 @@ import { Text, StyleSheet, View } from "react-native";
 import { Avatar, Card, IconButton } from 'react-native-paper';
 
 import { Footer } from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
 
-export default function ModalVacinasCadastradas() {
+
+export default function ModalVacinasCadastradas({ navigation }) {
 
     return (
         <View style={styles.containerVacinas}>
+            <Header
+                goBack={() => navigation.goBack()}
+            />
 
             <Text style={styles.vacinasText1}>Vacinas Cadastradas</Text>
 
@@ -59,6 +64,7 @@ const styles = StyleSheet.create({
     containerVacinas: {
         backgroundColor: "#1005AD",
         flex: 1,
+        padding: 12,
     },
     vacinasText1: {
         backgroundColor: "#1005AD",
