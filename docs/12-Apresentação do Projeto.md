@@ -20,5 +20,8 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ### Apresentação da Documentação
 
+https://www.youtube.com/watch?v=NGXmwp9ERQ0&t=38s
+
 
 ### Apresentação da Aplicação
+
