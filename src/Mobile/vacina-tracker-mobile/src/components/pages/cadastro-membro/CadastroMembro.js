@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { Footer } from '../../layout/footer/Footer';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
@@ -9,6 +9,10 @@ export default function CadastroMembro({ navigation }) {
 
     const [membro, setMembro] = useState("");
     const [idade, setIdade] = useState("");
+
+    const onPressModalMeusMembros = () => {
+        navigation.navigate('ModalMeusMembros');
+    };
 
     return (
         <View style={styles.containerCadastroMembro}>
@@ -41,7 +45,10 @@ export default function CadastroMembro({ navigation }) {
                 </View>
 
                 <View style={styles.iconesCadastroM}>
-                    <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2" />
+                    <TouchableOpacity onPress={onPressModalMeusMembros}>
+                        <MaterialCommunityIcons name="content-save" size={32} color="#13ADC2"
+                        />
+                    </TouchableOpacity>
                     <AntDesign name="pluscircle" size={32} color="#13ADC2" />
                 </View>
             </View>
